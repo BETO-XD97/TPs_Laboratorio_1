@@ -1,0 +1,16 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: BETO
+ */
+#include <ctype.h>
+void kilometros(int kilometros){
+
+	while(!isDigit(int kilometros) && kilometros < 0){
+		printf("Error. !Ingrese los kilometros: ");
+		scanf("%d", &kilometros);
+	}
+
+}
+

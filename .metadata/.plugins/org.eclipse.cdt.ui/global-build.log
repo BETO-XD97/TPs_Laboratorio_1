@@ -1,5 +1,339 @@
-09:55:38 **** Rebuild of configuration Debug for project TP_1 ****
+14:50:41 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:50:19: warning: implicit declaration of function 'valPrecioLatam' [-Wimplicit-function-declaration]
+     precioLatam = valPrecioLatam(precioLatam);
+                   ^~~~~~~~~~~~~~
+..\src\TP_1.c:51:24: warning: implicit declaration of function 'valPrecioAerolineas' [-Wimplicit-function-declaration]
+     precioAerolineas = valPrecioAerolineas(precioAerolineas);
+                        ^~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file TP_1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:50:50 **** Incremental Build of configuration Debug for project TP_1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
-gcc -o TP_1.exe "src\\TP_1.o" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:51:24: warning: implicit declaration of function 'valPrecioAerolineas' [-Wimplicit-function-declaration]
+     precioAerolineas = valPrecioAerolineas(precioAerolineas);
+                        ^~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:50: undefined reference to `valPrecioLatam'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:51: undefined reference to `valPrecioAerolineas'
+collect2.exe: error: ld returned 1 exit status
+14:51:09 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:51:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:52:49 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:53:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:22:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioLatam':
+..\src\validaciones.c:30:10: warning: unknown escape sequence: '\D'
+   printf("\Desea continuar...1-SI/0-NO");
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\validaciones.c:33:4: error: break statement not within loop or switch
+    break;
+    ^~~~~
+..\src\validaciones.c:37:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+15:27:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:28:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+15:44:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+15:49:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioLatam':
+..\src\validaciones.c:35:5: warning: implicit declaration of function 'scandf' [-Wimplicit-function-declaration]
+     scandf("%d", &precioLatam);
+     ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+src\validaciones.o: In function `valPrecioLatam':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/validaciones.c:35: undefined reference to `scandf'
+collect2.exe: error: ld returned 1 exit status
+15:49:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioLatam':
+..\src\validaciones.c:35:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+     scanf("%d", &precioLatam);
+             ^
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+15:49:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+15:53:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:57:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:50:36: error: stray '\277' in program
+     scanf("%f", &precioAerolineas);¿
+                                    ^
+15:57:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:58:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:59:00 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:00:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioLatam':
+..\src\validaciones.c:35:13: warning: unknown conversion type character '.' in format [-Wformat=]
+     scanf("%.2f", &precioLatam);
+             ^
+..\src\validaciones.c:35:11: warning: too many arguments for format [-Wformat-extra-args]
+     scanf("%.2f", &precioLatam);
+           ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+16:01:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:02:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:04:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:47:13: warning: unknown conversion type character '.' in format [-Wformat=]
+     scanf("%.2f", &precioLatam);
+             ^
+..\src\TP_1.c:47:11: warning: too many arguments for format [-Wformat-extra-args]
+     scanf("%.2f", &precioLatam);
+           ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+16:04:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:06:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:07:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:13:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioAerolineas':
+..\src\validaciones.c:61:9: error: 'precioLatam' undeclared (first use in this function)
+  return precioLatam;
+         ^~~~~~~~~~~
+..\src\validaciones.c:61:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validaciones.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:14:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:14:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:17:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:18:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:22:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioLatam':
+..\src\validaciones.c:37:77: error: 's' undeclared (first use in this function)
+      printf("Usted ingreso un precio de $0, por lo tanto no se calculará.");s
+                                                                             ^
+..\src\validaciones.c:37:77: note: each undeclared identifier is reported only once for each function it appears in
+..\src\validaciones.c:38:5: error: expected ';' before '}' token
+     }
+     ^
+16:23:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:51: undefined reference to `valPrecioAerolineas'
+collect2.exe: error: ld returned 1 exit status
+16:23:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:24:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:26:20 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:31:17 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:33:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:33:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:35:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:35:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:36:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:36:43 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+16:37:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valPrecioLatam':
+..\src\validaciones.c:45:3: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+   print("\n");
+   ^~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+src\validaciones.o: In function `valPrecioLatam':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/validaciones.c:45: undefined reference to `print'
+src\validaciones.o: In function `valPrecioAerolineas':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/validaciones.c:70: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+16:37:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:38:20 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:40:05 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:41:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:42:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:43:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
 Info: Nothing to build for TP_1

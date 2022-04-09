@@ -1,0 +1,19 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: BETO
+ */
+
+void valOpcion(int opcion){
+		int intento = 0;
+		while(intento == 0){
+			scanf("%d", &opcion);
+
+			if(scanf("%d", &opcion)){
+				intento++;
+				printf("Error! Reingrese los kilometros: ");
+				scanf("%d", &opcion);
+			}
+		}
+}

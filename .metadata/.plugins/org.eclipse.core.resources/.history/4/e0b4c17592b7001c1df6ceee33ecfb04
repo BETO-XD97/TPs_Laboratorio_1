@@ -1,0 +1,19 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: BETO
+ */
+
+void valOpcion(int opcion){
+
+
+		if(scanf("%d", &opcion) == 1){
+			printf("ERROR! Reingrese su opcion: ");
+			scanf("%d", &opcion);
+		}else{
+			fflush(stdin);
+			scanf("%d", &opcion);
+		}
+
+}

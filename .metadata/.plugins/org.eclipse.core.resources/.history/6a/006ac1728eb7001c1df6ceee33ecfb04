@@ -1,0 +1,58 @@
+/*
+ ============================================================================
+ Name        : TP_1.c
+ Author      : Roberto Rocabado
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ DNI: 40731247
+ Division: D
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "validaciones.h"
+
+int main(void) {
+	setbuf(stdout, NULL);
+	//variables
+	int intentos;
+	int opcion;
+	int kilometro;
+	//float precioLatam;
+	//float precioAerolineas;
+	//menu
+	do
+	{
+
+			printf("1- Ingrese los KMs. \n"
+				"2- Ingrese el precio del vuelo. \n"
+				"3- Calcular los precios. \n"
+				"4- Mostrar los precios. \n"
+				"5- Carga forzada de datos. \n"
+				"6- Salir. \n"
+				"\nElegir su opcion: ");
+			scanf("%d", &opcion);
+			if(scanf("%d", &opcion) == 0)
+				{
+					fflush();
+					intentos--;
+					printf("ERROR! Ingrese alguna opcion: ");
+					scanf("%d", &opcion);
+				}
+		switch(opcion){
+			case 1:
+
+				break;
+			case 2:
+
+				break;
+			case 6:
+				printf("Gracias por usar nuestro servicio.!!!");
+				break;
+		}
+	}while(opcion != 6);
+
+	return 0;
+}

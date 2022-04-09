@@ -1,0 +1,16 @@
+/*
+ * validaciones.h
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: Roberto Rocabado
+ */
+
+int kilometros(kilometros);
+
+
+#ifndef VALIDACIONES_H_
+#define VALIDACIONES_H_
+
+
+
+#endif /* VALIDACIONES_H_ */

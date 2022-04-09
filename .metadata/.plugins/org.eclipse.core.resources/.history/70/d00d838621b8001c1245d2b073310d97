@@ -1,0 +1,19 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: BETO
+ */
+
+//validacion kilometros
+int valKilometros(int kilometros)
+{
+
+	if(kilometros < 0){
+		while(kilometros < 0){
+			printf("Error! Reingrese los kilometros: ");
+			scanf("%d", &kilometros);
+		}
+	}
+	return
+}

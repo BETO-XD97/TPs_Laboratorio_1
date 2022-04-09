@@ -1,0 +1,148 @@
+/*
+ ============================================================================
+ Name        : Clase3-Funciones.c
+ Author      : Roberto Rocabado
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+//Prototipo o firma
+
+//Primer prototipo(Parametro Reales)
+//void sumar(void);
+
+//Segundo prototipo(Parametro Formales)
+//void sumar(int numero1, int numero2);
+
+//Tercer prototipo
+//int sumar(int numero1, int numero2);
+
+//Cuarto prototipo
+int sumar(void);
+
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	//Primer Prototipo
+	//sumar();
+
+	//Segundo Prototipo
+
+	int a;//no importa el nombre solo el valor
+	int b;
+
+	printf("Ingrese un numero: ");
+	scanf("%d", &a);
+
+	printf("Ingrese otro numero: ");
+	scanf("%d", &b);
+
+	sumar(a, b);
+
+
+	//Tercer Prototipo
+	/*
+	int a;//no importa el nombre solo el valor
+	int b;
+	int resultado;
+
+	printf("Ingrese un numero: ");
+	scanf("%d", &a);
+
+	printf("Ingrese otro numero: ");
+	scanf("%d", &b);
+
+	resultado = sumar(a, b);
+
+	printf("El resultado de la suma: %d", resultado);
+	*/
+
+	//Cuarto Prototipo
+	/*
+	int resultado;
+
+	resultado = sumar();
+
+	printf("\nEl resultado de la suma: %d", resultado);
+	*/
+	return 0;
+}
+
+/*
+//1 Desarrollo-parametros reales
+void sumar(void)
+{
+
+	int numero1;
+	int numero2;
+	int resultado;
+
+	printf("Ingrese un numero: ");
+	scanf("%d", &numero1);
+
+	printf("Ingrese otro numero: ");
+	scanf("%d", &numero2);
+
+	resultado = numero1 + numero2;
+
+	printf("El resultado de la suma es: %d", resultado);
+
+ }
+*/
+
+
+//2 desarrollo-parametros formales
+//Pasaje de valor por copia
+void sumar(int numero1, int numero2)
+{
+	int resultado;
+
+	resultado = numero1 + numero2;
+
+	printf("El resultado de la suma es: %d", resultado);
+
+}
+
+
+/*
+//3 desarrollo-parametros formales
+int sumar(int numero1, int numero2)
+{
+	int retorno;
+
+	retorno = numero1 + numero2;
+
+	return retorno;
+}
+*/
+
+/*
+//4 desarrollo-parametro reales
+int sumar(void)
+{
+	int retorno;
+	int numero1;
+	int numero2;
+
+	printf("Ingrese un numero:");
+	scanf("%d", &numero1);
+	printf("Ingrese otro numero:");
+	scanf("%d", &numero2);
+
+	retorno = numero1 + numero2;
+
+	return retorno;
+}
+*/
+
+//Formal: Declaro variables.
+//Reales: Son elementos en la llamada o la invocacion de la funcion.
+
+//int: retorno.
+//void: no tiene parametros.

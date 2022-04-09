@@ -1,0 +1,10 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: BETO
+ */
+#include <ctype.h>
+
+
+
