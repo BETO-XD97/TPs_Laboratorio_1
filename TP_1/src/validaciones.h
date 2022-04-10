@@ -11,6 +11,7 @@
 int valKilometros(int kilometros);//VALIDACION DE KILOMETROS.
 
 float valPrecioLatam(float precioLatam);//VALIDACION DE PRECIO LATAM
+
 float valPrecioAerolineas(float precioAerolineas);//VALIDACION DE PRECIO AEROLINEAS
 
 #ifndef VALIDACIONES_H_

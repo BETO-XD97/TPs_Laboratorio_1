@@ -1,0 +1,43 @@
+/*
+ * validaciones.c
+ *
+ *  Created on: 8 abr. 2022
+ *      Author: BETO
+ */
+
+//No puede validar datos alfabeticos por falta de comprension de vectores
+
+//VALIDACION DE KILOMETROS...
+#include <stdio.h>
+
+int valKilometros(int kilometros)
+{
+
+		while(kilometros <= 0){
+			printf("\nError! Los kilometros deben ser mayores a 0 de lo contrario no se calculara ");
+			printf("\nReingrese los kilometros: ");
+			fflush(stdin);
+			scanf("%d", &kilometros);
+		}
+		return kilometros;
+
+
+}
+
+//VALIDACION DE PRECIO LATAM...
+float valPrecioLatam(float precioLatam)
+{
+	while(precioLatam <= 0){
+		printf("\nErro!");
+		printf("\nError! Reingrese los kilometros: ");
+	}
+	return precioLatam;
+}
+
+//VALIDACION DE PRECIO AEROLINEAS...
+float valPrecioAerolineas(float precioAerolineas)
+{
+
+
+	return precioAerolineas;
+}

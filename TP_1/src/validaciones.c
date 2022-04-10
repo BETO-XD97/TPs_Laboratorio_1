@@ -14,7 +14,8 @@ int valKilometros(int kilometros)
 {
 
 		while(kilometros <= 0){
-			printf("\nError! Reingrese los kilometros: ");
+			printf("\nError! Los kilometros deben ser mayores a 0 de lo contrario no se calculara ");
+			printf("\nReingrese los kilometros: ");
 			fflush(stdin);
 			scanf("%d", &kilometros);
 		}
@@ -26,27 +27,11 @@ int valKilometros(int kilometros)
 //VALIDACION DE PRECIO LATAM...
 float valPrecioLatam(float precioLatam)
 {
-	int intento;
-	while(precioLatam < 0){
-		if(precioLatam < 0){
-			printf("\nEsta ingresando un precio NO valido para calcular.");
-			printf("\nDesea reintentar...? (1-SI/0-NO)--> ");
-			scanf("%d", &intento);
-			if(intento == 1){
-				printf("Ingrese el precio de vuelo de Latam: ");
-				scanf("%f", &precioLatam);
-			} else {
-				precioLatam = 0;
-
-			}
-		}
-	}
-	if(precioLatam == 0){
-
-		printf("\n");
-		printf("Usted ingreso un precio de $0, por lo tanto no se calculará. ");
-		printf("\n");
-
+	while(precioLatam <= 0){
+		printf("\nError! El precio de Latam debe ser mayor a 0 de lo contrario no se calculara");
+		printf("\nReingrese el precio de LATAM: ");
+		fflush(stdin);
+		scanf("%f", &precioLatam);
 	}
 	return precioLatam;
 }
@@ -54,25 +39,11 @@ float valPrecioLatam(float precioLatam)
 //VALIDACION DE PRECIO AEROLINEAS...
 float valPrecioAerolineas(float precioAerolineas)
 {
-	int intento;
-	while(precioAerolineas < 0){
-		if(precioAerolineas < 0){
-			printf("\nEsta ingresando un precio NO valido para calcular.");
-			printf("\nDesea reintentar...? (1-SI/0-NO)-->");
-			scanf("%d", &intento);
-			if(intento == 1){
-				printf("Ingrese el precio de vuelo de Latam: ");
-				scanf("%f", &precioAerolineas);
-			} else {
-				precioAerolineas = 0;
-
-			}
-		}
-	}
-	if(precioAerolineas == 0){
-		printf("\n");
-		printf("Usted ingreso un precio de $0, por lo tanto no se calculará. ");
-		printf("\n");
+	while(precioAerolineas <= 0){
+			printf("\nError! El precio de Aerolineas debe ser mayor a 0 de lo contrario no se calculara");
+			printf("\nReingrese el precio de Aerolineas: ");
+			fflush(stdin);
+			scanf("%f", &precioAerolineas);
 	}
 	return precioAerolineas;
 }

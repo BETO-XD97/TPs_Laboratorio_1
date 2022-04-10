@@ -1,0 +1,14 @@
+/*
+ * calculos.c
+ *
+ *  Created on: 9 abr. 2022
+ *      Author: BETO
+ */
+
+float debito(float precioVuelo){
+	float precioFinal;
+	float descuentoPrecio;
+	descuentoPrecio = precioVuelo * 0.10;
+	precioFinal = precioVuelo - descuentoPrecio;
+	return precioFinal;
+}

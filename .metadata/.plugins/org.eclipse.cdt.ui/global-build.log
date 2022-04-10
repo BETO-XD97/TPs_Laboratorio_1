@@ -337,3 +337,603 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
 gcc -o TP_1.exe "src\\TP_1.o" "src\\validaciones.o" 
 Info: Nothing to build for TP_1
+18:17:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:63:16: warning: implicit declaration of function 'debitoDesc' [-Wimplicit-function-declaration]
+       debito = debitoDesc(debito);
+                ^~~~~~~~~~
+..\src\TP_1.c:64:17: warning: implicit declaration of function 'creditoRec' [-Wimplicit-function-declaration]
+       credito = creditoRec(credito);
+                 ^~~~~~~~~~
+..\src\TP_1.c:65:17: warning: implicit declaration of function 'precBitcoin' [-Wimplicit-function-declaration]
+       bitcoin = precBitcoin(bitcoin);
+                 ^~~~~~~~~~~
+..\src\TP_1.c:66:24: warning: implicit declaration of function 'precUnit' [-Wimplicit-function-declaration]
+       precioUnitario = precUnit(precUnit);
+                        ^~~~~~~~
+..\src\TP_1.c:67:22: warning: implicit declaration of function 'diferencia' [-Wimplicit-function-declaration]
+       difPrecioIng = diferencia(difPrecioIng);
+                      ^~~~~~~~~~
+..\src\TP_1.c:27:8: warning: variable 'precioUnitario' set but not used [-Wunused-but-set-variable]
+  float precioUnitario;
+        ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:63: undefined reference to `debitoDesc'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:64: undefined reference to `creditoRec'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:65: undefined reference to `precBitcoin'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:66: undefined reference to `precUnit'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:66: undefined reference to `precUnit'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:67: undefined reference to `diferencia'
+collect2.exe: error: ld returned 1 exit status
+18:25:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:62:16: warning: implicit declaration of function 'debitoDesc' [-Wimplicit-function-declaration]
+       debito = debitoDesc(debito);
+                ^~~~~~~~~~
+..\src\TP_1.c:63:17: warning: implicit declaration of function 'creditoRec' [-Wimplicit-function-declaration]
+       credito = creditoRec(credito);
+                 ^~~~~~~~~~
+..\src\TP_1.c:64:17: warning: implicit declaration of function 'precBitcoin' [-Wimplicit-function-declaration]
+       bitcoin = precBitcoin(bitcoin);
+                 ^~~~~~~~~~~
+..\src\TP_1.c:65:24: warning: implicit declaration of function 'precUnit' [-Wimplicit-function-declaration]
+       precioUnitario = precUnit(precioUnitario);
+                        ^~~~~~~~
+..\src\TP_1.c:66:22: warning: implicit declaration of function 'diferencia' [-Wimplicit-function-declaration]
+       difPrecioIng = diferencia(difPrecioIng);
+                      ^~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:62: undefined reference to `debitoDesc'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:63: undefined reference to `creditoRec'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:64: undefined reference to `precBitcoin'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:65: undefined reference to `precUnit'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:66: undefined reference to `diferencia'
+collect2.exe: error: ld returned 1 exit status
+18:25:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:62: undefined reference to `debitoDesc'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:63: undefined reference to `creditoRec'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:64: undefined reference to `precBitcoin'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:65: undefined reference to `precUnit'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:66: undefined reference to `diferencia'
+collect2.exe: error: ld returned 1 exit status
+18:34:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:28:8: warning: unused variable 'difPrecioIng' [-Wunused-variable]
+  float difPrecioIng;
+        ^~~~~~~~~~~~
+..\src\TP_1.c:27:8: warning: unused variable 'precioUnitario' [-Wunused-variable]
+  float precioUnitario;
+        ^~~~~~~~~~~~~~
+..\src\TP_1.c:26:8: warning: unused variable 'bitcoin' [-Wunused-variable]
+  float bitcoin;
+        ^~~~~~~
+..\src\TP_1.c:25:8: warning: unused variable 'credito' [-Wunused-variable]
+  float credito;
+        ^~~~~~~
+..\src\TP_1.c:24:8: warning: unused variable 'debito' [-Wunused-variable]
+  float debito;
+        ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+18:35:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:39:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:41:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:42:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:43:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:45:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:47:30 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:54:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+19:24:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:70:15: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoL = debito(debitoL);
+               ^~~~~~
+..\src\TP_1.c:71:16: warning: implicit declaration of function 'credito' [-Wimplicit-function-declaration]
+     creditoL = credito(creditoL);
+                ^~~~~~~
+..\src\TP_1.c:72:16: warning: implicit declaration of function 'bitcoin' [-Wimplicit-function-declaration]
+     bitcoinL = bitcoin(bitcoinL);
+                ^~~~~~~
+..\src\TP_1.c:73:23: warning: implicit declaration of function 'PrecioUnitario' [-Wimplicit-function-declaration]
+     precioUnitarioL = PrecioUnitario(precioUnitarioL);
+                       ^~~~~~~~~~~~~~
+..\src\TP_1.c:79:23: warning: implicit declaration of function 'precioUnitario' [-Wimplicit-function-declaration]
+     precioUnitarioA = precioUnitario(precioUnitarioA);
+                       ^~~~~~~~~~~~~~
+..\src\TP_1.c:82:18: warning: implicit declaration of function 'diferencia' [-Wimplicit-function-declaration]
+     difPrecios = diferencia(precioLatam, precioAerolineas);
+                  ^~~~~~~~~~
+..\src\TP_1.c:38:8: warning: variable 'difPrecios' set but not used [-Wunused-but-set-variable]
+  float difPrecios;
+        ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'debito':
+..\src\calculos.c:10:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:71: undefined reference to `credito'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:72: undefined reference to `bitcoin'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:73: undefined reference to `PrecioUnitario'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:77: undefined reference to `credito'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:78: undefined reference to `bitcoin'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:79: undefined reference to `precioUnitario'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:82: undefined reference to `diferencia'
+collect2.exe: error: ld returned 1 exit status
+20:36:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:15: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoL = debito(debitoL, descuento);
+               ^~~~~~
+..\src\TP_1.c:74:16: warning: implicit declaration of function 'credito' [-Wimplicit-function-declaration]
+     creditoL = credito(creditoL, interes);
+                ^~~~~~~
+..\src\TP_1.c:75:16: warning: implicit declaration of function 'bitcoin' [-Wimplicit-function-declaration]
+     bitcoinL = bitcoin(bitcoinL, bitcoinPrecio);
+                ^~~~~~~
+..\src\TP_1.c:76:23: warning: implicit declaration of function 'PrecioUnitario' [-Wimplicit-function-declaration]
+     precioUnitarioL = PrecioUnitario(precioUnitarioL, km);
+                       ^~~~~~~~~~~~~~
+..\src\TP_1.c:76:55: error: 'km' undeclared (first use in this function)
+     precioUnitarioL = PrecioUnitario(precioUnitarioL, km);
+                                                       ^~
+..\src\TP_1.c:76:55: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:82:23: warning: implicit declaration of function 'precioUnitario' [-Wimplicit-function-declaration]
+     precioUnitarioA = precioUnitario(precioUnitarioA, km);
+                       ^~~~~~~~~~~~~~
+..\src\TP_1.c:85:18: warning: implicit declaration of function 'diferencia' [-Wimplicit-function-declaration]
+     difPrecios = diferencia(precioLatam, precioAerolineas);
+                  ^~~~~~~~~~
+..\src\TP_1.c:41:8: warning: variable 'difPrecios' set but not used [-Wunused-but-set-variable]
+  float difPrecios;
+        ^~~~~~~~~~
+20:37:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:15: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoL = debito(debitoL, descuento);
+               ^~~~~~
+..\src\TP_1.c:41:8: warning: unused variable 'difPrecios' [-Wunused-variable]
+  float difPrecios;
+        ^~~~~~~~~~
+..\src\TP_1.c:38:8: warning: unused variable 'precioUnitarioA' [-Wunused-variable]
+  float precioUnitarioA;
+        ^~~~~~~~~~~~~~~
+..\src\TP_1.c:37:8: warning: unused variable 'bitcoinA' [-Wunused-variable]
+  float bitcoinA;
+        ^~~~~~~~
+..\src\TP_1.c:36:8: warning: unused variable 'creditoA' [-Wunused-variable]
+  float creditoA;
+        ^~~~~~~~
+..\src\TP_1.c:32:8: warning: unused variable 'precioUnitarioL' [-Wunused-variable]
+  float precioUnitarioL;
+        ^~~~~~~~~~~~~~~
+..\src\TP_1.c:31:8: warning: unused variable 'bitcoinL' [-Wunused-variable]
+  float bitcoinL;
+        ^~~~~~~~
+..\src\TP_1.c:30:8: warning: unused variable 'creditoL' [-Wunused-variable]
+  float creditoL;
+        ^~~~~~~~
+..\src\TP_1.c:26:8: warning: unused variable 'bitcoinPrecio' [-Wunused-variable]
+  float bitcoinPrecio = 4770233.18;
+        ^~~~~~~~~~~~~
+..\src\TP_1.c:25:6: warning: unused variable 'interes' [-Wunused-variable]
+  int interes = 15;
+      ^~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+20:38:09 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:15: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoL = debito(debitoL, descuento);
+               ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+20:41:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:15: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoL = debito(debitoL, descuento);
+               ^~~~~~
+..\src\TP_1.c:88:53: error: 'precioFinal' undeclared (first use in this function)
+     printf("El descuento de precio latam es: %.2f", precioFinal);
+                                                     ^~~~~~~~~~~
+..\src\TP_1.c:88:53: note: each undeclared identifier is reported only once for each function it appears in
+20:43:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:15: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoL = debito(debitoL, descuento);
+               ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+20:46:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:19: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoLatam = debito(debitoLatam, descuento);
+                   ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+20:47:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:73:19: warning: implicit declaration of function 'debitoF' [-Wimplicit-function-declaration]
+     debitoLatam = debitoF(debitoLatam, descuento);
+                   ^~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+20:56:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'debitoF' [-Wimplicit-function-declaration]
+     debitoLatam = debitoF(debitoLatam);
+                   ^~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+20:56:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoLatam = debito(debitoLatam);
+                   ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:72: undefined reference to `debito'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:78: undefined reference to `debito'
+collect2.exe: error: ld returned 1 exit status
+20:57:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+21:02:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoLatam = debito(precioLatam);
+                   ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+21:03:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculodebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculodebito(precioLatam);
+                   ^~~~~~~~~~~~~
+..\src\TP_1.c:78:24: warning: implicit declaration of function 'debito' [-Wimplicit-function-declaration]
+     debitoAerolineas = debito(precioAerolineas);
+                        ^~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:72: undefined reference to `calculodebito'
+collect2.exe: error: ld returned 1 exit status
+21:04:11 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:78: undefined reference to `debito'
+collect2.exe: error: ld returned 1 exit status
+21:04:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculodebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculodebito(precioLatam);
+                   ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+21:06:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculodebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculodebito(precioLatam);
+                   ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+21:08:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculodebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculodebito(precioLatam);
+                   ^~~~~~~~~~~~~
+..\src\TP_1.c:78:24: warning: implicit declaration of function 'calculoDebito' [-Wimplicit-function-declaration]
+     debitoAerolineas = calculoDebito(precioAerolineas);
+                        ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:72: undefined reference to `calculodebito'
+collect2.exe: error: ld returned 1 exit status
+21:09:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculoDebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculoDebito(precioLatam);
+                   ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+21:09:39 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculoDebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculoDebito(float precioLatam);
+                   ^~~~~~~~~~~~~
+..\src\TP_1.c:72:33: error: expected expression before 'float'
+     debitoLatam = calculoDebito(float precioLatam);
+                                 ^~~~~
+21:09:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'calculoDebito' [-Wimplicit-function-declaration]
+     debitoLatam = calculoDebito(precioLatam);
+                   ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+21:10:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:19: warning: implicit declaration of function 'CalculoDebito' [-Wimplicit-function-declaration]
+     debitoLatam = CalculoDebito(precioLatam);
+                   ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+21:14:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:33: error: incompatible type for argument 1 of 'CalculoDebito'
+     debitoLatam = CalculoDebito(precioLatam);
+                                 ^~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: expected 'float *' but argument is of type 'float'
+ float CalculoDebito(float* precioVuelo);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:78:38: error: incompatible type for argument 1 of 'CalculoDebito'
+     debitoAerolineas = CalculoDebito(precioAerolineas);
+                                      ^~~~~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: expected 'float *' but argument is of type 'float'
+ float CalculoDebito(float* precioVuelo);
+       ^~~~~~~~~~~~~
+21:14:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:72:33: error: incompatible type for argument 1 of 'CalculoDebito'
+     debitoLatam = CalculoDebito(precioLatam);
+                                 ^~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: expected 'float *' but argument is of type 'float'
+ float CalculoDebito(float *precioVuelo);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:78:38: error: incompatible type for argument 1 of 'CalculoDebito'
+     debitoAerolineas = CalculoDebito(precioAerolineas);
+                                      ^~~~~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: expected 'float *' but argument is of type 'float'
+ float CalculoDebito(float *precioVuelo);
+       ^~~~~~~~~~~~~
+21:23:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+21:36:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+21:39:43 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:79:24: error: too few arguments to function 'CalculoDebito'
+     debitoAerolineas = CalculoDebito(precioAerolineas);
+                        ^~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: declared here
+ float CalculoDebito(float precioVuelo, float descuento);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:97:19: error: too few arguments to function 'CalculoDebito'
+     debitoLatam = CalculoDebito(precioLatam);
+                   ^~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: declared here
+ float CalculoDebito(float precioVuelo, float descuento);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:99:24: error: too few arguments to function 'CalculoDebito'
+     debitoAerolineas = CalculoDebito(precioAerolineas);
+                        ^~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: declared here
+ float CalculoDebito(float precioVuelo, float descuento);
+       ^~~~~~~~~~~~~
+21:40:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:99:24: error: too few arguments to function 'CalculoDebito'
+     debitoAerolineas = CalculoDebito(precioAerolineas);
+                        ^~~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:10:7: note: declared here
+ float CalculoDebito(float precioVuelo, float descuento);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:100:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("EL descuento de precio aerolineas es: %.2f", debitoAerolineas, descuento);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:41:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+21:51:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:102:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("\nEl recargo de precio latam es: %.2f", creditoLatam, interes);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:36:8: warning: variable 'creditoAerolineas' set but not used [-Wunused-but-set-variable]
+  float creditoAerolineas;
+        ^~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+21:55:13 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:104:12: warning: unknown escape sequence: '\N'
+     printf("\NEl recargo de precio de aerolineas es: %.2f", creditoAerolineas);
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+21:55:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+22:19:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:108:49: error: 'bitcoin' undeclared (first use in this function)
+     bitcoinLatam =  CalculoBitcoin(precioLatam, bitcoin);
+                                                 ^~~~~~~
+..\src\TP_1.c:108:49: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:111:5: warning: implicit declaration of function 'pritf' [-Wimplicit-function-declaration]
+     pritf("\nPrecio final pagando con bitcoin es: %.2f", bitcoinAerolineas);
+     ^~~~~
+..\src\TP_1.c:26:8: warning: unused variable 'bitcoinPrecio' [-Wunused-variable]
+  float bitcoinPrecio = 4770233.18;
+        ^~~~~~~~~~~~~
+22:20:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:111:5: warning: implicit declaration of function 'pritf' [-Wimplicit-function-declaration]
+     pritf("\nPrecio final pagando con bitcoin es: %.2f", bitcoinAerolineas);
+     ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:111: undefined reference to `pritf'
+collect2.exe: error: ld returned 1 exit status
+22:20:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+22:21:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+22:33:10 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+22:34:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'CalculoPreUnit':
+..\src\calculos.c:35:27: error: 'precioFinal' undeclared (first use in this function)
+  precioUnitario = (float) precioFinal / kilometros;
+                           ^~~~~~~~~~~
+..\src\calculos.c:35:27: note: each undeclared identifier is reported only once for each function it appears in
+22:34:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+22:37:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+22:37:56 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
