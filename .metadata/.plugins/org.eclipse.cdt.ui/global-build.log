@@ -937,3 +937,1133 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
 gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
 Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+09:55:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+10:08:26 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+12:15:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:79:23: warning: implicit declaration of function 'PrecioUnitario' [-Wimplicit-function-declaration]
+     precioUnitLatam = PrecioUnitario(precioUnitLatam, kilometros);
+                       ^~~~~~~~~~~~~~
+..\src\TP_1.c:85:28: warning: implicit declaration of function 'precioUnitario' [-Wimplicit-function-declaration]
+     precioUnitAerolineas = precioUnitario(precioUnitAerolineas, kilometros);
+                            ^~~~~~~~~~~~~~
+..\src\TP_1.c:117:5: error: 'precioUnitarioA' undeclared (first use in this function)
+     precioUnitarioA = CalculoPreUnit(precioAerolineas, kilometros);
+     ^~~~~~~~~~~~~~~
+..\src\TP_1.c:117:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:119:5: error: 'precioUnitarioL' undeclared (first use in this function)
+     precioUnitarioL = CalculoPreUnit(precioLatam, kilometros);
+     ^~~~~~~~~~~~~~~
+12:17:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:79:23: warning: implicit declaration of function 'PrecioUnitario' [-Wimplicit-function-declaration]
+     precioUnitLatam = PrecioUnitario(precioUnitLatam, kilometros);
+                       ^~~~~~~~~~~~~~
+..\src\TP_1.c:85:28: warning: implicit declaration of function 'precioUnitario' [-Wimplicit-function-declaration]
+     precioUnitAerolineas = precioUnitario(precioUnitAerolineas, kilometros);
+                            ^~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:79: undefined reference to `PrecioUnitario'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:85: undefined reference to `precioUnitario'
+collect2.exe: error: ld returned 1 exit status
+12:17:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:79: undefined reference to `PrecioUnitario'
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:85: undefined reference to `precioUnitario'
+collect2.exe: error: ld returned 1 exit status
+12:18:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:20:09 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:92:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("\n"
+     ^~~~~
+cc1.exe: warning: unknown escape sequence: '\D'
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+src\TP_1.o: In function `main':
+C:\Users\BETO\eclipse-workspace\TPs\TP_1\Debug/../src/TP_1.c:92: undefined reference to `print'
+collect2.exe: error: ld returned 1 exit status
+14:20:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+cc1.exe: warning: unknown escape sequence: '\D'
+..\src\TP_1.c:92:12: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("\n"
+            ^~~~
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:12: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:22:13 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+cc1.exe: warning: unknown escape sequence: '\D'
+..\src\TP_1.c:92:33: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf( "\nKMs ingresados: %d"
+                                 ^
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+     printf( "\nKMs ingresados: %d"
+             ^~~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+..\src\TP_1.c:92:13: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:25:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:107:7: warning: unknown escape sequence: '\D'
+       "\n---> %.2f",kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:108:7: error: expected expression before ')' token
+       );
+       ^
+14:25:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:107:7: warning: unknown escape sequence: '\D'
+       "\n---> %.2f",kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:107:211: error: expected expression before ')' token
+       "\n---> %.2f",kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+                                                                                                                                                                                                                   ^
+14:26:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:107:7: warning: unknown escape sequence: '\D'
+       "\n---> %.2f",kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+       ^~~~~~~~~~~~~
+..\src\TP_1.c:107:211: error: expected expression before ')' token
+       "\n---> %.2f",kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+                                                                                                                                                                                                                   ^
+14:27:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+cc1.exe: warning: unknown escape sequence: '\D'
+..\src\TP_1.c:107:198: error: expected expression before ')' token
+       ,kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+                                                                                                                                                                                                      ^
+14:27:41 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:106:7: warning: unknown escape sequence: '\D'
+       "\Diferencia de precios ingresada (Latam-Aerolineas): %.2f", kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\TP_1.c:106:258: error: expected expression before ')' token
+       "\Diferencia de precios ingresada (Latam-Aerolineas): %.2f", kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios,);
+                                                                                                                                                                                                                                                                  ^
+14:28:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:106:7: warning: unknown escape sequence: '\D'
+       "\Diferencia de precios ingresada (Latam-Aerolineas): %.2f", kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios);
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:28:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:106:7: warning: unknown escape sequence: '\D'
+       "\Diferencia de precios ingresada (Latam-Aerolineas): %.2f",
+       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:28:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:107:7: warning: unknown escape sequence: '\D'
+       "\n---> %.2f", kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios);
+       ^~~~~~~~~~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:29:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:107:7: warning: unknown escape sequence: '\D'
+       "\n", kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios);
+       ^~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:29:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:107:7: warning: unknown escape sequence: '\D'
+       "\n ", kilometros, precioLatam, debitoLatam, creditoLatam, bitcoinLatam, precioUnitLatam, precioAerolineas, debitoAerolineas, creditoAerolineas, bitcoinAerolineas, precioUnitAerolineas, difPrecios);
+       ^~~~~
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+14:30:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+14:32:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+14:37:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:41:40 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+14:52:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:55:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:56:07 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+14:57:24 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+14:58:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:01:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:02:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:04:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+15:07:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:62:5: error: 'kilometrosIng' undeclared (first use in this function)
+     kilometrosIng = valKilometros(kilometros);
+     ^~~~~~~~~~~~~
+..\src\TP_1.c:62:5: note: each undeclared identifier is reported only once for each function it appears in
+15:08:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:14:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+15:15:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valKilometros':
+..\src\validaciones.c:16:3: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'if'
+   if(kilometros <= 0){
+   ^~
+15:16:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valKilometros':
+..\src\validaciones.c:15:7: error: 'kilometros' redeclared as different kind of symbol
+   int kilometros;
+       ^~~~~~~~~~
+..\src\validaciones.c:13:23: note: previous definition of 'kilometros' was here
+ int valKilometros(int kilometros)
+                       ^~~~~~~~~~
+15:16:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+..\src\validaciones.c: In function 'valKilometros':
+..\src\validaciones.c:15:7: error: 'kilometros' redeclared as different kind of symbol
+   int kilometros;
+       ^~~~~~~~~~
+..\src\validaciones.c:13:23: note: previous definition of 'kilometros' was here
+ int valKilometros(int kilometros)
+                       ^~~~~~~~~~
+15:17:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:20:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:22:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:23:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:23:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+15:27:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:39:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:46:29 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:50:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:51:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:51:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:51:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:52:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:53:18 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:09:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:126:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:127:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:10:54 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:126:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:127:5: error: expected expression before 'float'
+     float precioLatam = 159339.00;
+     ^~~~~
+18:11:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:126:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:127:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:11:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:126:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:127:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:13:00 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:13:01 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:16:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:17:51 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:17:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:18:16 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:19:48 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+18:21:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:21:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:23:22 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:23:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:24:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:24:21 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:24:41 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:26:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:27:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:28:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:29:27 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339.0;
+     ^~~~~
+18:29:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:132:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:55:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:130:5: error: a label can only be part of a statement and a declaration is not a statement
+     int kilometros = 7090;
+     ^~~
+..\src\TP_1.c:131:5: error: expected expression before 'float'
+     float precioLatam = 159339;
+     ^~~~~
+18:55:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+19:00:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:29:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:47:10: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("1- Ingrese los KMs. (KM = %d)\n"
+          ^
+..\src\TP_1.c:47:10: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+16:30:25 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:32:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+16:32:50 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:34:44 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:35:36 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:38:23 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:39:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:48:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:54:3: error: 'debitoLatam' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+   ^~~~~~~~~~~
+..\src\calculos.c:54:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calculos.c:54:31: error: 'precioLatam' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                               ^~~~~~~~~~~
+..\src\calculos.c:54:44: error: 'descuento' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                                            ^~~~~~~~~
+..\src\calculos.c:55:3: error: 'creditoLatam' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+   ^~~~~~~~~~~~
+..\src\calculos.c:55:46: error: 'interes' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+                                              ^~~~~~~
+..\src\calculos.c:56:3: error: 'bitcoinLatam' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+   ^~~~~~~~~~~~
+..\src\calculos.c:56:46: error: 'bitcoinPrecio' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+                                              ^~~~~~~~~~~~~
+..\src\calculos.c:57:3: error: 'precioUnitLatam' undeclared (first use in this function)
+   precioUnitLatam = CalculoPreUnit(precioLatam, kilometros);
+   ^~~~~~~~~~~~~~~
+..\src\calculos.c:57:49: error: 'kilometros' undeclared (first use in this function)
+   precioUnitLatam = CalculoPreUnit(precioLatam, kilometros);
+                                                 ^~~~~~~~~~
+..\src\calculos.c:60:3: error: 'debitoAerolineas' undeclared (first use in this function)
+   debitoAerolineas = CalculoDebito(precioAerolineas, descuento);
+   ^~~~~~~~~~~~~~~~
+..\src\calculos.c:60:36: error: 'precioAerolineas' undeclared (first use in this function)
+   debitoAerolineas = CalculoDebito(precioAerolineas, descuento);
+                                    ^~~~~~~~~~~~~~~~
+..\src\calculos.c:61:3: error: 'creditoAerolineas' undeclared (first use in this function)
+   creditoAerolineas = CalculoCredito(precioAerolineas, interes);//
+   ^~~~~~~~~~~~~~~~~
+..\src\calculos.c:62:3: error: 'bitcoinAerolineas' undeclared (first use in this function)
+   bitcoinAerolineas = CalculoBitcoin(precioAerolineas, bitcoinPrecio);
+   ^~~~~~~~~~~~~~~~~
+..\src\calculos.c:63:3: error: 'precioUnitAerolineas' undeclared (first use in this function)
+   precioUnitAerolineas = CalculoPreUnit(precioAerolineas, kilometros);
+   ^~~~~~~~~~~~~~~~~~~~
+..\src\calculos.c:66:3: error: 'difPrecios' undeclared (first use in this function)
+   difPrecios = DiferenciaPrecios(precioLatam, precioAerolineas);
+   ^~~~~~~~~~
+..\src\calculos.c:68:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf( "\n----------------------------------------------------------"
+   ^~~~~~
+..\src\calculos.c:68:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\calculos.c:68:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+16:50:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:21:6: warning: variable 'muestra' set but not used [-Wunused-but-set-variable]
+  int muestra;
+      ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:56:3: error: 'debitoLatam' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+   ^~~~~~~~~~~
+..\src\calculos.c:56:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calculos.c:56:31: error: 'precioLatam' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                               ^~~~~~~~~~~
+..\src\calculos.c:56:44: error: 'descuento' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                                            ^~~~~~~~~
+..\src\calculos.c:57:3: error: 'creditoLatam' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+   ^~~~~~~~~~~~
+..\src\calculos.c:57:46: error: 'interes' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+                                              ^~~~~~~
+..\src\calculos.c:58:3: error: 'bitcoinLatam' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+   ^~~~~~~~~~~~
+..\src\calculos.c:58:46: error: 'bitcoinPrecio' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+                                              ^~~~~~~~~~~~~
+..\src\calculos.c:59:3: error: 'precioUnitLatam' undeclared (first use in this function)
+   precioUnitLatam = CalculoPreUnit(precioLatam, kilometros);
+   ^~~~~~~~~~~~~~~
+..\src\calculos.c:59:49: error: 'kilometros' undeclared (first use in this function)
+   precioUnitLatam = CalculoPreUnit(precioLatam, kilometros);
+                                                 ^~~~~~~~~~
+..\src\calculos.c:62:3: error: 'debitoAerolineas' undeclared (first use in this function)
+   debitoAerolineas = CalculoDebito(precioAerolineas, descuento);
+   ^~~~~~~~~~~~~~~~
+..\src\calculos.c:62:36: error: 'precioAerolineas' undeclared (first use in this function)
+   debitoAerolineas = CalculoDebito(precioAerolineas, descuento);
+                                    ^~~~~~~~~~~~~~~~
+..\src\calculos.c:63:3: error: 'creditoAerolineas' undeclared (first use in this function)
+   creditoAerolineas = CalculoCredito(precioAerolineas, interes);//
+   ^~~~~~~~~~~~~~~~~
+..\src\calculos.c:64:3: error: 'bitcoinAerolineas' undeclared (first use in this function)
+   bitcoinAerolineas = CalculoBitcoin(precioAerolineas, bitcoinPrecio);
+   ^~~~~~~~~~~~~~~~~
+..\src\calculos.c:65:3: error: 'precioUnitAerolineas' undeclared (first use in this function)
+   precioUnitAerolineas = CalculoPreUnit(precioAerolineas, kilometros);
+   ^~~~~~~~~~~~~~~~~~~~
+..\src\calculos.c:68:3: error: 'difPrecios' undeclared (first use in this function)
+   difPrecios = DiferenciaPrecios(precioLatam, precioAerolineas);
+   ^~~~~~~~~~
+16:50:42 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:70:31: error: 'precioLatam' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                               ^~~~~~~~~~~
+..\src\calculos.c:70:31: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calculos.c:70:44: error: 'descuento' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                                            ^~~~~~~~~
+..\src\calculos.c:71:46: error: 'interes' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+                                              ^~~~~~~
+..\src\calculos.c:72:46: error: 'bitcoinPrecio' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+                                              ^~~~~~~~~~~~~
+..\src\calculos.c:73:49: error: 'kilometros' undeclared (first use in this function)
+   precioUnitLatam = CalculoPreUnit(precioLatam, kilometros);
+                                                 ^~~~~~~~~~
+..\src\calculos.c:76:36: error: 'precioAerolineas' undeclared (first use in this function)
+   debitoAerolineas = CalculoDebito(precioAerolineas, descuento);
+                                    ^~~~~~~~~~~~~~~~
+16:52:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:21:8: warning: variable 'muestra' set but not used [-Wunused-but-set-variable]
+  float muestra;
+        ^~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:54:3: error: 'kilometros' undeclared (first use in this function)
+   kilometros = 7090;
+   ^~~~~~~~~~
+..\src\calculos.c:54:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calculos.c:55:3: error: 'precioLatam' undeclared (first use in this function)
+   precioLatam = 159339;
+   ^~~~~~~~~~~
+..\src\calculos.c:56:3: error: 'precioAerolineas' undeclared (first use in this function)
+   precioAerolineas = 162965;
+   ^~~~~~~~~~~~~~~~
+..\src\calculos.c:73:44: error: 'descuento' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                                            ^~~~~~~~~
+..\src\calculos.c:74:46: error: 'interes' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+                                              ^~~~~~~
+..\src\calculos.c:75:46: error: 'bitcoinPrecio' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+                                              ^~~~~~~~~~~~~
+16:53:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:54:3: error: 'kilometros' undeclared (first use in this function)
+   kilometros = 7090;
+   ^~~~~~~~~~
+..\src\calculos.c:54:3: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calculos.c:55:3: error: 'precioLatam' undeclared (first use in this function)
+   precioLatam = 159339;
+   ^~~~~~~~~~~
+..\src\calculos.c:56:3: error: 'precioAerolineas' undeclared (first use in this function)
+   precioAerolineas = 162965;
+   ^~~~~~~~~~~~~~~~
+..\src\calculos.c:73:44: error: 'descuento' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                                            ^~~~~~~~~
+..\src\calculos.c:74:46: error: 'interes' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+                                              ^~~~~~~
+..\src\calculos.c:75:46: error: 'bitcoinPrecio' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+                                              ^~~~~~~~~~~~~
+16:54:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:132:15: error: too few arguments to function 'cargaForzada'
+     muestra = cargaForzada();
+               ^~~~~~~~~~~~
+In file included from ..\src\TP_1.c:16:0:
+..\src\calculos.h:25:7: note: declared here
+ float cargaForzada(int kilometros, float precioAerolineas, float precioLatam);
+       ^~~~~~~~~~~~
+..\src\TP_1.c:21:8: warning: variable 'muestra' set but not used [-Wunused-but-set-variable]
+  float muestra;
+        ^~~~~~~
+16:55:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:132:13: error: void value not ignored as it ought to be
+     muestra = cargaForzada();
+             ^
+..\src\TP_1.c:21:8: warning: variable 'muestra' set but not used [-Wunused-but-set-variable]
+  float muestra;
+        ^~~~~~~
+16:56:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:131:5: error: 'muestra' undeclared (first use in this function)
+     muestra = cargaForzada();
+     ^~~~~~~
+..\src\TP_1.c:131:5: note: each undeclared identifier is reported only once for each function it appears in
+16:56:49 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+16:56:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+16:57:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:89:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf( "\n----------------------------------------------------------"
+   ^~~~~~
+..\src\calculos.c:89:3: warning: incompatible implicit declaration of built-in function 'printf'
+..\src\calculos.c:89:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+16:58:08 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+16:58:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:02:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:02:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:03:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:03:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:03:47 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:04:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:04:55 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:06:38 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:06:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:08:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:26:43 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:27:43 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:28:03 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:29:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:30:35 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:32:46 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:35:41 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:38:04 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:38:59 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:39:53 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:45:06 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:103:6: error: 'calculado' undeclared (first use in this function)
+      calculado = 1;
+      ^~~~~~~~~
+..\src\TP_1.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:132:6: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+      prinf("\nNo ha realizado los calculos...");
+      ^~~~~
+17:45:19 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:103:6: error: 'calculado' undeclared (first use in this function)
+      calculado = 1;
+      ^~~~~~~~~
+..\src\TP_1.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:132:6: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+      prinf("\nNo ha realizado los calculos...");
+      ^~~~~
+..\src\TP_1.c:28:6: warning: unused variable 'calculo' [-Wunused-variable]
+  int calculo = 0;
+      ^~~~~~~
+17:45:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:103:6: error: 'calculado' undeclared (first use in this function)
+      calculado = 1;
+      ^~~~~~~~~
+..\src\TP_1.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+..\src\TP_1.c:28:6: warning: unused variable 'calculo' [-Wunused-variable]
+  int calculo = 0;
+      ^~~~~~~
+17:45:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+..\src\TP_1.c: In function 'main':
+..\src\TP_1.c:103:6: error: 'calculado' undeclared (first use in this function)
+      calculado = 1;
+      ^~~~~~~~~
+..\src\TP_1.c:103:6: note: each undeclared identifier is reported only once for each function it appears in
+17:46:02 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:48:57 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:49:15 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+17:49:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:50:32 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:51:31 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+17:52:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+17:52:52 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+17:55:43 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1

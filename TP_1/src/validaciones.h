@@ -2,7 +2,7 @@
  * validaciones.h
  *
  *  Created on: 8 abr. 2022
- *      Author: Roberto Rocabado
+ *      Author: Roberto Rocabado / Divison: D
  */
 
 //validacion = val...
