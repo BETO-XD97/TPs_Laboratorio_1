@@ -2067,3 +2067,60 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c"
 gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
 Info: Nothing to build for TP_1
 Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:09:17 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+18:15:29 **** Rebuild of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:17:12 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:22:37 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:22:45 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+18:23:14 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+..\src\calculos.c: In function 'cargaForzada':
+..\src\calculos.c:71:44: error: 'descuento' undeclared (first use in this function)
+   debitoLatam = CalculoDebito(precioLatam, descuento);
+                                            ^~~~~~~~~
+..\src\calculos.c:71:44: note: each undeclared identifier is reported only once for each function it appears in
+..\src\calculos.c:72:46: error: 'interes' undeclared (first use in this function)
+   creditoLatam = CalculoCredito(precioLatam, interes);
+                                              ^~~~~~~
+..\src\calculos.c:73:46: error: 'bitcoinPrecio' undeclared (first use in this function)
+   bitcoinLatam = CalculoBitcoin(precioLatam, bitcoinPrecio);
+                                              ^~~~~~~~~~~~~
+18:23:28 **** Incremental Build of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1
+Info: Nothing to build for TP_1

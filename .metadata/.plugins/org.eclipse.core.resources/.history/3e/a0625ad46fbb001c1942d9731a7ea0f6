@@ -52,7 +52,7 @@ void cargaForzada(void)
 		float precioLatam = 159339;
 		float precioAerolineas = 162965;
 		float descuento = 10;
-		float interes = 25;
+		float interes = 15;
 		float bitcoinPrecio = 4770233.18;//El precio lo muestro con 5 decimales
 
 		float debitoLatam=0;

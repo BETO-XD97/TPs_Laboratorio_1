@@ -22,7 +22,7 @@ float CalculoPreUnit(float precioVuelo, int kilometros);
 //DIFERENCIA DE PRECIOS
 float DiferenciaPrecios(float precioLatam, float precioAerolineas);
 
-//CARGA FORZADA-SALIDA UNICA DE DATOS
+//CARGA FORZADA
 void cargaForzada(void);
 
 
