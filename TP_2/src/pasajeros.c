@@ -14,20 +14,17 @@
 
 #define OCCUPED 1
 
-
 int findPassengerById(ePassenger list[], int len,int id)
 {
-	int devolverId;
-	for(int i=0; i<len; i++){
-		if(list[i].id == id){
-			devolverId = i;
+	int i;
+	for(i=0; i<len; i++){
+		if(list[i].id == 0 && list[i].isEmpty != OCCUPED){
 			break;
 		} else {
-			return -1;
+			list[i].id = i;
 		}
 	}
-
-	return devolverId;
+	return i;
 }
 
 int initPassenger(ePassenger list[], int len){
@@ -62,15 +59,32 @@ void addPassenger(ePassenger list[], int len,int id, char name[],char lastName[]
 	}
 }
 
-
 void printPassenger(ePassenger list[], int len,int id){
 
+		printf("\n\n|| ID ||     NOMBRE    ||      APELLIDO      ||      PRECIO      ||   CODIGO VUELO     ||    TIPO PASAJERO   ||  ESTADO VUELO   ");
 		for(int i=0; i<len; i++){
 			if(list[i].isEmpty == OCCUPED){
-				printf("\n-------------------------------------------------------------------------------------------------------------------------------------\n");
-				printf("\nId: %d  -  Nombre: %s  -  Apellido: %s  -  Precio: %.2f  -  Codigo de Vuelo: %s  -  Tipo de pasajero: %d  -  Estado de vuelo: %d  %d\n",
-				list[i].id, list[i].name, list[i].lastName, list[i].price, list[i].flyCode, list[i].typePassenger, list[i].statusFlight, list[i].isEmpty);
-				printf("\n-------------------------------------------------------------------------------------------------------------------------------------\n");
+				printf("\n------------------------------------------------------------------------------------------------------------------------------------------");
+				printf("\n   %d          %s            %s  	     %.2f            %s                 ",
+				list[i].id, list[i].name, list[i].lastName, list[i].price, list[i].flyCode);
+				if(list[i].typePassenger == 1){
+					printf("EJECUTIVO          ");
+				} else {
+					if(list[i].typePassenger == 2){
+						printf("TURISTA            ");
+					} else {
+						printf("VIP                ");
+					}
+				}
+				if(list[i].statusFlight == 1){
+					printf("ACTIVO");
+				} else {
+					if(list[i].statusFlight == 2){
+						printf("DEMORADO");
+					} else {
+						printf("CANCELADO");
+					}
+				}
 			}
 		}
 }
@@ -130,11 +144,12 @@ void modifyPassengerData(ePassenger list[], int len,int id, char name[],char las
 	}
 }
 
-int removePassenger(ePassenger list[], int len, int idRecibida){
+int removePassenger(ePassenger list[], int len, int id){
+
 	if(list != NULL){
-		printf("%d", idRecibida);
+		printf("%d", id);
 		for(int i=0; i<len;i++){
-			if(list[i].id == idRecibida && list[i].isEmpty == OCCUPED){
+			if(list[i].id == id && list[i].isEmpty == OCCUPED){
 				list[i].isEmpty = 0;
 			}
 		}
@@ -183,10 +198,8 @@ int sortPassenger(ePassenger list[], int len, int order){
 int sortPassengerByCode(ePassenger list[], int len, int order){
 	int i;
 	int j;
-	int valueError;
 	ePassenger listAux;
 
-	if(list == NULL){
 	if(order==1){
 		for (i = 0; i < len-1; i++) {
 			for (j = i + 1; j < len; j++) {
@@ -195,7 +208,6 @@ int sortPassengerByCode(ePassenger list[], int len, int order){
 						listAux = list[i];
 						list[i]=list[j];
 						list[j]=listAux;
-						valueError = 0;
 					}
 				}
 			}
@@ -209,22 +221,22 @@ int sortPassengerByCode(ePassenger list[], int len, int order){
 						listAux = list[i];
 						list[i]=list[j];
 						list[j]=listAux;
-						valueError = 0;
 					}
 				}
 			}
 		}
 	}
-	} else {
-		valueError = 1;
-	}
-	return valueError;
+	return 0;
 }
+
+
 
 float calculatePrice(ePassenger list[],int len){
 	float acumPrecio = 0;
 	for(int i=0; i<len; i++){
-		acumPrecio = acumPrecio + list[i].price;
+		if(list[i].id && list[i].isEmpty == OCCUPED){
+			acumPrecio += list[i].price;
+		}
 	}
 	return acumPrecio;
 }
@@ -251,3 +263,6 @@ int calculatePassengerProm(ePassenger list[], int len, float promedioPrecio){
 	}
 	return pasajerosMayorPrecio;
 }
+
+
+
