@@ -73,7 +73,11 @@ void printPassenger(ePassenger list[], int len,int id){
 					if(list[i].typePassenger == 2){
 						printf("TURISTA            ");
 					} else {
-						printf("VIP                ");
+						if(list[i].typePassenger == 3){
+							printf("VIP                ");
+						} else {
+							printf("NO VALIDO            ");
+						}
 					}
 				}
 				if(list[i].statusFlight == 1){
@@ -82,7 +86,11 @@ void printPassenger(ePassenger list[], int len,int id){
 					if(list[i].statusFlight == 2){
 						printf("DEMORADO");
 					} else {
-						printf("CANCELADO");
+						if(list[i].statusFlight == 3){
+							printf("CANCELADO");
+						} else {
+							printf("NO VALIDO");
+						}
 					}
 				}
 			}
@@ -145,16 +153,19 @@ void modifyPassengerData(ePassenger list[], int len,int id, char name[],char las
 }
 
 int removePassenger(ePassenger list[], int len, int id){
-
+	int retorno = 1;
 	if(list != NULL){
-		printf("%d", id);
 		for(int i=0; i<len;i++){
 			if(list[i].id == id && list[i].isEmpty == OCCUPED){
 				list[i].isEmpty = 0;
+				retorno = 0;
 			}
 		}
 	}
-	return 0;
+	if(retorno == 0){
+		printf("\nEl usuario ha sido eliminado con exito!");
+	}
+	return retorno;
 }
 
 

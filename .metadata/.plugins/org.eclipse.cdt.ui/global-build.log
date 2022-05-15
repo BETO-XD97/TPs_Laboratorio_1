@@ -11544,3 +11544,139 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
 gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
 Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+21:07:33 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:92:14: error: void value not ignored as it ought to be
+      borrado = modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux);
+              ^
+21:08:55 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+21:10:51 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:10: error: void value not ignored as it ought to be
+      if (modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux) == 0){
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:11:04 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:11: error: void value not ignored as it ought to be
+      if ((modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux)) == 0){
+          ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:11:40 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:6: error: expected ';' before 'if'
+      if ((modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux)) == 0){
+      ^~
+21:11:55 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:6: error: expected ';' before 'if'
+      if(modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux) == 0){
+      ^~
+21:12:04 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:9: error: void value not ignored as it ought to be
+      if(modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux) == 0){
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:12:26 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:10: error: void value not ignored as it ought to be
+      if((modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux)) == 0){
+         ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:12:41 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:93:9: error: void value not ignored as it ought to be
+      if(modifyPassengerData(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux) == 0){
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:14:12 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+21:51:26 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+..\src\pasajeros.c: In function 'removePassenger':
+..\src\pasajeros.c:159:3: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+   prinf("El usuario ha sido eliminado con exito!");
+   ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+src\pasajeros.o: In function `removePassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_2\Debug/../src/pasajeros.c:159: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+21:51:36 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+21:52:07 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+21:52:48 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+21:56:25 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+21:58:19 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+22:00:19 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+..\src\pasajeros.c: In function 'addPassenger':
+..\src\pasajeros.c:53:10: error: 'lastNameAux' undeclared (first use in this function)
+   strupr(lastNameAux);
+          ^~~~~~~~~~~
+..\src\pasajeros.c:53:10: note: each undeclared identifier is reported only once for each function it appears in
+..\src\pasajeros.c:55:10: error: 'flyCodeAux' undeclared (first use in this function)
+   strupr(flyCodeAux);
+          ^~~~~~~~~~
+22:00:39 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+22:01:44 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2

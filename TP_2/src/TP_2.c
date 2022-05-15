@@ -41,6 +41,7 @@ char estadoVuelo[TAMCHAR];
 int valor;
 int idAuxA;
 int inicioInt = 0;
+
 int main(void) {
 	setbuf(stdout, NULL);
 
@@ -78,6 +79,7 @@ int main(void) {
 					rellenarInt(&statusFlightAux, "\nIngrese el estado de vuelo: \n1-->Activo \n2-->Demorado \n3-->Cancelado \n------->", "\nError! Reingrese: ");
 
 					addPassenger(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux);
+
 					inicioInt = 1;
 				} else {
 					printf("El sistema esta lleno!!!");
