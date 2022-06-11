@@ -2623,3 +2623,568 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
 gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
 Info: Nothing to build for pruebaTp3
+17:27:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_maximoId':
+..\Controller.c:70:5: error: 'pArrayListPassengers' undeclared (first use in this function)
+  if(pArrayListPassengers != NULL){
+     ^~~~~~~~~~~~~~~~~~~~
+..\Controller.c:70:5: note: each undeclared identifier is reported only once for each function it appears in
+..\Controller.c:66:6: warning: variable 'maximoId' set but not used [-Wunused-but-set-variable]
+  int maximoId;
+      ^~~~~~~~
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:83:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, *idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:83:51: error: invalid type argument of unary '*' (have 'int')
+   controller_getMaxId(pArrayListPassenger, pFile, *idMaximo);
+                                                   ^~~~~~~~~
+..\Controller.c:84:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%s", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c:84:18: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   fprintf(path,"%s", idMaximo);
+                  ^
+..\Controller.c: In function 'controller_ObtainMaxId':
+..\Controller.c:96:8: warning: variable 'pFile' set but not used [-Wunused-but-set-variable]
+  FILE* pFile;
+        ^~~~~
+..\Controller.c:94:6: warning: unused variable 'idAuxNuevo' [-Wunused-variable]
+  int idAuxNuevo;
+      ^~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:198:117: warning: implicit declaration of function 'maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~
+17:27:36 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_maximoId':
+..\Controller.c:66:6: warning: variable 'maximoId' set but not used [-Wunused-but-set-variable]
+  int maximoId;
+      ^~~~~~~~
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:83:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, *idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:83:51: error: invalid type argument of unary '*' (have 'int')
+   controller_getMaxId(pArrayListPassenger, pFile, *idMaximo);
+                                                   ^~~~~~~~~
+..\Controller.c:84:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%s", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c:84:18: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   fprintf(path,"%s", idMaximo);
+                  ^
+..\Controller.c: In function 'controller_ObtainMaxId':
+..\Controller.c:96:8: warning: variable 'pFile' set but not used [-Wunused-but-set-variable]
+  FILE* pFile;
+        ^~~~~
+..\Controller.c:94:6: warning: unused variable 'idAuxNuevo' [-Wunused-variable]
+  int idAuxNuevo;
+      ^~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:198:117: warning: implicit declaration of function 'maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~
+17:30:18 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_maximoId':
+..\Controller.c:66:6: warning: variable 'idMaximo' set but not used [-Wunused-but-set-variable]
+  int idMaximo;
+      ^~~~~~~~
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:84:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, &idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:85:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%s", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c:85:18: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   fprintf(path,"%s", idMaximo);
+                  ^
+..\Controller.c: In function 'controller_ObtainMaxId':
+..\Controller.c:97:8: warning: variable 'pFile' set but not used [-Wunused-but-set-variable]
+  FILE* pFile;
+        ^~~~~
+..\Controller.c:95:6: warning: unused variable 'idAuxNuevo' [-Wunused-variable]
+  int idAuxNuevo;
+      ^~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:199:117: warning: implicit declaration of function 'maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:84: undefined reference to `controller_getMaxId'
+Controller.o: In function `controller_editPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:199: undefined reference to `maximoId'
+collect2.exe: error: ld returned 1 exit status
+17:30:28 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_maximoId':
+..\Controller.c:66:6: warning: variable 'idMaximo' set but not used [-Wunused-but-set-variable]
+  int idMaximo;
+      ^~~~~~~~
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:84:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, &idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:85:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%d", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c: In function 'controller_ObtainMaxId':
+..\Controller.c:97:8: warning: variable 'pFile' set but not used [-Wunused-but-set-variable]
+  FILE* pFile;
+        ^~~~~
+..\Controller.c:95:6: warning: unused variable 'idAuxNuevo' [-Wunused-variable]
+  int idAuxNuevo;
+      ^~~~~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:199:117: warning: implicit declaration of function 'maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:84: undefined reference to `controller_getMaxId'
+Controller.o: In function `controller_editPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:199: undefined reference to `maximoId'
+collect2.exe: error: ld returned 1 exit status
+17:30:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_maximoId':
+..\Controller.c:66:6: warning: variable 'idMaximo' set but not used [-Wunused-but-set-variable]
+  int idMaximo;
+      ^~~~~~~~
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:84:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, &idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:85:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%d", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:187:117: warning: implicit declaration of function 'maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:84: undefined reference to `controller_getMaxId'
+Controller.o: In function `controller_editPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:187: undefined reference to `maximoId'
+collect2.exe: error: ld returned 1 exit status
+17:31:21 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:80:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, &idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:81:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%d", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:183:117: warning: implicit declaration of function 'maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:80: undefined reference to `controller_getMaxId'
+Controller.o: In function `controller_editPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:183: undefined reference to `maximoId'
+collect2.exe: error: ld returned 1 exit status
+17:33:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:80:3: warning: implicit declaration of function 'controller_getMaxId' [-Wimplicit-function-declaration]
+   controller_getMaxId(pArrayListPassenger, pFile, &idMaximo);
+   ^~~~~~~~~~~~~~~~~~~
+..\Controller.c:81:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%d", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:80: undefined reference to `controller_getMaxId'
+collect2.exe: error: ld returned 1 exit status
+17:33:23 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:80: undefined reference to `controller_getMaxId'
+collect2.exe: error: ld returned 1 exit status
+17:33:51 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_saveMaxID':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:80: undefined reference to `controller_getMaxId'
+collect2.exe: error: ld returned 1 exit status
+17:34:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:81:11: warning: passing argument 1 of 'fprintf' from incompatible pointer type [-Wincompatible-pointer-types]
+   fprintf(path,"%d", idMaximo);
+           ^~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:453:38: note: expected 'FILE * {aka struct _iobuf *}' but argument is of type 'char *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int fprintf (FILE *, const char *, ...);
+                                      ^~~~~~~
+..\Controller.c:81:3: warning: 'idMaximo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   fprintf(path,"%d", idMaximo);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+17:39:43 **** Rebuild of configuration Debug for project Clase3-Funciones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase3-Funciones.o" "..\\src\\Clase3-Funciones.c" 
+..\src\Clase3-Funciones.c: In function 'main':
+..\src\Clase3-Funciones.c:47:2: warning: implicit declaration of function 'sumar' [-Wimplicit-function-declaration]
+  sumar(a, b);
+  ^~~~~
+..\src\Clase3-Funciones.c: At top level:
+..\src\Clase3-Funciones.c:103:6: warning: conflicting types for 'sumar'
+ void sumar(int numero1, int numero2)
+      ^~~~~
+..\src\Clase3-Funciones.c:47:2: note: previous implicit declaration of 'sumar' was here
+  sumar(a, b);
+  ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o Clase3-Funciones.exe "src\\Clase3-Funciones.o" "src\\calculos.o" 
+17:39:44 **** Rebuild of configuration Debug for project TP_1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
+gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
+17:39:45 **** Rebuild of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+17:39:46 **** Rebuild of configuration Debug for project likedList ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\utest.o" "..\\testing\\utest.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\main_test.o" "..\\testing\\src\\main_test.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\newTest.o" "..\\testing\\src\\newTest.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\sortTest.o" "..\\testing\\src\\sortTest.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\addTest.o" "..\\testing\\src\\addTest.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\Employee.o" "..\\testing\\src\\Employee.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\deleteLinkedListTest.o" "..\\testing\\src\\deleteLinkedListTest.c" 
+Command canceled
+17:48:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_saveMaxID':
+..\Controller.c:91:12: warning: passing argument 1 of 'fwrite' makes pointer from integer without a cast [-Wint-conversion]
+     fwrite(pPassengerAux->id, sizeof(Passenger),1, ultimoId);
+            ^~~~~~~~~~~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:735:41: note: expected 'const void *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  size_t fwrite (const void *, size_t, size_t, FILE *);
+                                         ^~~~~~
+..\Controller.c:90:32: warning: 'pPassengerAux' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    if(idMaximo == pPassengerAux->id){
+                   ~~~~~~~~~~~~~^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:87:14: error: too few arguments to function 'controller_saveMaxID'
+              controller_saveMaxID(listaPasajeros);
+              ^~~~~~~~~~~~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:11:5: note: declared here
+ int controller_saveMaxID(LinkedList* pArrayListPassenger,FILE* pFile, char* path);
+     ^~~~~~~~~~~~~~~~~~~~
+17:51:04 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:157:117: warning: implicit declaration of function 'controller_maximoId' [-Wimplicit-function-declaration]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, controller_maximoId(pArrayListPassenger));
+                                                                                                                     ^~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_editPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:157: undefined reference to `controller_maximoId'
+collect2.exe: error: ld returned 1 exit status
+17:51:57 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:00:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:114:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+ int Passenger_setNombre(Passenger* this,char* nombre){
+ ^~~
+18:01:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'saveAsBinary_LastID':
+..\Controller.c:83:17: warning: implicit declaration of function 'Passenger_getHigherId' [-Wimplicit-function-declaration]
+                 Passenger_getHigherId(passenger,&id);
+                 ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:164:6: warning: unused variable 'tamano' [-Wunused-variable]
+  int tamano = 0;
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:06:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:164:6: warning: unused variable 'tamano' [-Wunused-variable]
+  int tamano = 0;
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:11:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:95:3: warning: implicit declaration of function 'obtainID' [-Wimplicit-function-declaration]
+   obtainID(&idAux);
+   ^~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_addPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:95: undefined reference to `obtainID'
+collect2.exe: error: ld returned 1 exit status
+18:13:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+18:20:51 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:24:38 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+18:29:48 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:55:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:171:16: warning: implicit declaration of function 'input_Int' [-Wimplicit-function-declaration]
+                input_Int(&opcionG, "\n\n1)Texto\n2)Binario\nPara finalizar el programa debe guardar---> ", "\nError! Reintente--->", 1, 2);
+                ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+18:56:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:59:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:00:25 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:01:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:02:55 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:03:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:03:57 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:04:56 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:08:20 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:11:58 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:13:58 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:219:40: error: 'index' undeclared (first use in this function)
+         if(ll_set(pArrayListPassenger, index, pPassengerAux) == 0){
+                                        ^~~~~
+..\Controller.c:219:40: note: each undeclared identifier is reported only once for each function it appears in
+19:13:59 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:219:40: error: 'index' undeclared (first use in this function)
+         if(ll_set(pArrayListPassenger, index, pPassengerAux) == 0){
+                                        ^~~~~
+..\Controller.c:219:40: note: each undeclared identifier is reported only once for each function it appears in
+19:14:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:16:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:17:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:19:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:22:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:29:40 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:30:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:34:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:36:38 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+19:37:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:38:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+20:12:36 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3

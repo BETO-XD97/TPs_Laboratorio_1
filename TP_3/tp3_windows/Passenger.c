@@ -1,10 +1,3 @@
-/*
- * Passenger.c
- *
- *  Created on: 19 may. 2022
- *      Author: Maru
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>

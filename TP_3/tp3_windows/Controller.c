@@ -59,65 +59,6 @@ int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger)
     return retorno;
 }
 
-int controller_saveMaxID(LinkedList* pArrayListPassenger,FILE* pFile, char* path){
-
-	int retorno = 0;
-	int idMaximo;
-
-	if(pFile != NULL && path != NULL){
-
-		controller_getMaxId(pArrayListPassenger, pFile, *idMaximo);
-		fprintf(path,"%s", idMaximo+1);
-		retorno = 1;
-	}
-	return retorno;
-}
-
-int controller_getMaxId(LinkedList* pArrayListPassenger,FILE* pFile, int* ultimoid)
-{
-	int retorno = 0;
-	int tamano;
-	int idMaximo;
-	int flag = 0;
-
-	Passenger* pPassengerAux;
-
-	if(pArrayListPassenger != NULL && pFile != NULL){
-
-		tamano = ll_len(pArrayListPassenger);
-
-		for(int i=0; i < tamano; i++){
-
-			pPassengerAux = ll_get(pArrayListPassenger, i);
-
-			if(pPassengerAux != NULL){
-
-				Passenger_getId(pPassengerAux, &i);
-			}
-
-			if(idMaximo < i || flag == 0){
-				idMaximo = i;
-				retorno = 1;
-				flag = 1;
-			}
-		}
-		*ultimoid = idMaximo;
-	}
-
-	return retorno;
-}
-
-int controller_ObtainMaxId(int* idMaximo){
-
-	int retorno = 0;
-	int idAuxNuevo;
-
-	FILE* pFile;
-	pFile = fopen("idMaximo", "rb");
-
-	return retorno;
-}
-
 /** \brief Alta de pasajero
  *
  * \param path char*
@@ -141,7 +82,7 @@ int controller_addPassenger(LinkedList* pArrayListPassenger, int idIngUlt)
 	char flyCodeAux[9];
 	int typePassengerAux;
 	int statusFlightAux;
-	int tamano = 0;
+	int tamano;
 	char descripcionTipo[50];
 	char descripcionEstado[50];
 
@@ -193,32 +134,33 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 	int retorno = 0;
 
 	//Variables auxiliares
-
 	char nombreAux[50];
 	char apellidoAux[50];
 	float precioAux;
 	char codigoVueloAux[9];
 	int tipoPasajeroAux;
-	//int estadoVueloAux;
 	char tipoPasajeroDesc[50];
-	//char estadoVueloDesc[50];
 
 	int idBuscar;
-	int index = 0;
+	int indice;
 	int opcionMod;
-	//int modExitosa;
+	int tamano;
 
 	Passenger* pPassengerAux;
 
 	if(pArrayListPassenger != NULL){
 		printf("\n----------Modificacion de Pasajero--------------\n");
 
-		input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 1, maximoId(pArrayListPassenger));
+		tamano = ll_len(pArrayListPassenger);
 
-		index = Passenger_searchForId(pArrayListPassenger, idBuscar);
+		input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 0, tamano);
 
-		if(index >= 0){
-			pPassengerAux = ll_get(pArrayListPassenger, index);
+		indice = Passenger_searchForId(pArrayListPassenger, idBuscar);
+
+		if(indice >= 0){
+
+			pPassengerAux = ll_get(pArrayListPassenger, indice);
+
 			if(pPassengerAux != NULL){
 
 				printf("\n[--ID--] [---------NOMBRE---------] [---------APELLIDO---------] [----PRECIO----] [-CODIGO VUELO-] [---TIPO PASAJERO---] [---ESTADO VUELO---]\n");
@@ -238,6 +180,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 						case 1:
 								input_Char(nombreAux, "\nIngrese el nuevo nombre: ");
 								if(Passenger_setNombre(pPassengerAux, nombreAux) == 1){
+									retorno = 1;
 									printf("\nEl nombre fue modificado exitosamente!");
 								} else {
 									printf("\nHubo un problema al modificar!");
@@ -246,6 +189,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 						case 2:
 								input_Char(apellidoAux, "\nIngrese el nuevo apellido: ");
 								if(Passenger_setApellido(pPassengerAux, apellidoAux) == 1){
+									retorno = 1;
 									printf("\nEl apellido fue modificado exitosamente!");
 								} else {
 									printf("\nHubo un problema al modificar!");
@@ -254,6 +198,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 						case 3:
 								input_Float(&precioAux, "\nIngrese el nuevo precio: ", "\nError! Reingrese el precio: ", 1, MAX);
 								if(Passenger_setPrecio(pPassengerAux, precioAux) == 1){
+									retorno = 1;
 									printf("\nEl precio fue modificado exitosamente!");
 								} else {
 									printf("\nHubo un problema al modificar!");
@@ -262,34 +207,37 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 						case 4:
 								input_Char(codigoVueloAux, "\nIngrese el nuevo codigo de vuelo: ");
 								if(Passenger_setCodigoVuelo(pPassengerAux, codigoVueloAux) == 1){
+									retorno = 1;
 									printf("\nEl nombre fue modificado exitosamente!");
 								} else {
 									printf("\nHubo un problema al modificar!");
 								}
 							break;
 						case 5:
-								input_Int(&tipoPasajeroAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el nuevo tipo de pasajero-->", "Error! Reingrese--> ", 1, 3);
+								input_Int(&tipoPasajeroAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el nuevo tipo de pasajero-->", "\nError! Reingrese--> ", 1, 3);
 								Passenger_typePassengerDescripcion(tipoPasajeroAux, tipoPasajeroDesc);
 								if(Passenger_setTipoPasajero(pPassengerAux, tipoPasajeroDesc) == 1){
+									retorno = 1;
 									printf("\nEl tipo de pasajero fue modificado exitosamente!");
 								} else {
 									printf("\nHubo un problema al modificar!");
 								}
 							break;
 						case 6:
-								//modExitosa = ll_set(pArrayListPassenger, index, pPassengerAux);
-								if(ll_set(pArrayListPassenger, index, pPassengerAux) == 0){
+								if(ll_set(pArrayListPassenger, indice, pPassengerAux) == 0){
+									retorno = 1;
 									printf("\nLas modificaciones fueron hechas con exito!");
 								} else {
 									printf("\nHubo un problema al modificar!");
 								}
-								printf("\n\nRegresando al menu principal...");
+								printf("\n\nRegresando al menu principal...\n");
 							break;
 						default:
 								printf("\nOpcion incorrecta!");
 							break;
 					}
 				}while(opcionMod != 6);
+
 			}
 		}
 	}

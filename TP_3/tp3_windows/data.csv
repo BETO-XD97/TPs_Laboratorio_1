@@ -1,4 +1,4 @@
-id,name,lastname,price,flycode,typePassenger,statusFlight
+Id,Name,LastName,Price,FlyCode,TypePassenger,StatusFlight
 1,Lou,Gonzalez,10000,BA2491A,FirstClass,Aterrizado
 2,Ulrike,Munoz,25000,IB0800A,FirstClass,Aterrizado
 3,Brade,Rojas,20000,MM0987B,FirstClass,En Horario
@@ -98,7 +98,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 97,Marcellus,Guerrero,50000,IB0800A,ExecutiveClass,Aterrizado
 98,Jacquelin,Mendoza,30000,IB0800A,ExecutiveClass,Aterrizado
 99,Aleda,Farias,50000,IB0800A,ExecutiveClass,Aterrizado
-100,Georgeta,San Martin,10000,IB0800A,ExecutiveClass,Aterrizado
+100,Georgeta,San martin,10000,IB0800A,ExecutiveClass,Aterrizado
 101,Marcille,Gonzalez,10000,IB0800A,ExecutiveClass,Aterrizado
 102,Ertha,Fernandez,10000,IB0800A,ExecutiveClass,Aterrizado
 103,Desiri,Rodriguez,25000,MM0987B,ExecutiveClass,En Horario
@@ -222,7 +222,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 221,Aylmer,Guerrero,33000,TU6789B,FirstClass,Aterrizado
 222,Marina,Mendoza,12000,TU6789B,FirstClass,Aterrizado
 223,Enrico,Farias,50000,TU6789B,FirstClass,Aterrizado
-224,Zonda,San Martin,33000,TU6789B,FirstClass,Aterrizado
+224,Zonda,San martin,33000,TU6789B,FirstClass,Aterrizado
 225,Adriano,Gonzalez,33000,TU6789B,FirstClass,Aterrizado
 226,Trula,Fernandez,30000,TU6789B,FirstClass,Aterrizado
 227,Adel,Rodriguez,30000,TU6789B,FirstClass,Aterrizado
@@ -346,7 +346,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 345,Aldric,Guerrero,50000,TU6789B,EconomyClass,Aterrizado
 346,Janeta,Mendoza,10000,TU6789B,EconomyClass,Aterrizado
 347,Tarra,Farias,12000,TU6789B,EconomyClass,Aterrizado
-348,Jefferey,San Martin,33000,TU6789B,EconomyClass,Aterrizado
+348,Jefferey,San martin,33000,TU6789B,EconomyClass,Aterrizado
 349,Cassie,Gonzalez,50000,TU6789B,EconomyClass,Aterrizado
 350,Maiga,Fernandez,20000,TU6789B,EconomyClass,Aterrizado
 351,Heddi,Rodriguez,20000,TU6789B,EconomyClass,Aterrizado
@@ -470,7 +470,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 469,Chrisy,Guerrero,15000,GU2345F,ExecutiveClass,En Vuelo
 470,Rod,Mendoza,50000,GU2345F,ExecutiveClass,En Vuelo
 471,Ramsay,Farias,20000,GU2345F,ExecutiveClass,En Vuelo
-472,Saidee,San Martin,50000,GU2345F,ExecutiveClass,En Vuelo
+472,Saidee,San martin,50000,GU2345F,ExecutiveClass,En Vuelo
 473,Erek,Gonzalez,10000,GU2345F,ExecutiveClass,En Vuelo
 474,Salomi,Fernandez,10000,GU2345F,ExecutiveClass,En Vuelo
 475,Coletta,Rodriguez,50000,GU2345F,ExecutiveClass,En Vuelo
@@ -594,7 +594,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 593,Vic,Guerrero,25000,HY4567D,FirstClass,Demorado
 594,Cyndia,Mendoza,33000,HY4567D,FirstClass,Demorado
 595,Gray,Faria,42000,HY4567D,FirstClass,Demorado
-596,Dylan,San Martin,30000,HY4567D,FirstClass,Demorado
+596,Dylan,San martin,30000,HY4567D,FirstClass,Demorado
 597,Isabelle,Gonzalez,20000,HY4567D,FirstClass,Demorado
 598,Eachelle,Fernandez,37000,HY4567D,FirstClass,Demorado
 599,Howard,Rodriguez,18000,HY4567D,FirstClass,Demorado
@@ -718,7 +718,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 717,Hyacinthia,Guerrero,25000,IB0800A,EconomyClass,Aterrizado
 718,Fina,Mendoza,42000,IB0800A,EconomyClass,Aterrizado
 719,Kamila,Faria,42000,IB0800A,EconomyClass,Aterrizado
-720,Jennie,San Martin,42000,IB0800A,EconomyClass,Aterrizado
+720,Jennie,San martin,42000,IB0800A,EconomyClass,Aterrizado
 721,Riobard,Gonzalez,42000,IB0800A,EconomyClass,Aterrizado
 722,Joannes,Fernandez,10000,IB0800A,EconomyClass,Aterrizado
 723,Darlene,Rodriguez,42000,IB0800A,EconomyClass,Aterrizado
@@ -842,7 +842,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 841,Shelley,Guerrero,15000,FR5678G,EconomyClass,En Horario
 842,Irv,Mendoza,15000,FR5678G,EconomyClass,En Horario
 843,Grant,Farias,33000,FR5678G,EconomyClass,En Horario
-844,Bella,San Martin,18000,FR5678G,EconomyClass,En Horario
+844,Bella,San martin,18000,FR5678G,EconomyClass,En Horario
 845,Yardley,Gonzalez,50000,FR5678G,EconomyClass,En Horario
 846,Brendin,Fernandez,10000,FR5678G,EconomyClass,En Horario
 847,Estella,Rodriguez,42000,FR5678G,EconomyClass,En Horario
@@ -966,7 +966,7 @@ id,name,lastname,price,flycode,typePassenger,statusFlight
 965,Kirstin,Guerrero,12000,BR3456J,EconomyClass,Demorado
 966,Karon,Mendoza,10000,BR3456J,EconomyClass,Demorado
 967,Esme,Faria,37000,BR3456J,EconomyClass,Demorado
-968,Berenice,San Martin,10000,IB0800A,EconomyClass,Aterrizado
+968,Berenice,San martin,10000,IB0800A,EconomyClass,Aterrizado
 969,Charlie,Gonzalez,50000,IB0800A,EconomyClass,Aterrizado
 970,Noach,Fernandez,12000,IB0800A,EconomyClass,Aterrizado
 971,Mercedes,Rodriguez,12000,IB0800A,EconomyClass,Aterrizado

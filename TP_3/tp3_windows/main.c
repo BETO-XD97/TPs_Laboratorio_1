@@ -4,6 +4,7 @@
 #include "Controller.h"
 #include "Passenger.h"
 #include "parser.h"
+#include "utn_Input.h"
 
 /****************************************************
     Menu:
@@ -29,6 +30,9 @@ int rtnSort; //Retorna validacion de lista ordenada
 int rtnSst; //Retorna validacion de guardado de lista en texto
 int rtnSsb; //Retorna validacion de guardado de lista en binario
 int valIng = 0;//Valida que se haya cargado la lista o al menos se haya ingresado un pasajero
+int guardar = 0; //Valida que se haya guardado los datos ya se en binario o texto
+int opcionS; //Opcion de salida
+int opcionG; //Opcion de guardado al salir
 int idContador = 0;
 int idDescontado = 0;
 int idA;
@@ -54,6 +58,7 @@ int main()
     			"\n10)Salir"
     			"\n\nIngrese la opcion a realizar---> "
     			);
+    	fflush(stdin);
     	scanf("%d", &optionMM);
 
     	switch(optionMM)
@@ -65,7 +70,7 @@ int main()
                 	valIng = 1;
                 	if(idContador !=  0){
                 		if(verificarId(listaPasajeros, idContador) != 1){
-                			printf("\nLa lista ha sido actualizada con todos sus datos\n");
+                			printf("\nLa lista ha sido actualizada con todos sus datos!\n");
                 		}
                 	}
                 } else {
@@ -99,7 +104,7 @@ int main()
             	if(valIng == 1){
 					rtnEdit = controller_editPassenger(listaPasajeros);
 					if(rtnEdit == 1){
-						printf("\nLa operacion fue exitosa!\n");
+						printf("\nDatos actualizados!\n");
 					} else {
 						printf("\nLa operacion NO fue exitosa!\n");
 					}
@@ -135,27 +140,62 @@ int main()
             	}
             	break;
             case 8:
-            	rtnSst = controller_saveAsText("data.csv", listaPasajeros);
-            	if(rtnSst == 1){
-            		printf("\nEl guardado del archivo en modo texto fue exitoso!\n");
+            	if(valIng == 1){
+					rtnSst = controller_saveAsText("data.csv", listaPasajeros);
+					if(rtnSst == 1){
+						guardar++;
+						printf("\nEl guardado del archivo en modo texto fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema al guardar el archivo en modo texto!\n");
+					}
             	} else {
-            		printf("\nHubo un problema al guardar el archivo en modo texto!\n");
+            		printf("\nNo hay datos para guardar!\n");
             	}
             	break;
 
             case 9:
-            	rtnSsb = controller_saveAsBinary("data.bin", listaPasajeros);
-            	if(rtnSsb == 1){
-            		printf("\nEl guardado del archivo en modo binario fue exitoso!\n");
+            	if(valIng == 1){
+					rtnSsb = controller_saveAsBinary("data.bin", listaPasajeros);
+					if(rtnSsb == 1){
+						guardar++;
+						printf("\nEl guardado del archivo en modo binario fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema al guardar el archivo en modo binario!\n");
+					}
             	} else {
-            		printf("\nHubo un problema al guardar el archivo en modo binario!\n");
+            		printf("\nNo hay datos para guardar!\n");
             	}
             	break;
 
             case 10:
-            	printf("\nEl programa ha finalizado...");
+            	while(opcionS != 1){
+            		if(valIng == 1 && guardar <= 0){
+            			input_Int(&opcionG, "\n1)Texto\n2)Binario\nPara finalizar el programa debe guardar los datos cargados\n---> ", "\nError! Reintente--->", 1, 2);
+            			switch(opcionG){
+            				case 1:
+            					controller_saveAsText("data.csv", listaPasajeros);
+            					opcionS = 1;
+            					printf("\nEl programa ha finalizado...");
+            					break;
+            				case 2:
+            					controller_saveAsBinary("data.bin", listaPasajeros);
+            					printf("\nEl programa ha finalizado...");
+            					opcionS = 1;
+            					break;
+            				default:
+            					printf("\nNo valido!\n");
+            					break;
+            			}
+            		} else {
+            				opcionS = 1;
+            				printf("\nEl programa ha finalizado...");
+            		}
+            	}
             	break;
 
+            default:
+            	printf("\nLa opcion es invalida. Elija una opcion....\n");
+            	break;
         }
 
     }while(optionMM != 10);

@@ -1,9 +1,9 @@
-00:14:29 **** Rebuild of configuration Debug for project TP_1 ****
+17:39:44 **** Rebuild of configuration Debug for project TP_1 ****
 Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_1.o" "..\\src\\TP_1.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\calculos.o" "..\\src\\calculos.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\validaciones.o" "..\\src\\validaciones.c" 
 gcc -o TP_1.exe "src\\TP_1.o" "src\\calculos.o" "src\\validaciones.o" 
 
-00:14:30 Build Finished. 0 errors, 0 warnings. (took 846ms)
+17:39:45 Build Finished. 0 errors, 0 warnings. (took 830ms)
 
