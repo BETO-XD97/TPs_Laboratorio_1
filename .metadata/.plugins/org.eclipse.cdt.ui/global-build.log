@@ -1,2 +1,1979 @@
+12:13:18 **** Incremental Build of configuration Debug for project likedList ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o likedList "src\\LinkedList.o" "src\\main.o" "testing\\src\\Employee.o" "testing\\src\\addNodeTest.o" "testing\\src\\addTest.o" "testing\\src\\clearTest.o" "testing\\src\\cloneTest.o" "testing\\src\\containsAllTest.o" "testing\\src\\containsTest.o" "testing\\src\\deleteLinkedListTest.o" "testing\\src\\getNodeTest.o" "testing\\src\\getTest.o" "testing\\src\\indexOfTest.o" "testing\\src\\isEmptyTest.o" "testing\\src\\lenTest.o" "testing\\src\\main_test.o" "testing\\src\\newTest.o" "testing\\src\\popTest.o" "testing\\src\\pushTest.o" "testing\\src\\removeTest.o" "testing\\src\\setTest.o" "testing\\src\\sortTest.o" "testing\\src\\subListTest.o" "testing\\utest.o" 
+Info: Nothing to build for likedList
+12:13:41 **** Incremental Build of configuration Debug for project likedList ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o likedList "src\\LinkedList.o" "src\\main.o" "testing\\src\\Employee.o" "testing\\src\\addNodeTest.o" "testing\\src\\addTest.o" "testing\\src\\clearTest.o" "testing\\src\\cloneTest.o" "testing\\src\\containsAllTest.o" "testing\\src\\containsTest.o" "testing\\src\\deleteLinkedListTest.o" "testing\\src\\getNodeTest.o" "testing\\src\\getTest.o" "testing\\src\\indexOfTest.o" "testing\\src\\isEmptyTest.o" "testing\\src\\lenTest.o" "testing\\src\\main_test.o" "testing\\src\\newTest.o" "testing\\src\\popTest.o" "testing\\src\\pushTest.o" "testing\\src\\removeTest.o" "testing\\src\\setTest.o" "testing\\src\\sortTest.o" "testing\\src\\subListTest.o" "testing\\utest.o" 
+Info: Nothing to build for likedList
+12:13:57 **** Incremental Build of configuration Debug for project likedList ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o likedList "src\\LinkedList.o" "src\\main.o" "testing\\src\\Employee.o" "testing\\src\\addNodeTest.o" "testing\\src\\addTest.o" "testing\\src\\clearTest.o" "testing\\src\\cloneTest.o" "testing\\src\\containsAllTest.o" "testing\\src\\containsTest.o" "testing\\src\\deleteLinkedListTest.o" "testing\\src\\getNodeTest.o" "testing\\src\\getTest.o" "testing\\src\\indexOfTest.o" "testing\\src\\isEmptyTest.o" "testing\\src\\lenTest.o" "testing\\src\\main_test.o" "testing\\src\\newTest.o" "testing\\src\\popTest.o" "testing\\src\\pushTest.o" "testing\\src\\removeTest.o" "testing\\src\\setTest.o" "testing\\src\\sortTest.o" "testing\\src\\subListTest.o" "testing\\utest.o" 
+Info: Nothing to build for likedList
 Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+16:08:00 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:68:13: warning: variable 'pPassengerAux' set but not used [-Wunused-but-set-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:34:16: warning: unused variable 'unPasajero' [-Wunused-variable]
+     Passenger* unPasajero;
+                ^~~~~~~~~~
+..\main.c: At top level:
+..\main.c:49:5: error: expected identifier or '(' before 'do'
+     do{
+     ^~
+..\main.c:101:6: error: expected identifier or '(' before 'while'
+     }while(optionMM != 10);
+      ^~~~~
+..\main.c:104:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+..\main.c:105:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+16:09:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:34:16: warning: unused variable 'unPasajero' [-Wunused-variable]
+     Passenger* unPasajero;
+                ^~~~~~~~~~
+..\main.c: At top level:
+..\main.c:49:5: error: expected identifier or '(' before 'do'
+     do{
+     ^~
+..\main.c:102:6: error: expected identifier or '(' before 'while'
+     }while(optionMM != 10);
+      ^~~~~
+..\main.c:103:5: error: expected identifier or '(' before '}' token
+     }
+     ^
+..\main.c:105:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+..\main.c:106:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+16:09:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:34:16: warning: unused variable 'unPasajero' [-Wunused-variable]
+     Passenger* unPasajero;
+                ^~~~~~~~~~
+..\main.c: At top level:
+..\main.c:49:5: error: expected identifier or '(' before 'do'
+     do{
+     ^~
+..\main.c:102:5: error: expected identifier or '(' before '}' token
+     }while(optionMM != 10);
+     ^
+..\main.c:102:6: error: expected identifier or '(' before 'while'
+     }while(optionMM != 10);
+      ^~~~~
+..\main.c:105:5: error: expected identifier or '(' before 'return'
+     return 0;
+     ^~~~~~
+..\main.c:106:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+16:09:51 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:76:60: error: 'listasPasajeros' undeclared (first use in this function)
+              rtnBny = controller_loadFromBinary("data.csv",listasPasajeros);
+                                                            ^~~~~~~~~~~~~~~
+..\main.c:76:60: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:34:16: warning: unused variable 'unPasajero' [-Wunused-variable]
+     Passenger* unPasajero;
+                ^~~~~~~~~~
+16:10:28 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:85:38: warning: passing argument 1 of 'controller_addPassenger' from incompatible pointer type [-Wincompatible-pointer-types]
+              controller_addPassenger(unPasajero);
+                                      ^~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:3:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int controller_addPassenger(LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:85:14: warning: 'unPasajero' may be used uninitialized in this function [-Wmaybe-uninitialized]
+              controller_addPassenger(unPasajero);
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:10:48 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:85:38: warning: passing argument 1 of 'controller_addPassenger' from incompatible pointer type [-Wincompatible-pointer-types]
+              controller_addPassenger(unPasajero);
+                                      ^~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:3:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int controller_addPassenger(LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:85:14: warning: 'unPasajero' may be used uninitialized in this function [-Wmaybe-uninitialized]
+              controller_addPassenger(unPasajero);
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:11:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:67:61: warning: passing argument 2 of 'controller_loadFromText' from incompatible pointer type [-Wincompatible-pointer-types]
+                 rtnTxt = controller_loadFromText("data.csv",unPasajero);
+                                                             ^~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:1:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int controller_loadFromText(char* path , LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:76:60: warning: passing argument 2 of 'controller_loadFromBinary' from incompatible pointer type [-Wincompatible-pointer-types]
+              rtnBny = controller_loadFromBinary("data.csv",unPasajero);
+                                                            ^~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:2:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:85:38: warning: passing argument 1 of 'controller_addPassenger' from incompatible pointer type [-Wincompatible-pointer-types]
+              controller_addPassenger(unPasajero);
+                                      ^~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:3:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int controller_addPassenger(LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~
+..\main.c:67:26: warning: 'unPasajero' may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 rtnTxt = controller_loadFromText("data.csv",unPasajero);
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:33:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:70:13: warning: variable 'pPassengerAux' set but not used [-Wunused-but-set-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:77:60: error: 'unPasajero' undeclared (first use in this function)
+              rtnBny = controller_loadFromBinary("data.csv",unPasajero);
+                                                            ^~~~~~~~~~
+..\main.c:77:60: note: each undeclared identifier is reported only once for each function it appears in
+16:36:53 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:86:38: error: 'unPasajero' undeclared (first use in this function)
+              controller_addPassenger(unPasajero);
+                                      ^~~~~~~~~~
+..\main.c:86:38: note: each undeclared identifier is reported only once for each function it appears in
+16:37:13 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:44:51 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:70:13: warning: variable 'pPassengerAux' set but not used [-Wunused-but-set-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+..\Controller.c: In function 'controller_ListPassenger':
+..\Controller.c:161:3: error: expected ';' before 'for'
+   for(int i=0;i<cantidad; i++){
+   ^~~
+..\Controller.c:152:13: warning: unused variable 'pPassengerAux' [-Wunused-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+..\Controller.c:150:6: warning: variable 'cantidad' set but not used [-Wunused-but-set-variable]
+  int cantidad;
+      ^~~~~~~~
+16:46:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:70:13: warning: variable 'pPassengerAux' set but not used [-Wunused-but-set-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:47:47 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:102:45: warning: passing argument 2 of 'Passenger_setTipoPasajero' makes pointer from integer without a cast [-Wint-conversion]
+    Passenger_setTipoPasajero(pPassengerAux, typePassengerAux);
+                                             ^~~~~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:40:5: note: expected 'char *' but argument is of type 'int'
+ int Passenger_setTipoPasajero(Passenger* this,char* tipoPasajero);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:103:44: warning: passing argument 2 of 'Passenger_setEstadoVuelo' makes pointer from integer without a cast [-Wint-conversion]
+    Passenger_setEstadoVuelo(pPassengerAux, statusFlightAux);
+                                            ^~~~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:46:5: note: expected 'char *' but argument is of type 'int'
+ int Passenger_setEstadoVuelo(Passenger* this, char* estadoVuelo);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+16:48:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:102:45: warning: passing argument 2 of 'Passenger_setTipoPasajero' from incompatible pointer type [-Wincompatible-pointer-types]
+    Passenger_setTipoPasajero(pPassengerAux, &typePassengerAux);
+                                             ^
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:40:5: note: expected 'char *' but argument is of type 'int *'
+ int Passenger_setTipoPasajero(Passenger* this,char* tipoPasajero);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:103:44: warning: passing argument 2 of 'Passenger_setEstadoVuelo' from incompatible pointer type [-Wincompatible-pointer-types]
+    Passenger_setEstadoVuelo(pPassengerAux, &statusFlightAux);
+                                            ^
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:46:5: note: expected 'char *' but argument is of type 'int *'
+ int Passenger_setEstadoVuelo(Passenger* this, char* estadoVuelo);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+16:52:35 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+17:01:35 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:102:57: warning: passing argument 2 of 'Passenger_typePassengerDescripcion' from incompatible pointer type [-Wincompatible-pointer-types]
+    Passenger_typePassengerDescripcion(typePassengerAux, pPassengerAux);
+                                                         ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:49:5: note: expected 'char *' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_typePassengerDescripcion(int typePassenger, char* descripcion);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:103:55: warning: passing argument 2 of 'Passenger_statusFlightDescripcion' from incompatible pointer type [-Wincompatible-pointer-types]
+    Passenger_statusFlightDescripcion(statusFlightAux, pPassengerAux);
+                                                       ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:50:5: note: expected 'char *' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_statusFlightDescripcion(int statusFlight, char* descripcion);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+17:04:22 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+17:06:50 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+17:42:59 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:131:5: error: expected expression before ')' token
+  if(){
+     ^
+..\Controller.c:130:13: warning: unused variable 'pPassengerAux' [-Wunused-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+18:21:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:335:5: error: conflicting types for 'Passenger_searchForId'
+ int Passenger_searchForId(LinkedList* this, int index){
+     ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:54:5: note: previous declaration of 'Passenger_searchForId' was here
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Passenger.c: In function 'Passenger_searchForId':
+..\Passenger.c:338:17: error: stray '\361' in program
+  int idAux, tamaño;
+                 ^
+..\Passenger.c:338:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'o'
+  int idAux, tamaño;
+                  ^
+..\Passenger.c:342:6: error: stray '\361' in program
+  tamaño = ll_len(this);
+      ^
+..\Passenger.c:342:2: error: unknown type name 'tama'
+  tamaño = ll_len(this);
+  ^~~~
+..\Passenger.c:344:21: error: stray '\361' in program
+  for(int i=0; i<tamaño; i++){
+                     ^
+..\Passenger.c:344:17: error: 'tama' undeclared (first use in this function)
+  for(int i=0; i<tamaño; i++){
+                 ^~~~
+..\Passenger.c:344:17: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:344:22: error: expected ';' before 'o'
+  for(int i=0; i<tamaño; i++){
+                      ^
+..\Passenger.c:342:7: warning: unused variable 'o' [-Wunused-variable]
+  tamaño = ll_len(this);
+       ^
+18:21:59 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:335:5: error: conflicting types for 'Passenger_searchForId'
+ int Passenger_searchForId(LinkedList* this, int index){
+     ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:54:5: note: previous declaration of 'Passenger_searchForId' was here
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+18:22:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:70: warning: passing argument 3 of 'input_Int' makes pointer from integer without a cast [-Wint-conversion]
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", 1, 1100);
+                                                                      ^
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:23:5: note: expected 'char *' but argument is of type 'int'
+ int input_Int(int* inputInt, char inputChar[], char inputError[], int min, int max);
+     ^~~~~~~~~
+..\Controller.c:147:3: error: too few arguments to function 'input_Int'
+   input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", 1, 1100);
+   ^~~~~~~~~
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:23:5: note: declared here
+ int input_Int(int* inputInt, char inputChar[], char inputError[], int min, int max);
+     ^~~~~~~~~
+..\Controller.c:149:33: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+                                 ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:54:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_searchForId(LinkedList* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:138:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:137:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:136:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:135:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:134:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:133:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:132:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:131:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+18:23:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:54:27: error: unknown type name 'LinkedList'
+ int Passenger_searchForId(LinkedList* this, int index);
+                           ^~~~~~~~~~
+18:24:59 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:149:33: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+                                 ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:56:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_searchForId(LinkedList* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:138:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:137:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:136:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:135:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:134:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:133:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:132:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:131:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+..\Controller.c:145:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:27:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:150:33: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+                                 ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:56:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_searchForId(LinkedList* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:146:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+18:28:27 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:150:33: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+                                 ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:56:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_searchForId(LinkedList* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:146:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:30:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:150:33: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+                                 ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:56:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_searchForId(LinkedList* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:146:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:31:18 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:150:46: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = (Passenger*) Passenger_searchForId(pPassengerAux, idBuscar);
+                                              ^~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:56:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int Passenger_searchForId(LinkedList* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:150:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   index = (Passenger*) Passenger_searchForId(pPassengerAux, idBuscar);
+         ^
+..\Controller.c:146:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+18:32:21 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_searchForId':
+..\Passenger.c:342:18: warning: passing argument 1 of 'll_len' from incompatible pointer type [-Wincompatible-pointer-types]
+  tamano = ll_len(this);
+                  ^~~~
+In file included from ..\Passenger.c:13:0:
+..\LinkedList.h:38:5: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ int ll_len(LinkedList* this);
+     ^~~~~~
+..\Passenger.c:346:26: warning: passing argument 1 of 'll_get' from incompatible pointer type [-Wincompatible-pointer-types]
+   pPassengerAux = ll_get(this, i);
+                          ^~~~
+In file included from ..\Passenger.c:13:0:
+..\LinkedList.h:42:7: note: expected 'LinkedList * {aka struct LinkedList *}' but argument is of type 'Passenger * {aka struct <anonymous> *}'
+ void* ll_get(LinkedList* this, int index);
+       ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:150:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   index = (Passenger*) Passenger_searchForId(pPassengerAux, idBuscar);
+         ^
+..\Controller.c:146:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:47:02 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:159:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   index = (Passenger*) Passenger_searchForId(pPassengerAux, idBuscar);
+         ^
+..\Controller.c:155:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:48:01 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:159:9: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+   index = (Passenger*) Passenger_searchForId(pPassengerAux, idBuscar);
+         ^
+..\Controller.c:155:4: warning: 'pPassengerAux' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAux != NULL){
+    ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+20:52:03 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:158:9: warning: 'pPassengerAux' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:335:5: error: conflicting types for 'Passenger_searchForId'
+ int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
+     ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:56:5: note: previous declaration of 'Passenger_searchForId' was here
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+20:54:05 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:158:9: warning: 'pPassengerAux' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:335:5: error: conflicting types for 'Passenger_searchForId'
+ int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
+     ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:56:5: note: previous declaration of 'Passenger_searchForId' was here
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+20:54:45 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+..\Controller.c:158:9: warning: 'pPassengerAux' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   index = Passenger_searchForId(pPassengerAux, idBuscar);
+   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:335:5: error: conflicting types for 'Passenger_searchForId'
+ int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
+     ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:56:5: note: previous declaration of 'Passenger_searchForId' was here
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+20:55:14 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:158:33: warning: passing argument 1 of 'Passenger_searchForId' from incompatible pointer type [-Wincompatible-pointer-types]
+   index = Passenger_searchForId(pArrayListPassenger, idBuscar);
+                                 ^~~~~~~~~~~~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:56:5: note: expected 'Passenger * {aka struct <anonymous> *}' but argument is of type 'LinkedList * {aka struct LinkedList *}'
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:335:5: error: conflicting types for 'Passenger_searchForId'
+ int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
+     ^~~~~~~~~~~~~~~~~~~~~
+In file included from ..\Passenger.c:12:0:
+..\Passenger.h:56:5: note: previous declaration of 'Passenger_searchForId' was here
+ int Passenger_searchForId(Passenger* this, int index);
+     ^~~~~~~~~~~~~~~~~~~~~
+20:55:51 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+20:56:07 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+20:58:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+21:12:01 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+21:14:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+21:14:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+21:18:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+In file included from ..\parser.c:4:0:
+..\Passenger.h:57:57: error: expected ';', ',' or ')' before '*' token
+ int maximoId(LinkedList* pArrayListPassengers, int idMax*);
+                                                         ^
+21:18:55 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\main.c:5:0:
+..\Passenger.h:57:57: error: expected ';', ',' or ')' before '*' token
+ int maximoId(LinkedList* pArrayListPassengers, int idMax*);
+                                                         ^
+21:19:02 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:57:57: error: expected ';', ',' or ')' before '*' token
+ int maximoId(LinkedList* pArrayListPassengers, int idMax*);
+                                                         ^
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:147:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:146:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:145:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:143:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:142:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:141:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+21:27:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:57:57: error: expected ';', ',' or ')' before '*' token
+ int maximoId(LinkedList* pArrayListPassengers, int idMax*);
+                                                         ^
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:146:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:145:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:143:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:142:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:141:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:139:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+21:27:31 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'maximoId':
+..\Passenger.c:359:17: error: too many arguments to function 'll_len'
+  for(int i=0; i<ll_len(pArrayListPassengers, i); i++){
+                 ^~~~~~
+In file included from ..\Passenger.c:13:0:
+..\LinkedList.h:38:5: note: declared here
+ int ll_len(LinkedList* this);
+     ^~~~~~
+..\Passenger.c:357:13: warning: unused variable 'pPassengerAux' [-Wunused-variable]
+  Passenger* pPassengerAux;
+             ^~~~~~~~~~~~~
+21:28:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'maximoId':
+..\Passenger.c:359:17: error: too many arguments to function 'll_len'
+  for(int i=0; i<ll_len(pArrayListPassengers, i); i++){
+                 ^~~~~~
+In file included from ..\Passenger.c:13:0:
+..\LinkedList.h:38:5: note: declared here
+ int ll_len(LinkedList* this);
+     ^~~~~~
+21:28:58 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'maximoId':
+..\Passenger.c:359:16: warning: value computed is not used [-Wunused-value]
+  for(int i=0; i<ll_len(pArrayListPassengers), i); i++){
+               ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\Passenger.c:359:48: error: expected ';' before ')' token
+  for(int i=0; i<ll_len(pArrayListPassengers), i); i++){
+                                                ^
+..\Passenger.c:359:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(int i=0; i<ll_len(pArrayListPassengers), i); i++){
+  ^~~
+..\Passenger.c:359:51: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+  for(int i=0; i<ll_len(pArrayListPassengers), i); i++){
+                                                   ^
+..\Passenger.c:359:51: error: 'i' undeclared (first use in this function)
+..\Passenger.c:359:51: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:359:54: error: expected ';' before ')' token
+  for(int i=0; i<ll_len(pArrayListPassengers), i); i++){
+                                                      ^
+..\Passenger.c:359:54: error: expected statement before ')' token
+21:29:17 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:146:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:145:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:143:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:142:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:141:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:139:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'maximoId':
+..\Passenger.c:359:17: error: too many arguments to function 'll_len'
+  for(int i=0; i<ll_len(pArrayListPassengers,i); i++){
+                 ^~~~~~
+In file included from ..\Passenger.c:13:0:
+..\LinkedList.h:38:5: note: declared here
+ int ll_len(LinkedList* this);
+     ^~~~~~
+21:29:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+21:33:59 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'len' [-Wunused-variable]
+  int len;
+      ^~~
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:146:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:145:7: warning: unused variable 'tipoPasajeroDesc' [-Wunused-variable]
+  char tipoPasajeroDesc[50];
+       ^~~~~~~~~~~~~~~~
+..\Controller.c:144:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+..\Controller.c:143:6: warning: unused variable 'tipoPasajeroAux' [-Wunused-variable]
+  int tipoPasajeroAux;
+      ^~~~~~~~~~~~~~~
+..\Controller.c:142:7: warning: unused variable 'codigoVueloAux' [-Wunused-variable]
+  char codigoVueloAux[50];
+       ^~~~~~~~~~~~~~
+..\Controller.c:141:8: warning: unused variable 'precioAux' [-Wunused-variable]
+  float precioAux[50];
+        ^~~~~~~~~
+..\Controller.c:140:7: warning: unused variable 'apellidoAux' [-Wunused-variable]
+  char apellidoAux[50];
+       ^~~~~~~~~~~
+..\Controller.c:139:7: warning: unused variable 'nombreAux' [-Wunused-variable]
+  char nombreAux[50];
+       ^~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+21:36:44 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'len' [-Wunused-variable]
+  int len;
+      ^~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+21:36:54 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+21:39:02 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+21:57:55 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+21:59:28 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:01:57 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'cantPasajList' [-Wunused-variable]
+  int cantPasajList;
+      ^~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:05:07 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:06:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+22:07:23 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:08:44 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:09:57 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:11:22 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:12:30 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'len' [-Wunused-variable]
+  int len;
+      ^~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:14:32 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:17:30 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:19:17 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:20:28 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:22:58 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'len' [-Wunused-variable]
+  int len;
+      ^~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:24:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:26:17 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'len' [-Wunused-variable]
+  int len;
+      ^~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:27:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:30:33 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'len' [-Wunused-variable]
+  int len;
+      ^~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:35:51 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_printOne':
+..\Passenger.c:312:8: warning: 'aux' is used uninitialized in this function [-Wuninitialized]
+  auxid = ll_len(aux);
+  ~~~~~~^~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:44:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+22:50:24 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:91:18: warning: implicit declaration of function 'len' [-Wimplicit-function-declaration]
+    for(int i=0;i<len(pArrayListPassenger);i++){
+                  ^~~
+..\Controller.c:93:27: warning: self-comparison always evaluates to true [-Wtautological-compare]
+      if(pPassengerAux->id == pPassengerAux->id){
+                           ^~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_addPassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:92: undefined reference to `len'
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:91: undefined reference to `len'
+collect2.exe: error: ld returned 1 exit status
+22:50:58 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:93:27: warning: self-comparison always evaluates to true [-Wtautological-compare]
+      if(pPassengerAux->id == pPassengerAux->id){
+                           ^~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:52:56 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:93:28: error: 'LinkedList {aka struct LinkedList}' has no member named 'id'
+      if(pArrayListPassenger->id == pArrayListPassenger->id){
+                            ^~
+..\Controller.c:93:55: error: 'LinkedList {aka struct LinkedList}' has no member named 'id'
+      if(pArrayListPassenger->id == pArrayListPassenger->id){
+                                                       ^~
+22:53:33 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:93:28: error: 'LinkedList {aka struct LinkedList}' has no member named 'pElement'
+      if(pArrayListPassenger->pElement.id == pArrayListPassenger->pElement.id){
+                            ^~
+..\Controller.c:93:64: error: 'LinkedList {aka struct LinkedList}' has no member named 'pElement'
+      if(pArrayListPassenger->pElement.id == pArrayListPassenger->pElement.id){
+                                                                ^~
+22:56:14 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+23:36:33 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:191:20: warning: passing argument 1 of 'input_Char' from incompatible pointer type [-Wincompatible-pointer-types]
+         input_Char(&precioAux, "\nIngrese el nuevo precio: ");
+                    ^
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:42:6: note: expected 'char *' but argument is of type 'float (*)[50]'
+ void input_Char(char arrayRecibido[], char textoAMostrar[]);
+      ^~~~~~~~~~
+..\Controller.c:192:47: warning: passing argument 2 of 'Passenger_setNombre' from incompatible pointer type [-Wincompatible-pointer-types]
+         if(Passenger_setNombre(pPassengerAux, precioAux) == 1){
+                                               ^~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:33:5: note: expected 'char *' but argument is of type 'float *'
+ int Passenger_setNombre(Passenger* this,char* name);
+     ^~~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+23:37:48 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:191:21: warning: passing argument 1 of 'input_Float' from incompatible pointer type [-Wincompatible-pointer-types]
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ");
+                     ^
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: expected 'float *' but argument is of type 'float (*)[50]'
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:191:9: error: too few arguments to function 'input_Float'
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ");
+         ^~~~~~~~~~~
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: declared here
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:192:47: error: incompatible type for argument 2 of 'Passenger_setPrecio'
+         if(Passenger_setPrecio(pPassengerAux, precioAux) == 1){
+                                               ^~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:45:5: note: expected 'float' but argument is of type 'float *'
+ int Passenger_setPrecio(Passenger* this,float price);
+     ^~~~~~~~~~~~~~~~~~~
+23:39:24 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:191:21: warning: passing argument 1 of 'input_Float' from incompatible pointer type [-Wincompatible-pointer-types]
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ");
+                     ^
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: expected 'float *' but argument is of type 'float (*)[50]'
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:191:9: error: too few arguments to function 'input_Float'
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ");
+         ^~~~~~~~~~~
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: declared here
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:192:48: error: incompatible type for argument 2 of 'Passenger_setPrecio'
+         if((Passenger_setPrecio(pPassengerAux, precioAux)) == 1){
+                                                ^~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:45:5: note: expected 'float' but argument is of type 'float *'
+ int Passenger_setPrecio(Passenger* this,float price);
+     ^~~~~~~~~~~~~~~~~~~
+23:40:06 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:191:21: warning: passing argument 1 of 'input_Float' from incompatible pointer type [-Wincompatible-pointer-types]
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ", 0, MAX);
+                     ^
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: expected 'float *' but argument is of type 'float (*)[50]'
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:191:9: error: too few arguments to function 'input_Float'
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ", 0, MAX);
+         ^~~~~~~~~~~
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: declared here
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:192:47: error: incompatible type for argument 2 of 'Passenger_setPrecio'
+         if(Passenger_setPrecio(pPassengerAux, precioAux) == 1){
+                                               ^~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:45:5: note: expected 'float' but argument is of type 'float *'
+ int Passenger_setPrecio(Passenger* this,float price);
+     ^~~~~~~~~~~~~~~~~~~
+23:41:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:191:21: warning: passing argument 1 of 'input_Float' from incompatible pointer type [-Wincompatible-pointer-types]
+         input_Float(&precioAux, "\nIngrese el nuevo precio: ", "\nError! Reingrese el precio: ", 0, MAX);
+                     ^
+In file included from ..\Controller.c:6:0:
+..\utn_Input.h:34:7: note: expected 'float *' but argument is of type 'float (*)[50]'
+ float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+       ^~~~~~~~~~~
+..\Controller.c:192:47: error: incompatible type for argument 2 of 'Passenger_setPrecio'
+         if(Passenger_setPrecio(pPassengerAux, precioAux) == 1){
+                                               ^~~~~~~~~
+In file included from ..\Controller.c:4:0:
+..\Passenger.h:45:5: note: expected 'float' but argument is of type 'float *'
+ int Passenger_setPrecio(Passenger* this,float price);
+     ^~~~~~~~~~~~~~~~~~~
+23:43:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:50:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+23:57:24 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+00:04:13 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+00:06:33 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+00:09:19 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+00:15:25 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+00:23:16 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+00:37:31 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:146:6: warning: unused variable 'modExitosa' [-Wunused-variable]
+  int modExitosa;
+      ^~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+00:45:46 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+00:50:35 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:141:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:139:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+08:35:07 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_editPassenger':
+..\Controller.c:141:7: warning: unused variable 'estadoVueloDesc' [-Wunused-variable]
+  char estadoVueloDesc[50];
+       ^~~~~~~~~~~~~~~
+..\Controller.c:139:6: warning: unused variable 'estadoVueloAux' [-Wunused-variable]
+  int estadoVueloAux;
+      ^~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+08:35:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+08:39:03 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+08:56:02 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+09:00:07 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'cant' [-Wunused-variable]
+  int cant;
+      ^~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:01:24 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'cant' [-Wunused-variable]
+  int cant;
+      ^~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:02:46 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'cant' [-Wunused-variable]
+  int cant;
+      ^~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:05:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:82:6: warning: unused variable 'cant' [-Wunused-variable]
+  int cant;
+      ^~~~
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:88:14: error: too many arguments to function 'controller_addPassenger'
+              controller_addPassenger(listaPasajeros, id);
+              ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ..\main.c:4:0:
+..\Controller.h:3:5: note: declared here
+ int controller_addPassenger(LinkedList* pArrayListPassenger);
+     ^~~~~~~~~~~~~~~~~~~~~~~
+09:06:13 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:13:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_printOne':
+..\Passenger.c:326:1: error: 's' undeclared (first use in this function)
+ s
+ ^
+..\Passenger.c:326:1: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:327:2: error: expected ';' before '}' token
+  }
+  ^
+09:14:41 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+09:19:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:20:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:22:01 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:23:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+09:27:04 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+09:52:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_searchForId':
+..\Passenger.c:333:6: warning: variable 'idAux' set but not used [-Wunused-but-set-variable]
+  int idAux;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+09:52:56 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+10:25:32 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+10:26:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+10:27:27 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+10:28:13 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+10:28:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_addPassenger':
+..\Controller.c:75:6: warning: unused variable 'idAux' [-Wunused-variable]
+  int idAux = 0;
+      ^~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+16:24:08 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+16:27:05 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:28:53 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+16:32:20 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:38:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:42:39 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:56:38 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+16:57:41 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+16:57:54 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+17:54:22 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:254:7: warning: unused variable 'opcionBorrar' [-Wunused-variable]
+   int opcionBorrar;
+       ^~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+17:54:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+17:58:02 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:00:53 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:02:57 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:04:47 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:06:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:07:45 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:17:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:266:5: warning: implicit declaration of function 'prinft' [-Wimplicit-function-declaration]
+     prinft("\nIngrese el ID del pasajero a eliminar: ");
+     ^~~~~~
+..\Controller.c:267:13: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+     scanf("%d", idAux);
+             ^
+..\Controller.c:267:5: warning: 'idAux' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     scanf("%d", idAux);
+     ^~~~~~~~~~~~~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Controller.o: In function `controller_removePassenger':
+C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows\Debug/../Controller.c:266: undefined reference to `prinft'
+collect2.exe: error: ld returned 1 exit status
+18:17:48 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:19:11 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:19:53 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:21:11 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:22:07 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:23:06 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:24:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:28:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:30:25 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:31:32 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:34:49 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:36:38 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:42:33 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:52:38 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+18:56:06 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:57:54 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+18:58:52 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:02:31 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:07:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:248:6: warning: variable 'tamano' set but not used [-Wunused-but-set-variable]
+  int tamano;
+      ^~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:19:46 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:248:6: warning: variable 'tamano' set but not used [-Wunused-but-set-variable]
+  int tamano;
+      ^~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:20:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:248:6: warning: variable 'tamano' set but not used [-Wunused-but-set-variable]
+  int tamano;
+      ^~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:20:46 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_removePassenger':
+..\Controller.c:248:6: warning: variable 'tamano' set but not used [-Wunused-but-set-variable]
+  int tamano;
+      ^~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+19:27:20 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+19:28:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+20:48:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_sortPassenger':
+..\Controller.c:350:12: warning: 'retorno' is used uninitialized in this function [-Wuninitialized]
+     return retorno;
+            ^~~~~~~
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+20:48:26 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+20:49:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+20:50:00 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+20:50:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
 Info: Nothing to build for pruebaTp3
