@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 #include "LinkedList.h"
 #include "Passenger.h"
-
 #include "utn_Input.h"
 #include "parser.h"
+
 #define MAX 1000000
 #define TAMC 50
 #define TAMF 8
@@ -45,15 +47,75 @@ int controller_loadFromBinary(char* path , LinkedList* pArrayListPassenger)
 {
 	int retorno = 0;
 
-	FILE* pFile = fopen(path, "r");
+	if(path != NULL && pArrayListPassenger != NULL){
 
-	if(pFile != NULL){
+		FILE* pFile = fopen(path, "rb");
 
 		parser_PassengerFromBinary(pFile, pArrayListPassenger);
 		fclose(pFile);
+
 		retorno = 1;
 	}
     return retorno;
+}
+
+int controller_saveMaxID(LinkedList* pArrayListPassenger,FILE* pFile, char* path){
+
+	int retorno = 0;
+	int idMaximo;
+
+	if(pFile != NULL && path != NULL){
+
+		controller_getMaxId(pArrayListPassenger, pFile, *idMaximo);
+		fprintf(path,"%s", idMaximo+1);
+		retorno = 1;
+	}
+	return retorno;
+}
+
+int controller_getMaxId(LinkedList* pArrayListPassenger,FILE* pFile, int* ultimoid)
+{
+	int retorno = 0;
+	int tamano;
+	int idMaximo;
+	int flag = 0;
+
+	Passenger* pPassengerAux;
+
+	if(pArrayListPassenger != NULL && pFile != NULL){
+
+		tamano = ll_len(pArrayListPassenger);
+
+		for(int i=0; i < tamano; i++){
+
+			pPassengerAux = ll_get(pArrayListPassenger, i);
+
+			if(pPassengerAux != NULL){
+
+				Passenger_getId(pPassengerAux, &i);
+			}
+
+			if(idMaximo < i || flag == 0){
+				idMaximo = i;
+				retorno = 1;
+				flag = 1;
+			}
+		}
+		*ultimoid = idMaximo;
+	}
+
+	return retorno;
+}
+
+int controller_ObtainMaxId(int* idMaximo){
+
+	int retorno = 0;
+	int idAuxNuevo;
+
+	FILE* pFile;
+	pFile = fopen("idMaximo", "rb");
+
+	return retorno;
 }
 
 /** \brief Alta de pasajero
@@ -76,7 +138,7 @@ int controller_addPassenger(LinkedList* pArrayListPassenger, int idIngUlt)
 	char nameAux[50];
 	char lastNameAux[50];
 	float priceAux;
-	char flyCodeAux[8];
+	char flyCodeAux[9];
 	int typePassengerAux;
 	int statusFlightAux;
 	int tamano = 0;
@@ -92,8 +154,9 @@ int controller_addPassenger(LinkedList* pArrayListPassenger, int idIngUlt)
 
 		input_Char(nameAux, "\nIngrese el nombre: ");
 		input_Char(lastNameAux, "\nIngrese el apellido: ");
-		input_Float(&priceAux, "\nIngrese el precio: ", "\nError! Reingrese el precio: ", 0, MAX);
+		input_Float(&priceAux, "\nIngrese el precio: ", "\nError! Reingrese el precio: ", 1, MAX);
 		input_Char(flyCodeAux, "\nIngrese el codigo de vuelo: ");
+		strupr(flyCodeAux);
 		input_Int(&typePassengerAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el tipo de pasajero-->", "Error! Reingrese--> ", 1, 3);
 		input_Int(&statusFlightAux, "\n1)Aterrizado\n2)En Horario\n3)En Vuelo\n4)Demorado\nIngrese el estado de vuelo-->", "Error! Reingrese--> ", 1, 4);
 
@@ -189,7 +252,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 								}
 							break;
 						case 3:
-								input_Float(&precioAux, "\nIngrese el nuevo precio: ", "\nError! Reingrese el precio: ", 0, MAX);
+								input_Float(&precioAux, "\nIngrese el nuevo precio: ", "\nError! Reingrese el precio: ", 1, MAX);
 								if(Passenger_setPrecio(pPassengerAux, precioAux) == 1){
 									printf("\nEl precio fue modificado exitosamente!");
 								} else {
@@ -455,7 +518,64 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
  */
 int controller_saveAsText(char* path , LinkedList* pArrayListPassenger)
 {
-    return 1;
+    int retorno = 0;
+
+    FILE* pArchivoTexto;
+
+    Passenger* pPassengerAux;
+
+    //Variables auxiliares
+
+    int id;
+    char idAux[8000];
+    char nombre[8000];
+    char apellido[8000];
+    float precio;
+    char precioAux[8000];
+    char codigoVuelo[8000];
+    char tipoPasajero[8000];
+    char estadoVuelo[8000];
+
+    int tamano;
+
+    if(pArrayListPassenger != NULL){
+
+
+    	pArchivoTexto = fopen(path, "w");
+
+    	if(pArchivoTexto != NULL){
+
+    		tamano = ll_len(pArrayListPassenger);
+    		ll_sort(pArrayListPassenger,Passenger_sortById, 1);
+
+    		fprintf(pArchivoTexto, "Id,Name,LastName,Price,FlyCode,TypePassenger,StatusFlight\n");
+
+    		for(int i=0; i<tamano; i++){
+
+    			pPassengerAux = (Passenger*) ll_get(pArrayListPassenger, i);
+
+    			if(pPassengerAux != NULL){
+
+    				if(Passenger_getId(pPassengerAux, &id) &&
+    						Passenger_getNombre(pPassengerAux, nombre) &&
+							Passenger_getApellido(pPassengerAux, apellido) &&
+							Passenger_getPrecio(pPassengerAux, &precio) &&
+							Passenger_getCodigoVuelo(pPassengerAux, codigoVuelo) &&
+							Passenger_getTipoPasajero(pPassengerAux, tipoPasajero) &&
+							Passenger_getEstadoVuelo(pPassengerAux, estadoVuelo)){
+
+    					itoa(id,idAux,10);
+    					itoa(precio,precioAux,10);
+
+    					fprintf(pArchivoTexto,"%s,%s,%s,%s,%s,%s,%s\n",idAux,nombre,apellido,precioAux,codigoVuelo,tipoPasajero,estadoVuelo);
+    					retorno = 1;
+    				}
+    			}
+    		}
+    	}
+    	fclose(pArchivoTexto);
+    }
+	return retorno;
 }
 
 /** \brief Guarda los datos de los pasajeros en el archivo data.csv (modo binario).
@@ -467,6 +587,31 @@ int controller_saveAsText(char* path , LinkedList* pArrayListPassenger)
  */
 int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger)
 {
-    return 1;
+	int retorno = 0;
+	int tamano;
+
+	FILE* pArchivoBin;
+
+	Passenger* pPassengerAux;
+
+	if(path != NULL && pArrayListPassenger != NULL){
+
+		pArchivoBin = fopen(path, "wb");
+		tamano = ll_len(pArrayListPassenger);
+		ll_sort(pArrayListPassenger,Passenger_sortById, 1);
+
+		for(int i=0; i<tamano; i++){
+
+			pPassengerAux = (Passenger*) ll_get(pArrayListPassenger, i);
+
+			if(pArchivoBin != NULL){
+
+				fwrite(pPassengerAux, sizeof(Passenger), 1, pArchivoBin);
+				retorno = 1;
+			}
+		}
+		fclose(pArchivoBin);
+	}
+    return retorno;
 }
 

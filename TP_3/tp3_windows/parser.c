@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 #include "LinkedList.h"
 #include "Passenger.h"
 
@@ -53,19 +55,23 @@ int parser_PassengerFromText(FILE* pFile , LinkedList* pArrayListPassenger)
 int parser_PassengerFromBinary(FILE* pFile , LinkedList* pArrayListPassenger)
 {
 	int retorno = 0;
+	int readBin;
 
 	Passenger* pPassengerAux;
 
 	if(pFile != NULL){
 
-		do{
+		while(!feof(pFile)){
 
 			pPassengerAux = Passenger_new();
 
-			if(fread(pPassengerAux, sizeof(Passenger), 1, pFile) != 0){
+			readBin = fread(pPassengerAux, sizeof(Passenger), 1, pFile);
+
+			if(readBin != 0){
+
 				ll_add(pArrayListPassenger, pPassengerAux);
 			}
-		}while(!feof(pFile));
+		}
 		retorno = 1;
 	}
     return retorno;
