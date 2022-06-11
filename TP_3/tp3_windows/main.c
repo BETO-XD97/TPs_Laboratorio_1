@@ -25,6 +25,7 @@ int rtnTxt; //Retorna el archivo texto
 int rtnBny; //Retorna el archivo binario
 int rtnAdd;
 int rtnEdit;
+int rtnSort;
 int idContador = 0;
 int idDescontado = 0;
 int idA;
@@ -121,7 +122,12 @@ int main()
             	controller_ListPassenger(listaPasajeros);
             	break;
             case 7:
-            	controller_sortPassenger(listaPasajeros);
+            	rtnSort = controller_sortPassenger(listaPasajeros);
+            	if(rtnSort == 1){
+            		printf("\nEl ordenamiento ha sido exitoso, para visulizar los cambios elija la opcion 6\n");
+            	} else {
+            		printf("\nEl ordenamiento del archivo no ha sido modificado");
+            	}
             	break;
         }
 

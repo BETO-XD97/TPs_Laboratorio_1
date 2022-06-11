@@ -1977,3 +1977,304 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
 gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
 Info: Nothing to build for pruebaTp3
+21:47:02 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_sortPassenger':
+..\Controller.c:380:5: error: too few arguments to function 'printf'
+     printf();
+     ^~~~~~
+In file included from ..\Controller.c:1:0:
+c:\mingw\include\stdio.h:454:38: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+21:47:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:407:4: warning: 'pPassengerAuxOne' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAuxOne != NULL && pPassengerAuxTwo != NULL){
+    ^
+..\Passenger.c:407:30: warning: 'pPassengerAuxTwo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(pPassengerAuxOne != NULL && pPassengerAuxTwo != NULL){
+                              ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+21:53:14 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c:402:1: error: two or more data types in declaration specifiers
+ int Passenger_sortByName(void* nameOne, void* nameTwo){
+ ^~~
+21:53:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:409:4: warning: 'pPassengerAuxOne' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAuxOne != NULL && pPassengerAuxTwo != NULL){
+    ^
+..\Passenger.c:409:30: warning: 'pPassengerAuxTwo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(pPassengerAuxOne != NULL && pPassengerAuxTwo != NULL){
+                              ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+22:00:04 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:409:4: warning: 'pPassengerAuxOne' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAuxOne != NULL && pPassengerAuxTwo != NULL){
+    ^
+..\Passenger.c:409:30: warning: 'pPassengerAuxTwo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(pPassengerAuxOne != NULL && pPassengerAuxTwo != NULL){
+                              ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+22:00:27 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:409:4: warning: 'pPassengerAuxOne' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerAuxOne != NULL || pPassengerAuxTwo != NULL){
+    ^
+..\Passenger.c:409:30: warning: 'pPassengerAuxTwo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(pPassengerAuxOne != NULL || pPassengerAuxTwo != NULL){
+                              ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+22:00:56 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:411:3: error: 'pPassengerAuxOne' undeclared (first use in this function)
+   pPassengerAuxOne = (Passenger*) namePassengerOne;
+   ^~~~~~~~~~~~~~~~
+..\Passenger.c:411:3: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:412:3: error: 'pPassengerAuxTwo' undeclared (first use in this function)
+   pPassengerAuxTwo = (Passenger*) namePassengerTwo;
+   ^~~~~~~~~~~~~~~~
+22:01:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:414:20: error: 'pPassengerAuxOne' undeclared (first use in this function)
+   retorno = strcmp(pPassengerAuxOne->nombre, pPassengerAuxTwo->nombre);
+                    ^~~~~~~~~~~~~~~~
+..\Passenger.c:414:20: note: each undeclared identifier is reported only once for each function it appears in
+..\Passenger.c:414:46: error: 'pPassengerAuxTwo' undeclared (first use in this function)
+   retorno = strcmp(pPassengerAuxOne->nombre, pPassengerAuxTwo->nombre);
+                                              ^~~~~~~~~~~~~~~~
+22:01:20 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:409:4: warning: 'pPassengerOne' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerOne != NULL && pPassengerTwo != NULL){
+    ^
+..\Passenger.c:409:27: warning: 'pPassengerTwo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(pPassengerOne != NULL && pPassengerTwo != NULL){
+                           ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+22:01:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+..\Passenger.c: In function 'Passenger_sortByName':
+..\Passenger.c:409:4: warning: 'pPassengerOne' is used uninitialized in this function [-Wuninitialized]
+  if(pPassengerOne == NULL && pPassengerTwo == NULL){
+    ^
+..\Passenger.c:409:27: warning: 'pPassengerTwo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(pPassengerOne == NULL && pPassengerTwo == NULL){
+                           ^
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+22:03:25 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:16:45 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_sortPassenger':
+..\Controller.c:364:33: error: 'Passenger_sortByLastName' undeclared (first use in this function)
+     ll_sort(pArrayListPassenger,Passenger_sortByLastName, modoOrd);
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:364:33: note: each undeclared identifier is reported only once for each function it appears in
+22:17:14 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+22:25:15 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+..\Controller.c: In function 'controller_sortPassenger':
+..\Controller.c:374:33: error: 'Passenger_sortByFlyCode' undeclared (first use in this function)
+     ll_sort(pArrayListPassenger,Passenger_sortByFlyCode, modoOrd);
+                                 ^~~~~~~~~~~~~~~~~~~~~~~
+..\Controller.c:374:33: note: each undeclared identifier is reported only once for each function it appears in
+22:25:49 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+22:33:07 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+22:39:43 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:52:59 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:54:18 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:55:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:57:30 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+22:58:08 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:01:55 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:03:47 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:08:53 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:13:55 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:15:14 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:16:06 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:16:41 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:17:32 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:18:24 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:20:13 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:22:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:34:10 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:39:09 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:48:06 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:52:34 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:57:08 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+23:57:37 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3

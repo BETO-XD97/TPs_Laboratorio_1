@@ -59,4 +59,12 @@ int maximoId(LinkedList* pArrayListPassengers);
 
 int verificarId(LinkedList* pArrayListPassenger, int idContador);
 
+int Passenger_sortById(void* idPassengerOne, void* idPassengerTwo);
+int Passenger_sortByName(void* namePassengerOne, void* namePassengerTwo);
+int Passenger_sortByLastName(void* lastNamePassengerOne, void* lastNamePassengerTwo);
+int Passenger_sortByPrice(void* pricePassengerOne, void* pricePassengerTwo);
+int Passenger_sortByFlyCode(void* flyCodePassengerOne, void* flyCodePassengerTwo);
+int Passenger_sortByTypePassenger(void* typePassengerOne, void* typePassengerTwo);
+int Passenger_sortByStatusFlight(void* statusFlightOne, void* statusFlightTwo);
+
 #endif /* PASSENGER_H_ */

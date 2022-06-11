@@ -362,6 +362,7 @@ int maximoId(LinkedList* pArrayListPassengers){
 
 
 int verificarId(LinkedList* pArrayListPassenger, int idContador){
+
 	int retorno = 0;
 
 	if(pArrayListPassenger != NULL && idContador > 0){
@@ -397,3 +398,144 @@ int verificarId(LinkedList* pArrayListPassenger, int idContador){
 	return retorno;
 }
 
+int Passenger_sortById(void* idPassengerOne, void* idPassengerTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(idPassengerOne != NULL && idPassengerTwo != NULL){
+
+		pPassengerOne = (Passenger*) idPassengerOne;
+		pPassengerTwo = (Passenger*) idPassengerTwo;
+
+		if(pPassengerOne->id > pPassengerTwo->id){
+			retorno = 1;
+		} else {
+			if(pPassengerOne->id == pPassengerTwo->id){
+				retorno = 0;
+			} else {
+				retorno = -1;
+			}
+		}
+	}
+
+	return retorno;
+}
+
+int Passenger_sortByName(void* namePassengerOne, void* namePassengerTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(namePassengerOne != NULL && namePassengerTwo != NULL){
+
+		pPassengerOne = (Passenger*) namePassengerOne;
+		pPassengerTwo = (Passenger*) namePassengerTwo;
+
+		retorno = strcmp(pPassengerOne->nombre, pPassengerTwo->nombre);
+	}
+
+	return retorno;
+}
+
+int Passenger_sortByLastName(void* lastNamePassengerOne, void* lastNamePassengerTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(lastNamePassengerOne!= NULL && lastNamePassengerTwo != NULL){
+
+		pPassengerOne = (Passenger*) lastNamePassengerOne;
+		pPassengerTwo = (Passenger*) lastNamePassengerTwo;
+
+		retorno = strcmp(pPassengerOne->apellido, pPassengerTwo->apellido);
+	}
+
+	return retorno;
+}
+
+int Passenger_sortByPrice(void* pricePassengerOne, void* pricePassengerTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(pricePassengerOne != NULL && pricePassengerTwo != NULL){
+
+		pPassengerOne = (Passenger*) pricePassengerOne;
+		pPassengerTwo = (Passenger*) pricePassengerTwo;
+
+		if(pPassengerOne->precio > pPassengerTwo->precio){
+			retorno = 1;
+		} else {
+			if(pPassengerOne->precio == pPassengerTwo->precio){
+				retorno = 0;
+			} else {
+				retorno = -1;
+			}
+		}
+	}
+
+	return retorno;
+}
+
+int Passenger_sortByFlyCode(void* flyCodePassengerOne, void* flyCodePassengerTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(flyCodePassengerOne != NULL && flyCodePassengerTwo != NULL){
+
+		pPassengerOne = (Passenger*) flyCodePassengerOne;
+		pPassengerTwo = (Passenger*) flyCodePassengerTwo;
+
+		retorno = strcmp(pPassengerOne->codigoVuelo, pPassengerTwo->codigoVuelo);
+	}
+
+	return retorno;
+}
+
+int Passenger_sortByTypePassenger(void* typePassengerOne, void* typePassengerTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(typePassengerOne != NULL && typePassengerTwo != NULL){
+
+		pPassengerOne = (Passenger*) typePassengerOne;
+		pPassengerTwo = (Passenger*) typePassengerTwo;
+
+		retorno = strcmp(pPassengerOne->tipoPasajero, pPassengerTwo->tipoPasajero);
+	}
+
+	return retorno;
+}
+
+int Passenger_sortByStatusFlight(void* statusFlightOne, void* statusFlightTwo){
+
+	int retorno = 0;
+
+	Passenger* pPassengerOne;
+	Passenger* pPassengerTwo;
+
+	if(statusFlightOne != NULL && statusFlightTwo != NULL){
+
+		pPassengerOne = (Passenger*) statusFlightOne;
+		pPassengerTwo = (Passenger*) statusFlightTwo;
+
+		retorno = strcmp(pPassengerOne->estadoVuelo, pPassengerTwo->estadoVuelo);
+	}
+
+	return retorno;
+}

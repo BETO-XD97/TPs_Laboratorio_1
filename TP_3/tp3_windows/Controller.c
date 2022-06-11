@@ -342,13 +342,105 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 {
 	int retorno = 0;
 	int opcionOrd;
+	int modoOrd;
+
+	//Variables de verificacion
+	int rtnSid, rtnSna, rtnSln, rtnSpr, rtnSfc, rtnStp, rtnSev;
 
 	if(pArrayListPassenger != NULL){
 
-		input_Int(&opcionOrd, "\n1)ID\n2)Nombre\n3)Apellido\n4)Precio\n5)Codigo Vuelo\n6)Tipo Pasajero\n7)Estado Vuelo\n8)Salir\n\nIngrese el tipo de orden por el cual se va a ordenar---> ", "\nError! Ingrese una opcion valida---> ", 1,8);
+		input_Int(&opcionOrd, "\n1)ID\n2)Nombre\n3)Apellido\n4)Precio\n5)Codigo Vuelo\n6)Tipo Pasajero\n7)Estado Vuelo\n8)Salir\nIngrese el tipo de orden por el cual se va a ordenar---> ", "\nError! Ingrese una opcion valida---> ", 1,8);
 
-		switch(opcionOrd){
+		if(opcionOrd >= 1 && opcionOrd <= 7){
+			switch(opcionOrd){
 
+				case 1:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnSid = ll_sort(pArrayListPassenger,Passenger_sortById, modoOrd);
+					if(rtnSid == 0){
+						printf("\nEl ordenamiento por Id fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				case 2:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnSna = ll_sort(pArrayListPassenger,Passenger_sortByName, modoOrd);
+					if(rtnSna == 0){
+						printf("\nEl ordenamiento por Nombre fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				case 3:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnSln = ll_sort(pArrayListPassenger,Passenger_sortByLastName, modoOrd);
+					if(rtnSln == 0){
+						printf("\nEl ordenamiento por Apellido fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				case 4:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnSpr = ll_sort(pArrayListPassenger,Passenger_sortByPrice, modoOrd);
+					if(rtnSpr == 0){
+						printf("\nEl ordenamiento por Precio fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				case 5:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnSfc = ll_sort(pArrayListPassenger,Passenger_sortByFlyCode, modoOrd);
+					if(rtnSfc == 0){
+						printf("\nEl ordenamiento por Codigo Vuelo fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				case 6:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnStp = ll_sort(pArrayListPassenger,Passenger_sortByTypePassenger, modoOrd);
+					if(rtnStp == 0){
+						printf("\nEl ordenamiento por Tipo Pasajero fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				case 7:
+					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
+					scanf("%d", &modoOrd);
+					rtnSev = ll_sort(pArrayListPassenger,Passenger_sortByStatusFlight, modoOrd);
+					if(rtnSev == 0){
+						printf("\nEl ordenamiento por Estado Vuelo fue exitoso!\n");
+					} else {
+						printf("\nHubo un problema en el ordenamiento!\n");
+					}
+					break;
+
+				default:
+					printf("\nError! Opcion invalida. Reintente ----> ");
+					break;
+			}
+			retorno = 1;
+		} else {
+			if(opcionOrd == 8){
+				printf("\nVolviendo al menu principal...\n");
+				retorno = 0;
+			}
 		}
 	}
     return retorno;
