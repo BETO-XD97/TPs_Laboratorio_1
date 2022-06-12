@@ -3188,3 +3188,20 @@ Info: Nothing to build for pruebaTp3
 Info: Nothing to build for pruebaTp3
 Info: Nothing to build for pruebaTp3
 Info: Nothing to build for pruebaTp3
+20:54:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3
+Info: Nothing to build for pruebaTp3

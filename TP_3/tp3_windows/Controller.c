@@ -329,6 +329,8 @@ int controller_ListPassenger(LinkedList* pArrayListPassenger)
 
 		cantidad = ll_len(pArrayListPassenger);
 
+		ll_sort(pArrayListPassenger,Passenger_sortById, 1);
+
 		printf("\n\n[-----------------------------------------------------------LISTA DE PASAJEROS--------------------------------------------------------------]\n\n");
 		printf("[--ID--] [---------NOMBRE---------] [---------APELLIDO---------] [----PRECIO----] [-CODIGO VUELO-] [---TIPO PASAJERO---] [---ESTADO VUELO---]\n");
 

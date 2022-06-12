@@ -5,6 +5,11 @@
 #include "Passenger.h"
 #include "LinkedList.h"
 
+
+/**
+ * brief Crea un nuevo pasajero(un nuevo nodo)
+ * @return retorna el pasajero con sus parametros inicializados en NULL
+ */
 Passenger* Passenger_new(){
 
 	Passenger* unPasajero;
@@ -25,6 +30,17 @@ Passenger* Passenger_new(){
 	return unPasajero;
 }
 
+/**
+ * brief Toma los valores del archivo data.csv y setea los datos en cada uno de los elementos de un nodo
+ * @param id puntero a char
+ * @param nombre puntero a char
+ * @param apellido puntero a char
+ * @param precio puntero a char
+ * @param codigoVuelo puntero a char
+ * @param tipoPasajero puntero a char
+ * @param estadoVuelo puntero a char
+ * @return
+ */
 Passenger* Passenger_newParametros(char* id,char* nombre,char* apellido, char* precio, char* codigoVuelo, char* tipoPasajero, char* estadoVuelo){
 
 	Passenger* unPasajero;
@@ -53,6 +69,10 @@ Passenger* Passenger_newParametros(char* id,char* nombre,char* apellido, char* p
 	return unPasajero;
 }
 
+/**
+ * bried Destruye un nodo de tipo pasajero
+ * @param this referencia
+ */
 void Passenger_delete(Passenger* this){//Destructor
 
 	if(this != NULL){
@@ -61,6 +81,12 @@ void Passenger_delete(Passenger* this){//Destructor
 
 }
 
+/**
+ * brief Guarda el id recibido en el campo id de la estructura
+ * @param this estructura
+ * @param id int
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setId(Passenger* this,int id){
 
 	int retorno;
@@ -75,6 +101,12 @@ int Passenger_setId(Passenger* this,int id){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento id a un puntero
+ * @param this estructura
+ * @param id int
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getId(Passenger* this,int* id){
 
 	int retorno;
@@ -89,6 +121,12 @@ int Passenger_getId(Passenger* this,int* id){
 	return retorno;
 }
 
+/**
+ * brief Guarda el nombre recibido en el campo nombre de la estructura
+ * @param this estructura
+ * @param nombre char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setNombre(Passenger* this,char* nombre){
 
 	int retorno = 0;
@@ -104,6 +142,12 @@ int Passenger_setNombre(Passenger* this,char* nombre){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento nombre a un puntero char
+ * @param this estructura
+ * @param nombre char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getNombre(Passenger* this,char* nombre){
 
 	int retorno = 0;
@@ -117,6 +161,12 @@ int Passenger_getNombre(Passenger* this,char* nombre){
 	 return retorno;
 }
 
+/**
+ * brief Guarda el apellido recibido en el campo apellido de la estructura
+ * @param this estructura
+ * @param apellido char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setApellido(Passenger* this,char* apellido){
 
 	int retorno = 0;
@@ -132,6 +182,12 @@ int Passenger_setApellido(Passenger* this,char* apellido){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento apellido a un puntero char
+ * @param this estructura
+ * @param apellido char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getApellido(Passenger* this,char* apellido){
 
 	int retorno = 0;
@@ -145,6 +201,12 @@ int Passenger_getApellido(Passenger* this,char* apellido){
 	return retorno;
 }
 
+/**
+ * brief Guarda el precio recibido en el campo precio de la estructura
+ * @param this estructura
+ * @param precio float
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setPrecio(Passenger* this,float precio){
 
 	int retorno = 0;
@@ -157,6 +219,12 @@ int Passenger_setPrecio(Passenger* this,float precio){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento precio a un puntero
+ * @param this estructura
+ * @param precio float puntero
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getPrecio(Passenger* this,float* precio){
 
 	int retorno = 0;
@@ -169,6 +237,12 @@ int Passenger_getPrecio(Passenger* this,float* precio){
 	return retorno;
 }
 
+/**
+ * brief Guarda el codigo de vuelo recibido en el campo codigovuelo de la estructura
+ * @param this estructura
+ * @param codigoVuelo char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setCodigoVuelo(Passenger* this,char* codigoVuelo){
 
 	int retorno = 0;
@@ -182,6 +256,12 @@ int Passenger_setCodigoVuelo(Passenger* this,char* codigoVuelo){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento codigoVuelo a un puntero char
+ * @param this estructura
+ * @param codigoVuelo char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getCodigoVuelo(Passenger* this,char* codigoVuelo){
 
 	int retorno = 0;
@@ -194,6 +274,12 @@ int Passenger_getCodigoVuelo(Passenger* this,char* codigoVuelo){
 	return retorno;
 }
 
+/**
+ * brief Guarda el tipo de pasajero recibido en el campo tipoPasajero de la estructura
+ * @param this estructura
+ * @param tipoPasajero char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setTipoPasajero(Passenger* this,char* tipoPasajero){
 
 	int retorno = 0;
@@ -206,6 +292,12 @@ int Passenger_setTipoPasajero(Passenger* this,char* tipoPasajero){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento tipoPasajero a un puntero char
+ * @param this estructura
+ * @param tipoPasajero char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getTipoPasajero(Passenger* this,char* tipoPasajero){
 
 	int retorno = 0;
@@ -218,6 +310,12 @@ int Passenger_getTipoPasajero(Passenger* this,char* tipoPasajero){
 	return retorno;
 }
 
+/**
+ * brief Guarda el estado de vuelo recibido en el campo estadoVuelo de la estructura
+ * @param this estructura
+ * @param estadoVuelo char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_setEstadoVuelo(Passenger* this, char* estadoVuelo){
 
 	int retorno = 0;
@@ -230,6 +328,12 @@ int Passenger_setEstadoVuelo(Passenger* this, char* estadoVuelo){
 	return retorno;
 }
 
+/**
+ * brief Envia el dato en el elemento estadoVuelo a un puntero char
+ * @param this estructura
+ * @param estadoVuelo char*
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_getEstadoVuelo(Passenger* this,char* estadoVuelo){
 
 	int retorno = 0;
@@ -242,6 +346,12 @@ int Passenger_getEstadoVuelo(Passenger* this,char* estadoVuelo){
 	return retorno;
 }
 
+/**
+ * brief Recibe un int y dependiendo del numero copia un mensaje en un puntero char
+ * @param typePassenger int
+ * @param descripcion char *
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_typePassengerDescripcion(int typePassenger, char* descripcion){
 
 	int retorno = 0;
@@ -266,6 +376,12 @@ int Passenger_typePassengerDescripcion(int typePassenger, char* descripcion){
 	return retorno;
 }
 
+/**
+ * brief Recibe un int y dependiendo del numero copia un mensaje en un puntero char
+ * @param statusFlight int
+ * @param descripcion char *
+ * @return [1]-ok  [0]-fail
+ */
 int Passenger_statusFlightDescripcion(int statusFlight, char* descripcion){
 
 	int retorno = 0;
@@ -294,6 +410,10 @@ int Passenger_statusFlightDescripcion(int statusFlight, char* descripcion){
 		return retorno;
 }
 
+/**
+ * brief Imprime un pasajero
+ * @param unPasajero
+ */
 void Passenger_printOne(Passenger* unPasajero){
 
 	//Variables auxilires para imprimir
@@ -320,6 +440,12 @@ void Passenger_printOne(Passenger* unPasajero){
 	}
 }
 
+/**
+ * brief Busca el id recibiendo un idAux tipo int
+ * @param pArrayListPassengers estructura
+ * @param id int
+ * @return retorna el id encontrado
+ */
 int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
 
 	int retorno = 0;
@@ -340,6 +466,11 @@ int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
 	return retorno;
 }
 
+/**
+ * brief Busca el mayor id de la linkedlist
+ * @param pArrayListPassengers estructura
+ * @return retorna el mayor id
+ */
 int maximoId(LinkedList* pArrayListPassengers){
 
 	int retorno = 0;
@@ -353,7 +484,14 @@ int maximoId(LinkedList* pArrayListPassengers){
 	return retorno;
 }
 
-
+/**
+ * brief Recibe los id de los pasajero ingresados anteriormente de cargar el archivo, en caso de
+ * cargar el archivo teniendo pasajeros ingresados, los id de estos se le suman el ultimo id
+ * del archivo modificando sus id.
+ * @param pArrayListPassenger estructura
+ * @param idContador int contador de los id ingresados
+ * @return modifica los id anteriores a la carga del archivo
+ */
 int verificarId(LinkedList* pArrayListPassenger, int idContador){
 
 	int retorno = 0;
@@ -391,6 +529,12 @@ int verificarId(LinkedList* pArrayListPassenger, int idContador){
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por Id
+ * @param idPassengerOne estructura pasajero 1
+ * @param idPassengerTwo estructura pasajero 2
+ * @return retorna la comparacion
+ */
 int Passenger_sortById(void* idPassengerOne, void* idPassengerTwo){
 
 	int retorno = 0;
@@ -417,6 +561,12 @@ int Passenger_sortById(void* idPassengerOne, void* idPassengerTwo){
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por nombre
+ * @param namePassengerOne estructura pasajero 1
+ * @param namePassengerTwo estructura pasajero 2
+ * @return retorna la comparacion
+ */
 int Passenger_sortByName(void* namePassengerOne, void* namePassengerTwo){
 
 	int retorno = 0;
@@ -435,6 +585,12 @@ int Passenger_sortByName(void* namePassengerOne, void* namePassengerTwo){
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por apellido
+ * @param lastNamePassengerOne estructura pasajero 1
+ * @param lastNamePassengerTwo estructura pasajero 2
+ * @return retorna la comparacion
+ */
 int Passenger_sortByLastName(void* lastNamePassengerOne, void* lastNamePassengerTwo){
 
 	int retorno = 0;
@@ -453,6 +609,12 @@ int Passenger_sortByLastName(void* lastNamePassengerOne, void* lastNamePassenger
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por precio
+ * @param pricePassengerOne estructura pasajero 1
+ * @param pricePassengerTwo estructura pasajero 2
+ * @return retorna la comparacion
+ */
 int Passenger_sortByPrice(void* pricePassengerOne, void* pricePassengerTwo){
 
 	int retorno = 0;
@@ -479,6 +641,12 @@ int Passenger_sortByPrice(void* pricePassengerOne, void* pricePassengerTwo){
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por codigo de vuelo
+ * @param flyCodePassengerOne estructura pasajero 1
+ * @param flyCodePassengerTwo estructura pasajero 2
+ * @return retorna el ordenamiento
+ */
 int Passenger_sortByFlyCode(void* flyCodePassengerOne, void* flyCodePassengerTwo){
 
 	int retorno = 0;
@@ -497,6 +665,12 @@ int Passenger_sortByFlyCode(void* flyCodePassengerOne, void* flyCodePassengerTwo
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por tipo de pasajero
+ * @param typePassengerOne estructura pasajero 1
+ * @param typePassengerTwo estructura pasajero 2
+ * @return retorna el ordenamiento
+ */
 int Passenger_sortByTypePassenger(void* typePassengerOne, void* typePassengerTwo){
 
 	int retorno = 0;
@@ -515,6 +689,12 @@ int Passenger_sortByTypePassenger(void* typePassengerOne, void* typePassengerTwo
 	return retorno;
 }
 
+/**
+ * brief Ordena la lista por estado de vuelo
+ * @param statusFlightOne estructura pasajero 1
+ * @param statusFlightTwo estructura pasajero 2
+ * @return retorna el ordenamiento
+ */
 int Passenger_sortByStatusFlight(void* statusFlightOne, void* statusFlightTwo){
 
 	int retorno = 0;
