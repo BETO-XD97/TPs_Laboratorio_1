@@ -709,6 +709,5 @@ int Passenger_sortByStatusFlight(void* statusFlightOne, void* statusFlightTwo){
 
 		retorno = strcmp(pPassengerOne->estadoVuelo, pPassengerTwo->estadoVuelo);
 	}
-
 	return retorno;
 }
