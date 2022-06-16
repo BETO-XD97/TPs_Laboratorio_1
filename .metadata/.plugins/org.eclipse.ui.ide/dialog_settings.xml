@@ -14,6 +14,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\BETO\eclipse-workspace\TPs\TP_4"/>
+			<item value="C:\Users\BETO\eclipse-workspace\TPs\TP_4\TP_prueba"/>
 			<item value="C:\Users\BETO\eclipse-workspace\TPs\TP_3\tp3_windows"/>
 			<item value="C:\Users\BETO\eclipse-workspace\TPs"/>
 			<item value="C:\Users\BETO\eclipse-workspace\TPs\TP_3"/>
