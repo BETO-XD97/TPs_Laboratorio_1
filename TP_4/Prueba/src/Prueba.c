@@ -47,11 +47,29 @@ int idDescontado = 0;
 int idA;
 int idE;
 
+int rtnSclon;
+int rtnSsub;
+int listTo;
+int listFrom;
+int opcionElim;
+int opcionImp;
+int rtnPush;
+int deletedList;
+int deletedSubList;
+int deletedClonList;
+int push;
+int comparar;
+int listaComp;
+int opcionComp;
+int contains;
+
 int main()
 {
 	setbuf(stdout, NULL);
 
     LinkedList* listaPasajeros = ll_newLinkedList();
+    LinkedList* subListaPasajeros = ll_newLinkedList();
+    LinkedList* clonacionListaPasajeros = ll_newLinkedList();
 
     do{
     	printf("\n----------------------------Bienvenido al sistema------------------------");
@@ -65,6 +83,11 @@ int main()
     			"\n8)Guardar datos de pasajeros en archivo data.csv (modo texto)"
     			"\n9)Guardar datos de pasajeros en archivo data.csv (modo binario)"
     			"\n10)Salir"
+    			"\n11)Crear una subList"
+    			"\n12)Clonar la lista"
+    			"\n13)Eliminar lista"
+    			"\n14)Pushear un numero pasajero"
+    			"\n15)Comparar dos listas"
     			"\n\nIngrese la opcion a realizar---> "
     			);
     	fflush(stdin);
@@ -131,7 +154,18 @@ int main()
             	break;
             case 6:
             	if(valIng == 1){
-            		controller_ListPassenger(listaPasajeros);
+            		input_Int(&opcionImp, "\n1)Lista de pasajeros\n2)Sublista de pasajeros\n3)Lista de pasajeros clonada\nQue lista desea imprimir: ", "\nError! Reingrese--->", 1, 3);
+            		switch(opcionImp){
+						case 1:
+							controller_ListPassenger(listaPasajeros);
+						break;
+						case 2:
+							controller_ListPassenger(subListaPasajeros);
+							break;
+						case 3:
+							controller_ListPassenger(clonacionListaPasajeros);
+							break;
+            		}
             	} else {
             		printf("\nNo hay datos para listar!\n");
             	}
@@ -202,6 +236,107 @@ int main()
             	}
             	break;
 
+            case 11:
+            	if(valIng == 1){
+					input_Int(&listFrom, "\nIngrese desde donde quiere sublistar: ", "\nError! Reingrese---> ", 1, ll_len(listaPasajeros));
+					input_Int(&listTo, "\nIngrese hasta donde quiere sublistar: ", "\nError! Reingrese---> ", 1, ll_len(listaPasajeros));
+					if(listFrom < listTo){
+						subListaPasajeros = ll_subList(listaPasajeros, listFrom, listTo);
+						rtnSsub = controller_saveAsText("datamodSubList.csv", subListaPasajeros);//Refrescar la carpeta debug
+						if(rtnSsub == 1){
+							listaComp = 1;
+							printf("\nSe ha hecho una sublista de la lista de pasajeros\n");
+						} else {
+							printf("\nNo se ha hecho una sublista de la lista de pasajeros\n");
+						}
+					} else {
+						printf("\nNo se puede sublistar porque el primer ingreso es mayor al segundo!\n");
+					}
+            	} else {
+
+            		printf("\nPrimero debe cargar el archivo para poder sublistar!\n");
+            	}
+            	break;
+
+            case 12:
+            	if(valIng == 1){
+					clonacionListaPasajeros = ll_clone(listaPasajeros);
+					rtnSclon = controller_saveAsText("datamodClone.csv", clonacionListaPasajeros);//Refrescar la carpeta debug
+					if(rtnSclon == 1){
+						listaComp = 1;
+						printf("\nSe ha clonado la lista de pasajeros\n");
+					} else {
+						printf("\nNo se ha clonado la lista de pasajeros\n");
+					}
+            	} else {
+
+            		printf("\nPrimero debe cargar el archivo para poder clonar la lista!\n");
+            	}
+            	break;
+
+            case 13:
+            	input_Int(&opcionElim, "\n1)Lista de pasajeros\n2)Sublista de pasajeros\n3)Lista clonada de pasajeros\nCual de las siguientes listas desea eliminar: ", "\nError! Reintente---> ", 1, 3);
+            	switch(opcionElim){
+            		case 1:
+            			deletedList = ll_deleteLinkedList(listaPasajeros);
+            			if(deletedList == 0){
+            				printf("\nSe ha eliminado la estructura de pasajeros!\n");
+            			} else {
+            				printf("\nHubo un problema!\n");
+            			}
+            			break;
+            		case 2:
+            			deletedSubList = ll_deleteLinkedList(subListaPasajeros);
+            			if(deletedSubList == 0){
+            				printf("\nSe ha eliminado la estructura de pasajeros de sublista!\n");
+            			} else {
+            				printf("\nHubo un problema!\n");
+            			}
+            			break;
+            		case 3:
+            			deletedClonList = ll_deleteLinkedList(clonacionListaPasajeros);
+            			if(deletedClonList == 0){
+            				printf("\nSe ha eliminado la estructura de pasajeros clonados!\n");
+            			} else {
+            				printf("\nHubo un problema!\n");
+            			}
+            			break;
+            	}
+            	break;
+
+            	case 14:
+            		if(valIng == 1){
+            			rtnPush = controller_addPush(listaPasajeros);
+            			if(rtnPush == 1){
+            				printf("\nEl pusheo fue exitoso!\n");
+            			} else {
+            				printf("\nHubo un problema al pushear\n");
+            			}
+            		} else {
+            			printf("\nPrimero debe cargar una lista!\n");
+            		}
+            		break;
+
+            	case 15:
+            		if(listaComp == 1){
+            			input_Int(&opcionComp, "\nIngre con cual desea comparar 1-subLista / 2- lista clonada\n----> ", "\nError! Reingrese-->", 1, 2);
+            			switch(opcionComp){
+            				case 1:
+            					comparar = ll_containsAll( listaPasajeros, subListaPasajeros);
+            					break;
+            				case 2:
+            					comparar = ll_containsAll( listaPasajeros, clonacionListaPasajeros);
+            					break;
+            			}
+						if(comparar == 0){
+							printf("\nLa listas son las mismas!\n");
+						} else {
+							printf("\nLa listas NO son las mismas!\n");
+						}
+            		} else {
+            			printf("\nPrimero debe clonar el archivo o crear una sublista para poder comparar!\n");
+            		}
+            		break;
             default:
             	printf("\nLa opcion es invalida. Elija una opcion....\n");
             	break;

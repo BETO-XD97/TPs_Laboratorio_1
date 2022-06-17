@@ -9,3 +9,5 @@ int controller_ListPassenger(LinkedList* pArrayListPassenger);
 int controller_sortPassenger(LinkedList* pArrayListPassenger);
 int controller_saveAsText(char* path , LinkedList* pArrayListPassenger);
 int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger);
+
+int controller_addPush(LinkedList* this);
