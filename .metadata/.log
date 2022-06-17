@@ -3506,3 +3506,8 @@ org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connect
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-06-17 16:08:48.155
 !MESSAGE Indexed 'Segundo_Parcial' (1 sources, 10 headers) in 0,144 sec: 875 declarations; 1.698 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.core.resources 2 2 2022-06-17 16:19:40.441
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-06-17 16:19:40.441
+!MESSAGE The project description file (.project) for 'Segundo_Parcial' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
