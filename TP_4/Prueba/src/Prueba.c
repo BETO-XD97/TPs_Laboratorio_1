@@ -306,7 +306,7 @@ int main()
 
             	case 14:
             		if(valIng == 1){
-            			rtnPush = controller_addPush(listaPasajeros);
+            			rtnPush = controller_Pop(listaPasajeros);
             			if(rtnPush == 1){
             				printf("\nEl pusheo fue exitoso!\n");
             			} else {

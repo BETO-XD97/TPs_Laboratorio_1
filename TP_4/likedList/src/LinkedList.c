@@ -604,40 +604,35 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     return retorno;
 }
 
+//**************************************************************************************
 
-//Funciones extras no entra al tp--------------------------------------
+//Funciones extras no entran al tp4 pero necesarias para el segundo parcial (16/6)
+
 /*
  * Completa un campo del elemento, recibiendo como parámetro
  * la función que sera la encargada de calcular el valor de ese campo.
  * Verificando que tanto el puntero this como el puntero a la funcion
  * fn sean distintos de NULL. Retorna la lista completa.
  * */
-/*
-LinkedList* ll_map(LinkedList* this, void (*fn)(void* element)){
+
+LinkedList* ll_map(LinkedList* this, void (*pFunc)(void* element)){
+
+	int len;
 
 	LinkedList* list = NULL;
 
-	if(this != NULL && fn != NULL){
+	len = ll_len(this);
 
-		for(int i=0; i<ll_len(this); i++){
+	if(this != NULL && pFunc != NULL){
 
-			fn(ll_get(this, i));
+		for(int i=0; i<len; i++){
+
+			pFunc(ll_get(this, i));
 		}
+		list = this;
 	}
+	return list;
 }
-*/
-
-//Ejemplo de funcion fn
-/*void calcularPrecioFinal(Producto* p)
-{
-    if(p != NULL)
-    {
-        p->precioFinal = p->precioUnitario*p->cantidad;
-    }
-return;
-}*/
-
-//Obvio que usando los getters y setters
 
 /*
  * Filtra la lista con una condición, recibiendo como parámetro
@@ -647,45 +642,32 @@ return;
  * fn sean distintos de NULL. Retorna la lista nueva lista filtrada.
  * */
 
-/*
-LinkedList* ll_filter(LinkedList* this, int(*fn)(void*)){
 
-	LinkedList filterList = NULL;
+LinkedList* ll_filter(LinkedList* this, int(*pFunc)(void*)){
+
 	void* pElement;
+	int len;
 
-	if(this != NULL && fn != NULL){
+	LinkedList* filterList = NULL;
+
+	len = ll_len(this);
+
+	if(this != NULL && pFunc != NULL){
 
 		filterList = ll_newLinkedList();
 
 		if(filterList != NULL){
 
-			for(int i=0; i<ll_len(this); i++){
+			for(int i=0; i<len; i++){
 
 				pElement = ll_get(this, i);
-				fn(pElement);
 
-				if(fn(this, ll_get(this, i))){
+				if(pFunc(pElement) == 0){
 
-					ll_add(filterList, ll_get(this, i));
+					ll_add(filterList, pElement);
 				}
 			}
 		}
-
 	}
+	return filterList;
 }
-*/
-/*
-Ejemplo de funcion fn
-int filtrarMujeres(eEmpleado* emp)
-{
-    int retorno = 0;
-    if(emp != NULL){
-
-     if(eEmpleado->sexo == 'f'){
-        retorno = 1;
-     }
-
-    }
-    return retorno;
-}
-*/

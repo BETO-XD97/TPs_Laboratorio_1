@@ -563,29 +563,31 @@ int controller_saveAsBinary(char* path , LinkedList* pArrayListPassenger)
 }
 
 
-int controller_addPush(LinkedList* this){
+int controller_Pop(LinkedList* this){
 
 	int retorno = 0;
-	int push;
 	int pushAux;
-	int pushFrom;
-	int pushTo;
+	int popAux;
+	int push;
+	int pop;
 
 	Passenger* pasajeroAux;
 
 	if(this != NULL){
 
-		input_Int(&push, "\nIngrese el ID del pasajero que desea mover: ", "\nError! Reingrese--->", 1, ll_len(this));
+		input_Int(&pop, "\nIngrese el ID del pasajero que desea remover de la lista: ", "\nError! Reingrese--->", 1, ll_len(this));
 		input_Int(&pushAux, "\nIngrese el ID del pasajero a donde lo desea mover: ", "\nError! Reingrese--->", 1, ll_len(this));
 
-		pushFrom = Passenger_searchForId(this, push);
-		pushTo = Passenger_searchForId(this, pushAux);
+		popAux = Passenger_searchForId(this, pop);
+		pushAux = Passenger_searchForId(this, pushAux);
 
-		pasajeroAux = ll_pop(this, pushFrom);
+		pasajeroAux = ll_pop(this, popAux);
 
 		if(pasajeroAux != NULL){
 
-			ll_push(this, pushTo, pasajeroAux);
+			Passenger_printOne(pasajeroAux);
+			controller_addPassenger();
+			ll_push(this, pushAux, pasajeroAux);
 			retorno = 1;
 		}
 	}
