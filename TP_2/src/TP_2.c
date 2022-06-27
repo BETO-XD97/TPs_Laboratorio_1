@@ -70,13 +70,13 @@ int main(void) {
 				if(idAux < TAM){
 					printf("\n\n-------------Ingreso de Datos----------------\n\n");
 					idAux++;
-					rellenarChar(nameAux, "\n-->Ingrese el nombre:");
-					rellenarChar(lastNameAux, "\n-->Ingrese el apellido: ");
-					rellenarFloat(&priceAux, "\n-->Ingrese el precio: ", "\nError! Reingrese: ");
-					rellenarChar(flyCodeAux, "\n-->Ingrese el codigo de vuelo:");
+					input_Char(nameAux, "\n-->Ingrese el nombre\n(Solo letras): ", "\nError!\n");
+					input_Char(lastNameAux, "\n-->Ingrese el apellido\n(Solo letras): ", "\nError!\n");
+					input_Float(&priceAux, "\n-->Ingrese el precio\n(Precio Maximo: $1.000.000): ", "\nError!\n", 1,1000000);
+					rellenarCodigo(flyCodeAux, "\n-->Ingrese el codigo de vuelo\n(Ej:ABC174): ");
 					strupr(flyCodeAux);
-					rellenarInt(&typePassengerAux, "\nIngrese el tipo de pasajero: \n1-->Ejecutivo  \n2-->Turista \n3-->VIP\n-------->", "\nError! Reingrese: ");
-					rellenarInt(&statusFlightAux, "\nIngrese el estado de vuelo: \n1-->Activo \n2-->Demorado \n3-->Cancelado \n------->", "\nError! Reingrese: ");
+					input_Int(&typePassengerAux, "\nIngrese el tipo de pasajero: \n1-->Ejecutivo  \n2-->Turista \n3-->VIP\n--------> ", "\nError!\n", 1, 3);
+					input_Int(&statusFlightAux, "\nIngrese el estado de vuelo: \n1-->Activo \n2-->Demorado \n3-->Cancelado \n-------> ", "\nError!\n", 1, 3);
 
 					addPassenger(pasajero, TAM,idAux,nameAux,lastNameAux,priceAux,flyCodeAux,typePassengerAux,statusFlightAux,isEmptyAux);
 
@@ -98,7 +98,7 @@ int main(void) {
 
 			case 3:
 				if(inicioInt == 1){
-					rellenarInt(&idRecibida, "\n-->Ingrese el ID del usuario a eliminar:", "\nError! Reingrese: ");
+					input_Int(&idRecibida, "\n-->Ingrese el ID del usuario a eliminar:", "\nError!\n", 1, 2000);
 
 					idRemover = removePassenger(pasajero, TAM, idRecibida);
 				} else {
@@ -120,7 +120,7 @@ int main(void) {
 						switch(opcionMOr)
 						{
 								case 1:
-									rellenarInt(&tipoOrden, "\nEn que orden queres acomodar: 1-Asc / 2-Desc--->", "\nError! Reingrese: ");
+									input_Int(&tipoOrden, "\nEn que orden queres acomodar: 1-Asc / 2-Desc--->", "\nError!\n", 1, 2);
 									sortPassenger(pasajero, TAM, tipoOrden);
 									printPassenger(pasajero, TAM, idAux);
 									break;
@@ -134,7 +134,7 @@ int main(void) {
 
 									break;
 								case 3:
-									rellenarInt(&tipoOrden, "\n\nEn que orden queres acomodar: 1-Asc / 2-Desc---> ", "\nError! Reingrese: ");
+									input_Int(&tipoOrden, "\n\nEn que orden queres acomodar: 1-Asc / 2-Desc---> ", "\nError!\n", 1,2);
 									sortPassengerByCode(pasajero, TAM, tipoOrden);
 									printPassenger(pasajero, TAM, idAux);
 									break;
@@ -219,7 +219,7 @@ int main(void) {
 					break;
 
 			case 6:
-				printf("\nGracias por usar nuestros servicio!!!");
+				printf("\nGracias por usar nuestros servicios!!!");
 				break;
 
 			default:

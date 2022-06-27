@@ -1,24 +1,301 @@
-15:28:53 **** Incremental Build of configuration Debug for project likedList ****
+17:35:07 **** Incremental Build of configuration Debug for project TP_2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\newTest.o" "..\\testing\\src\\newTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\containsTest.o" "..\\testing\\src\\containsTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\popTest.o" "..\\testing\\src\\popTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\clearTest.o" "..\\testing\\src\\clearTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\removeTest.o" "..\\testing\\src\\removeTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\LinkedList.o" "..\\src\\LinkedList.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\lenTest.o" "..\\testing\\src\\lenTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\cloneTest.o" "..\\testing\\src\\cloneTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\subListTest.o" "..\\testing\\src\\subListTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\isEmptyTest.o" "..\\testing\\src\\isEmptyTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\setTest.o" "..\\testing\\src\\setTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\addTest.o" "..\\testing\\src\\addTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\addNodeTest.o" "..\\testing\\src\\addNodeTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\sortTest.o" "..\\testing\\src\\sortTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\indexOfTest.o" "..\\testing\\src\\indexOfTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\pushTest.o" "..\\testing\\src\\pushTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\getNodeTest.o" "..\\testing\\src\\getNodeTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\getTest.o" "..\\testing\\src\\getTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\deleteLinkedListTest.o" "..\\testing\\src\\deleteLinkedListTest.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "testing\\src\\containsAllTest.o" "..\\testing\\src\\containsAllTest.c" 
-gcc -o likedList "src\\LinkedList.o" "src\\main.o" "testing\\src\\Employee.o" "testing\\src\\addNodeTest.o" "testing\\src\\addTest.o" "testing\\src\\clearTest.o" "testing\\src\\cloneTest.o" "testing\\src\\containsAllTest.o" "testing\\src\\containsTest.o" "testing\\src\\deleteLinkedListTest.o" "testing\\src\\getNodeTest.o" "testing\\src\\getTest.o" "testing\\src\\indexOfTest.o" "testing\\src\\isEmptyTest.o" "testing\\src\\lenTest.o" "testing\\src\\main_test.o" "testing\\src\\newTest.o" "testing\\src\\popTest.o" "testing\\src\\pushTest.o" "testing\\src\\removeTest.o" "testing\\src\\setTest.o" "testing\\src\\sortTest.o" "testing\\src\\subListTest.o" "testing\\utest.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+..\src\tpInput.c: In function 'getInt':
+..\src\tpInput.c:137:46: warning: implicit declaration of function 'esNumerica' [-Wimplicit-function-declaration]
+   if (myGets(buffer, sizeof(buffer)) == 0 && esNumerica(buffer))
+                                              ^~~~~~~~~~
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+src\pasajeros.o: In function `modifyPassengerData':
+C:\Users\BETO\eclipse-workspace\TPs\TP_2\Debug/../src/pasajeros.c:125: undefined reference to `rellenarChar'
+C:\Users\BETO\eclipse-workspace\TPs\TP_2\Debug/../src/pasajeros.c:129: undefined reference to `rellenarChar'
+collect2.exe: error: ld returned 1 exit status
+17:36:57 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+..\src\tpInput.c: In function 'getInt':
+..\src\tpInput.c:137:46: warning: implicit declaration of function 'esNumerica' [-Wimplicit-function-declaration]
+   if (myGets(buffer, sizeof(buffer)) == 0 && esNumerica(buffer))
+                                              ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:76:6: warning: implicit declaration of function 'rellenarCodigo' [-Wimplicit-function-declaration]
+      rellenarCodigo(flyCodeAux, "\n-->Ingrese el codigo de vuelo:");
+      ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+src\pasajeros.o: In function `modifyPassengerData':
+C:\Users\BETO\eclipse-workspace\TPs\TP_2\Debug/../src/pasajeros.c:125: undefined reference to `rellenarChar'
+C:\Users\BETO\eclipse-workspace\TPs\TP_2\Debug/../src/pasajeros.c:129: undefined reference to `rellenarChar'
+collect2.exe: error: ld returned 1 exit status
+17:37:16 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+17:40:19 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+..\src\TP_2.c: In function 'main':
+..\src\TP_2.c:76:6: warning: implicit declaration of function 'rellenarCodigo' [-Wimplicit-function-declaration]
+      rellenarCodigo(flyCodeAux, "\n-->Ingrese el codigo de vuelo:");
+      ^~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+17:40:52 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+..\src\tpInput.c: In function 'getInt':
+..\src\tpInput.c:137:46: warning: implicit declaration of function 'esNumerica' [-Wimplicit-function-declaration]
+   if (myGets(buffer, sizeof(buffer)) == 0 && esNumerica(buffer))
+                                              ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+17:44:13 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+..\src\tpInput.c: In function 'getInt':
+..\src\tpInput.c:137:46: warning: implicit declaration of function 'esNumerica' [-Wimplicit-function-declaration]
+   if (myGets(buffer, sizeof(buffer)) == 0 && esNumerica(buffer))
+                                              ^~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+17:44:37 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:07:50 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+16:13:54 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+16:20:56 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:23:01 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:24:05 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+16:24:08 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:31:27 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+..\src\pasajeros.c: In function 'printPassenger':
+..\src\pasajeros.c:65:8: warning: unused variable 'statusAux' [-Wunused-variable]
+   char statusAux[50];
+        ^~~~~~~~~
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:32:50 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+16:34:45 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:35:51 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+16:37:29 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+16:42:56 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+..\src\pasajeros.c: In function 'printPassenger':
+..\src\pasajeros.c:105:92: warning: conversion lacks type at end of format [-Wformat=]
+     printf("\n   %d          %s            %s        %.2f            %s         %s       s% ",
+                                                                                            ^
+..\src\pasajeros.c:105:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("\n   %d          %s            %s        %.2f            %s         %s       s% ",
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:43:04 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+..\src\pasajeros.c: In function 'printPassenger':
+..\src\pasajeros.c:105:92: warning: conversion lacks type at end of format [-Wformat=]
+     printf("\n   %d          %s            %s        %.2f            %s         %s       s% ",
+                                                                                            ^
+..\src\pasajeros.c:105:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("\n   %d          %s            %s        %.2f            %s         %s       s% ",
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+16:43:27 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+..\src\pasajeros.c: In function 'printPassenger':
+..\src\pasajeros.c:105:92: warning: conversion lacks type at end of format [-Wformat=]
+     printf("\n   %d          %s            %s        %.2f            %s         %s       s% ",
+                                                                                            ^
+..\src\pasajeros.c:105:12: warning: too many arguments for format [-Wformat-extra-args]
+     printf("\n   %d          %s            %s        %.2f            %s         %s       s% ",
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+16:44:03 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:46:35 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:49:58 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:50:52 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+16:53:56 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:55:28 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:56:09 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:56:46 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:57:15 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:57:32 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+16:57:54 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+17:23:24 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+17:26:11 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+17:27:06 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+17:32:11 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+17:36:58 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+17:37:26 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+17:46:43 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2
+Info: Nothing to build for TP_2
+18:30:16 **** Incremental Build of configuration Debug for project TP_2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pasajeros.o" "..\\src\\pasajeros.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TP_2.o" "..\\src\\TP_2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tpInput.o" "..\\src\\tpInput.c" 
+gcc -o TP_2.exe "src\\TP_2.o" "src\\pasajeros.o" "src\\tpInput.o" 
+Info: Nothing to build for TP_2

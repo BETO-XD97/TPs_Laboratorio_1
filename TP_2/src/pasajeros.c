@@ -61,43 +61,49 @@ void addPassenger(ePassenger list[], int len,int id, char name[],char lastName[]
 
 void printPassenger(ePassenger list[], int len,int id){
 
-		printf("\n\n|| ID ||     NOMBRE    ||      APELLIDO      ||      PRECIO      ||   CODIGO VUELO     ||    TIPO PASAJERO   ||  ESTADO VUELO   ");
-		for(int i=0; i<len; i++){
-			if(list[i].isEmpty == OCCUPED){
-				printf("\n------------------------------------------------------------------------------------------------------------------------------------------");
-				printf("\n   %d          %s            %s  	     %.2f            %s                 ",
-				list[i].id, list[i].name, list[i].lastName, list[i].price, list[i].flyCode);
-				if(list[i].typePassenger == 1){
-					printf("EJECUTIVO          ");
+	char typeAux[15];
+	char statusAux[15];
+
+	printf("\n\n [-ID-] [-------NOMBRE------] [------APELLIDO------] [---PRECIO---] [--CODIGO VUELO--] [---TIPO PASAJERO---] [---ESTADO VUELO---]");
+
+	for(int i=0; i<len; i++){
+
+		if(list[i].isEmpty == OCCUPED){
+			if(list[i].typePassenger == 1){
+				itoa(list[i].typePassenger, typeAux, 2);
+				strcpy(typeAux, "EJECUTIVO");
+			} else {
+				if(list[i].typePassenger == 2){
+					itoa(list[i].typePassenger, typeAux, 2);
+					strcpy(typeAux, "TURISTA");
 				} else {
-					if(list[i].typePassenger == 2){
-						printf("TURISTA            ");
-					} else {
-						if(list[i].typePassenger == 3){
-							printf("VIP                ");
-						} else {
-							printf("NO VALIDO            ");
-						}
-					}
-				}
-				if(list[i].statusFlight == 1){
-					printf("ACTIVO");
-				} else {
-					if(list[i].statusFlight == 2){
-						printf("DEMORADO");
-					} else {
-						if(list[i].statusFlight == 3){
-							printf("CANCELADO");
-						} else {
-							printf("NO VALIDO");
-						}
+					if(list[i].typePassenger == 3){
+						itoa(list[i].typePassenger, typeAux, 2);
+						strcpy(typeAux, "VIP");
 					}
 				}
 			}
+			if(list[i].statusFlight == 1){
+				itoa(list[i].statusFlight, statusAux, 2);
+				strcpy(statusAux, "ACTIVO");
+			} else {
+				if(list[i].statusFlight == 2){
+					itoa(list[i].statusFlight, statusAux, 2);
+					strcpy(statusAux, "DEMORADO");
+				} else {
+					if(list[i].statusFlight == 3){
+						itoa(list[i].statusFlight, statusAux, 2);
+						strcpy(statusAux, "CANCELADO");
+					}
+				}
+			}
+
+			printf("\n------------------------------------------------------------------------------------------------------------------------------------------");
+			printf("\n [%4d] [%-19s] [%-20s] [%12.2f] [%-16s] [%-19s] [%18s] ",
+					list[i].id, list[i].name, list[i].lastName, list[i].price, list[i].flyCode, typeAux, statusAux);
 		}
+	}
 }
-
-
 
 
 void modifyPassengerData(ePassenger list[], int len,int id, char name[],char lastName[], float price, char flyCode[],int typePassenger, int statusFlight, int isEmpty){
@@ -122,32 +128,35 @@ void modifyPassengerData(ePassenger list[], int len,int id, char name[],char las
 				{
 					case 1:
 						printf("\nEl nombre a modificar es: %s", list[i].name);
-						rellenarChar(list[i].name, "\n-->Ingrese el nuevo nombre: ");
+						input_Char(list[i].name, "\n-->Ingrese el nuevo nombre: ", "\nError!\n");
 						break;
 					case 2:
 						printf("\nEl apellido a modificar es: %s", list[i].lastName);
-						rellenarChar(list[i].lastName, "\n-->Ingrese el nuevo apellido: ");
+						input_Char(list[i].lastName, "\n-->Ingrese el nuevo apellido: ", "\nError!\n");
 						break;
 					case 3:
 						printf("\nEl precio a modificar es: %.2f", list[i].price);
-						rellenarFloat(&list[i].price, "\n-->Ingrese el nuevo precio: ", "\nError! Reingrese: ");
+						input_Float(&list[i].price, "\n-->Ingrese el nuevo precio: ", "\nError! Reingrese: ", 1, 1000000);
 						break;
 					case 4:
 						printf("\nEl tipo de pasajero a modificar es: %d", list[i].typePassenger);
-						rellenarInt(&list[i].typePassenger, "\n-->Ingrese el nuevo tipo de pasajero: ", "\nError! Reingrese: ");
+						input_Int(&list[i].typePassenger, "\n-->Ingrese el nuevo tipo de pasajero: ", "\nError! Reingrese: ", 1, 3);
 						break;
 					case 5:
 						printf("\nEl codigo de vuelo a modificar es: %d", list[i].statusFlight);
-						rellenarInt(&list[i].statusFlight, "\n-->Ingrese el nuevo codigo de vuelo: ", "\nError! Reingrese: ");
+						input_Int(&list[i].statusFlight, "\n-->Ingrese el nuevo codigo de vuelo: ", "\nError! Reingrese: ", 1, 3);
 						break;
 					case 6:
 						printf("\nLa modificacion se ha realizado con exito!\n");
 						break;
 					default:
-						printf("\nLa opcion elegida no es valida!");
+						printf("\nLa opcion elegida no es valida!\n");
 						break;
 				}
 			}while(opcion != 6);
+		} else {
+			printf("\nNo se ha encontrado el ID del pasajero!\n");
+			break;
 		}
 	}
 }
@@ -163,7 +172,9 @@ int removePassenger(ePassenger list[], int len, int id){
 		}
 	}
 	if(retorno == 0){
-		printf("\nEl usuario ha sido eliminado con exito!");
+		printf("\nEl usuario ha sido eliminado con exito!\n");
+	} else {
+		printf("\nUsuario no encontrado!\n");
 	}
 	return retorno;
 }

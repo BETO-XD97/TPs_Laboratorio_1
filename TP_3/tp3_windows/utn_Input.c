@@ -11,10 +11,11 @@
 #include <ctype.h>
 
 
-int input_Int(int* inputInt, char inputChar[], char inputError[], int min, int max){
-	*inputInt = 0;
-	int input = 0;
+int input_Int(int *inputInt, char inputChar[], char inputError[], int min, int max){
+
 	int retorno;
+	//*inputInt = 0;
+	int input = 0;
 	printf(inputChar);
 	scanf("%d", inputInt);
 	fflush(stdin);
