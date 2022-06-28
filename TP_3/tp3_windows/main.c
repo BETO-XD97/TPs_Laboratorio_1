@@ -170,7 +170,7 @@ int main()
             case 10:
             	while(opcionS != 1){
             		if(valIng == 1 && guardar <= 0){
-            			input_Int(&opcionG, "\n1)Texto\n2)Binario\nPara finalizar el programa debe guardar los datos cargados\n---> ", "\nError! Reintente--->", 1, 2);
+            			input_Int(&opcionG, "\n1)Texto\n2)Binario\nPara finalizar el programa debe guardar los datos cargados\n---> ", "\nError!\n", 1, 2);
             			switch(opcionG){
             				case 1:
             					controller_saveAsText("data.csv", listaPasajeros);

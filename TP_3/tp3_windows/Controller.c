@@ -93,13 +93,13 @@ int controller_addPassenger(LinkedList* pArrayListPassenger, int idIngUlt)
 
 		printf("\n----------Ingrese los datos---------------\n");
 
-		input_Char(nameAux, "\nIngrese el nombre: ");
-		input_Char(lastNameAux, "\nIngrese el apellido: ");
-		input_Float(&priceAux, "\nIngrese el precio: ", "\nError! Reingrese el precio: ", 1, MAX);
-		input_Char(flyCodeAux, "\nIngrese el codigo de vuelo: ");
+		input_Char(nameAux, "\nIngrese el nombre: ", "\nError!\n");
+		input_Char(lastNameAux, "\nIngrese el apellido: ", "\nError!\n");
+		input_Float(&priceAux, "\nIngrese el precio: ", "\nError!\n", 1, MAX);
+		rellenarCodigo(flyCodeAux, "\nIngrese el codigo de vuelo: ");
 		strupr(flyCodeAux);
-		input_Int(&typePassengerAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el tipo de pasajero-->", "Error! Reingrese--> ", 1, 3);
-		input_Int(&statusFlightAux, "\n1)Aterrizado\n2)En Horario\n3)En Vuelo\n4)Demorado\nIngrese el estado de vuelo-->", "Error! Reingrese--> ", 1, 4);
+		input_Int(&typePassengerAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el tipo de pasajero-->", "\nError!\n", 1, 3);
+		input_Int(&statusFlightAux, "\n1)Aterrizado\n2)En Horario\n3)En Vuelo\n4)Demorado\nIngrese el estado de vuelo-->", "\nError!\n", 1, 4);
 
 		if(pPassengerAux != NULL){
 
@@ -153,7 +153,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 
 		tamano = ll_len(pArrayListPassenger);
 
-		input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado. Reintente--->", 0, tamano);
+		input_Int(&idBuscar, "\nIngrese el ID del pasajero a modificar: ", "\nError! ID no encontrado.\n", 1, tamano);
 
 		indice = Passenger_searchForId(pArrayListPassenger, idBuscar);
 
@@ -178,7 +178,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 					scanf("%d", &opcionMod);
 					switch(opcionMod){
 						case 1:
-								input_Char(nombreAux, "\nIngrese el nuevo nombre: ");
+								input_Char(nombreAux, "\nIngrese el nuevo nombre: ", "\nError!\n");
 								if(Passenger_setNombre(pPassengerAux, nombreAux) == 1){
 									retorno = 1;
 									printf("\nEl nombre fue modificado exitosamente!");
@@ -187,7 +187,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 								}
 							break;
 						case 2:
-								input_Char(apellidoAux, "\nIngrese el nuevo apellido: ");
+								input_Char(apellidoAux, "\nIngrese el nuevo apellido: ", "\nError!\n");
 								if(Passenger_setApellido(pPassengerAux, apellidoAux) == 1){
 									retorno = 1;
 									printf("\nEl apellido fue modificado exitosamente!");
@@ -196,7 +196,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 								}
 							break;
 						case 3:
-								input_Float(&precioAux, "\nIngrese el nuevo precio: ", "\nError! Reingrese el precio: ", 1, MAX);
+								input_Float(&precioAux, "\nIngrese el nuevo precio: ", "\nError!\n", 1, MAX);
 								if(Passenger_setPrecio(pPassengerAux, precioAux) == 1){
 									retorno = 1;
 									printf("\nEl precio fue modificado exitosamente!");
@@ -205,7 +205,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 								}
 							break;
 						case 4:
-								input_Char(codigoVueloAux, "\nIngrese el nuevo codigo de vuelo: ");
+								input_Char(codigoVueloAux, "\nIngrese el nuevo codigo de vuelo: ", "\nError!\n");
 								if(Passenger_setCodigoVuelo(pPassengerAux, codigoVueloAux) == 1){
 									retorno = 1;
 									printf("\nEl nombre fue modificado exitosamente!");
@@ -214,7 +214,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 								}
 							break;
 						case 5:
-								input_Int(&tipoPasajeroAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el nuevo tipo de pasajero-->", "\nError! Reingrese--> ", 1, 3);
+								input_Int(&tipoPasajeroAux, "\n1)Clase Economica\n2)Clase Ejecutiva\n3)Primera Clase\nIngrese el nuevo tipo de pasajero-->", "\nError!\n", 1, 3);
 								Passenger_typePassengerDescripcion(tipoPasajeroAux, tipoPasajeroDesc);
 								if(Passenger_setTipoPasajero(pPassengerAux, tipoPasajeroDesc) == 1){
 									retorno = 1;
@@ -282,7 +282,7 @@ int controller_removePassenger(LinkedList* pArrayListPassenger)
 
 						printf("\n[--ID--] [---------NOMBRE---------] [---------APELLIDO---------] [----PRECIO----] [-CODIGO VUELO-] [---TIPO PASAJERO---] [---ESTADO VUELO---]\n");
 						Passenger_printOne(pPassengerAux);
-						input_Int(&eliminar, "\n\nSeguro que desea eliminar a este pasajero: 1-SI / 2-NO\n-------->", "\nError! Ingrese una opcion valida: \n-------->", 1, 2);
+						input_Int(&eliminar, "\n\nSeguro que desea eliminar a este pasajero: 1-SI / 2-NO\n-------->", "\nError!\n", 1, 2);
 						switch(eliminar){
 						case 1:
 							if(ll_remove(pArrayListPassenger, idAbuscar) == 0){
@@ -302,7 +302,7 @@ int controller_removePassenger(LinkedList* pArrayListPassenger)
 				}
 			}
 
-			input_Int(&eliminarOtro, "\n\nDesea eliminar otro pasajero: 1-SI / 2-NO\n-------> ", "\nError! Ingrese una opcion valida: \n-------> ", 1, 2);
+			input_Int(&eliminarOtro, "\n\nDesea eliminar otro pasajero: 1-SI / 2-NO\n-------> ", "\nError!\n", 1, 2);
 
 		}while(eliminarOtro != 2);
 	} else {
@@ -360,7 +360,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 
 	if(pArrayListPassenger != NULL){
 
-		input_Int(&opcionOrd, "\n1)ID\n2)Nombre\n3)Apellido\n4)Precio\n5)Codigo Vuelo\n6)Tipo Pasajero\n7)Estado Vuelo\n8)Salir\nIngrese el tipo de orden por el cual se va a ordenar---> ", "\nError! Ingrese una opcion valida---> ", 1,8);
+		input_Int(&opcionOrd, "\n1)ID\n2)Nombre\n3)Apellido\n4)Precio\n5)Codigo Vuelo\n6)Tipo Pasajero\n7)Estado Vuelo\n8)Salir\nIngrese el tipo de orden por el cual se va a ordenar---> ", "\nError!\n", 1,8);
 
 		if(opcionOrd >= 1 && opcionOrd <= 7){
 			switch(opcionOrd){
