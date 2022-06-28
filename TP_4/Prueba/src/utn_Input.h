@@ -13,32 +13,75 @@
 #endif /* UTN_INPUT_H_ */
 
 /**
- * brief Ingreso de dato numerico de tipo int y valido
- * @param inputInt puntero int
- * @param inputChar texto de ingreso
- * @param inputError texto de error
- * @param min minimo valor para validacion
- * @param max maximo valor para validacion
- * @return retorna el numero ingresado
+ *  brief Ingresa un numero y verifica que sea numero y que no contenga letras llamando a
+ *  otras funciones y valida que este dentro del rango con min max
+ * @param pResultado int *
+ * @param mensaje char*
+ * @param mensajeError char*
+ * @param min int
+ * @param max int
+ * @return [0]ok [-1]fail
  */
-int input_Int(int* inputInt, char inputChar[], char inputError[], int min, int max);
+int input_Int(int *pResultado, char *mensaje, char *mensajeError, int min, int max);
 
 /**
- * brief Ingreso de dato numerico de tipo float y valido
- * @param inputFloat puntero float
- * @param inputChar texto de ingreso
- * @param inputError texto de error
- * @param min minimo valor para validacion
- * @param max maximo valor para validacion
- * @return retorna el numero ingresado
+ *  brief Ingresa un numero y verifica que sea numero y que no contenga letras llamando a
+ *  otras funciones y valida que este dentro del rango con min max
+ * @param pResultado float*
+ * @param mensaje char*
+ * @param mensajeError char*
+ * @param min float
+ * @param max float
+ * @return [0]ok [-1]fail
  */
-float input_Float(float* inputFloat, char inputChar[], char inputError[], float min, float max);
+int input_Float(float *pResultado, char *mensaje, char *mensajeError, float min, float max);
 
 /**
- * brief Ingreso el dato alfabetico de tipo char y valido
- * @param inputChar puntero char
- * @param outputChar texto de ingreso
- * @return 1 valido 0 invalido
+ * brief Ingresa un texto y verifica que no contenga numeros recorriendolo con for
+ * @param cadena char*
+ * @param mensaje char*
+ * @param mensajeError char*
+ * @return [0]ok [-1]fail
  */
-void input_Char(char arrayRecibido[], char textoAMostrar[]);
+int input_Char(char* cadena, char* mensaje, char* mensajeError);
 
+/**
+ * brief Ingreso comun de texto solo para el codigo de vuelo
+ * @param codigoDeVuelo char*
+ * @param mensaje char*
+ */
+void rellenarCodigo(char* codigoDeVuelo, char* mensaje);
+
+/**
+ * brief Declara un dato tipo char en donde guardo el dato numerico
+ * y valido que sea numerica con la funcion esNumerica en caso
+ * de ser valido lo convierto con atoi y lo guardo en el puntero
+ * @param pResultado int*
+ * @return [0]ok [-1]fail
+ */
+int getInt(int *pResultado);
+
+/**
+ * brief Declara un dato tipo char en donde guardo el dato numerico
+ * y valido que sea numerica con la funcion esNumerica en caso
+ * de ser valido lo convierto con atof y lo guardo en el puntero
+ * @param pResultado int*
+ * @return [0]ok [-1]fail
+ */
+int getFloat(float *pResultado);
+
+/**
+ * brief Busca el final de la cadena recibida en getInt y getFloat
+ * @param cadena char*
+ * @param longitud int
+ * @return [0]ok [-1]fail
+ */
+int myGets(char *cadena, int longitud);
+
+/**
+ * brief Verifica que el char recibida en getInt y getFloat NO
+ * contenga ningun numero
+ * @param cadena char*
+ * @return [0]ok [1]fail
+ */
+int esNumerica(char *cadena);

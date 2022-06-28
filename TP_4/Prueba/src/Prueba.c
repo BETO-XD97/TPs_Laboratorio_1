@@ -154,7 +154,7 @@ int main()
             	break;
             case 6:
             	if(valIng == 1){
-            		input_Int(&opcionImp, "\n1)Lista de pasajeros\n2)Sublista de pasajeros\n3)Lista de pasajeros clonada\nQue lista desea imprimir: ", "\nError! Reingrese--->", 1, 3);
+            		input_Int(&opcionImp, "\n1)Lista de pasajeros\n2)Sublista de pasajeros\n3)Lista de pasajeros clonada\nQue lista desea imprimir: ", "\nError!\n", 1, 3);
             		switch(opcionImp){
 						case 1:
 							controller_ListPassenger(listaPasajeros);
@@ -213,7 +213,7 @@ int main()
             case 10:
             	while(opcionS != 1){
             		if(valIng == 1 && guardar <= 0){
-            			input_Int(&opcionG, "\n1)Texto\n2)Binario\nPara finalizar el programa debe guardar los datos cargados\n---> ", "\nError! Reintente--->", 1, 2);
+            			input_Int(&opcionG, "\n1)Texto\n2)Binario\nPara finalizar el programa debe guardar los datos cargados\n---> ", "\nError!\n", 1, 2);
             			switch(opcionG){
             				case 1:
             					controller_saveAsText("datamod.csv", listaPasajeros);
@@ -238,8 +238,8 @@ int main()
 
             case 11:
             	if(valIng == 1){
-					input_Int(&listFrom, "\nIngrese desde donde quiere sublistar: ", "\nError! Reingrese---> ", 1, ll_len(listaPasajeros));
-					input_Int(&listTo, "\nIngrese hasta donde quiere sublistar: ", "\nError! Reingrese---> ", 1, ll_len(listaPasajeros));
+					input_Int(&listFrom, "\nIngrese desde donde quiere sublistar: ", "\nError!\n", 1, ll_len(listaPasajeros));
+					input_Int(&listTo, "\nIngrese hasta donde quiere sublistar: ", "\nError!\n", 1, ll_len(listaPasajeros));
 					if(listFrom < listTo){
 						subListaPasajeros = ll_subList(listaPasajeros, listFrom, listTo);
 						rtnSsub = controller_saveAsText("datamodSubList.csv", subListaPasajeros);//Refrescar la carpeta debug
@@ -275,7 +275,7 @@ int main()
             	break;
 
             case 13:
-            	input_Int(&opcionElim, "\n1)Lista de pasajeros\n2)Sublista de pasajeros\n3)Lista clonada de pasajeros\nCual de las siguientes listas desea eliminar: ", "\nError! Reintente---> ", 1, 3);
+            	input_Int(&opcionElim, "\n1)Lista de pasajeros\n2)Sublista de pasajeros\n3)Lista clonada de pasajeros\nCual de las siguientes listas desea eliminar: ", "\nError!\n", 1, 3);
             	switch(opcionElim){
             		case 1:
             			deletedList = ll_deleteLinkedList(listaPasajeros);
@@ -319,7 +319,7 @@ int main()
 
             	case 15:
             		if(listaComp == 1){
-            			input_Int(&opcionComp, "\nIngre con cual desea comparar 1-subLista / 2- lista clonada\n----> ", "\nError! Reingrese-->", 1, 2);
+            			input_Int(&opcionComp, "\nIngre con cual desea comparar 1-subLista / 2- lista clonada\n----> ", "\nError!\n", 1, 2);
             			switch(opcionComp){
             				case 1:
             					comparar = ll_containsAll( listaPasajeros, subListaPasajeros);
