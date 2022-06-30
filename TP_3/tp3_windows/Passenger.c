@@ -448,7 +448,7 @@ void Passenger_printOne(Passenger* unPasajero){
  */
 int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
 
-	int retorno = 0;
+	int retorno = -1;
 
 	Passenger* pPassengerAux;
 
@@ -460,9 +460,6 @@ int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
 
 			if(pPassengerAux->id == id){
 				retorno = i;
-			} else {
-				retorno = -1;
-				break;
 			}
 		}
 	}

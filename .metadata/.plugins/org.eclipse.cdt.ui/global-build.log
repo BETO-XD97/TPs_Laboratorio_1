@@ -1,46 +1,4 @@
-21:15:42 **** Incremental Build of configuration Debug for project pruebaTp3 ****
+22:30:19 **** Incremental Build of configuration Debug for project pruebaTp3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
 gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-21:18:29 **** Incremental Build of configuration Debug for project pruebaTp3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
-gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-21:22:23 **** Incremental Build of configuration Debug for project pruebaTp3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
-gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-21:28:50 **** Incremental Build of configuration Debug for project pruebaTp3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
-gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
-21:31:46 **** Incremental Build of configuration Debug for project pruebaTp3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
-gcc "-LC:\\Users\\BETO\\eclipse-workspace\\TPs\\TP_3\\tp3_windows" -o pruebaTp3.exe Controller.o Passenger.o main.o parser.o utn_Input.o -lLinkedList 
-Info: Nothing to build for pruebaTp3
-Info: Nothing to build for pruebaTp3
 Info: Nothing to build for pruebaTp3

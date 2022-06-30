@@ -448,7 +448,7 @@ void Passenger_printOne(Passenger* unPasajero){
  */
 int Passenger_searchForId(LinkedList* pArrayListPassengers, int id){
 
-	int retorno = 0;
+	int retorno = -1;
 
 	Passenger* pPassengerAux;
 
