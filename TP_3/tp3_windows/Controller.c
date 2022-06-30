@@ -205,7 +205,7 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 								}
 							break;
 						case 4:
-								input_Char(codigoVueloAux, "\nIngrese el nuevo codigo de vuelo: ", "\nError!\n");
+								rellenarCodigo(codigoVueloAux, "\nIngrese el nuevo codigo de vuelo: ");
 								if(Passenger_setCodigoVuelo(pPassengerAux, codigoVueloAux) == 1){
 									retorno = 1;
 									printf("\nEl nombre fue modificado exitosamente!");
@@ -239,6 +239,8 @@ int controller_editPassenger(LinkedList* pArrayListPassenger)
 				}while(opcionMod != 6);
 
 			}
+		} else {
+			printf("\nUsuario no encontrado!\n");
 		}
 	}
 
@@ -366,8 +368,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 			switch(opcionOrd){
 
 				case 1:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnSid = ll_sort(pArrayListPassenger,Passenger_sortById, modoOrd);
 					if(rtnSid == 0){
 						printf("\nEl ordenamiento por Id fue exitoso!\n");
@@ -377,8 +378,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 					break;
 
 				case 2:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnSna = ll_sort(pArrayListPassenger,Passenger_sortByName, modoOrd);
 					if(rtnSna == 0){
 						printf("\nEl ordenamiento por Nombre fue exitoso!\n");
@@ -388,8 +388,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 					break;
 
 				case 3:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnSln = ll_sort(pArrayListPassenger,Passenger_sortByLastName, modoOrd);
 					if(rtnSln == 0){
 						printf("\nEl ordenamiento por Apellido fue exitoso!\n");
@@ -399,8 +398,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 					break;
 
 				case 4:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnSpr = ll_sort(pArrayListPassenger,Passenger_sortByPrice, modoOrd);
 					if(rtnSpr == 0){
 						printf("\nEl ordenamiento por Precio fue exitoso!\n");
@@ -410,8 +408,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 					break;
 
 				case 5:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnSfc = ll_sort(pArrayListPassenger,Passenger_sortByFlyCode, modoOrd);
 					if(rtnSfc == 0){
 						printf("\nEl ordenamiento por Codigo Vuelo fue exitoso!\n");
@@ -421,8 +418,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 					break;
 
 				case 6:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnStp = ll_sort(pArrayListPassenger,Passenger_sortByTypePassenger, modoOrd);
 					if(rtnStp == 0){
 						printf("\nEl ordenamiento por Tipo Pasajero fue exitoso!\n");
@@ -432,8 +428,7 @@ int controller_sortPassenger(LinkedList* pArrayListPassenger)
 					break;
 
 				case 7:
-					printf("\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->");
-					scanf("%d", &modoOrd);
+					input_Int(&modoOrd, "\nIngrese el modo de ingreso: 1-Ascendente / 0-Descendente\n-------->", "\nError!\n", 0, 1);
 					rtnSev = ll_sort(pArrayListPassenger,Passenger_sortByStatusFlight, modoOrd);
 					if(rtnSev == 0){
 						printf("\nEl ordenamiento por Estado Vuelo fue exitoso!\n");
