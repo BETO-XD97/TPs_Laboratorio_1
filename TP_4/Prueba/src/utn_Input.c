@@ -42,7 +42,7 @@ int getInt(int *pResultado){
 
 	if (pResultado != NULL){
 
-		if (myGets(buffer, sizeof(buffer)) == 0 && esNumerica(buffer)){
+		if(myGets(buffer, sizeof(buffer)) == 0 && esNumerica(buffer)){
 
 			*pResultado = atoi(buffer);
 			retorno = 0;
